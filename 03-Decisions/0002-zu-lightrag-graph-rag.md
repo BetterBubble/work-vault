@@ -2,6 +2,8 @@
 title: 0002-zu-lightrag-graph-rag
 type: note
 permalink: tacticum/03-decisions/0002-zu-lightrag-graph-rag-1
+status: superseded
+updated: 2026-07-18
 ---
 
 # ADR-0002 — LightRAG (graph-RAG) для базы знаний ЗУ: сравнение, графовый бэкенд, условия внедрения
