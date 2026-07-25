@@ -1,7 +1,19 @@
 ---
 title: iva-role-qa — установка и работа (для команды)
 type: note
+status: выкачено-выключено
+created: 2026-07-24 14:19
+updated: 2026-07-25 18:55
 permalink: tacticum/12-features/iva-role-qa-ustanovka-i-rabota-dlia-komandy
+repo: tacticum-dev
+project: tacticum-dev / профили (ADP) / QA-профиль
+direction: Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА
+tags:
+- feature
+- qa
+- iva-role-qa
+- onboarding
+- runbook
 ---
 
 # iva-role-qa — установка и работа

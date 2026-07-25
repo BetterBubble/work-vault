@@ -3,9 +3,10 @@ title: 'План ТЗ#1: Дизайн-процесс Figma↔код — Сц.4 �
 type: note
 permalink: tacticum/12-features/plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds
 created: '2026-07-24'
-updated: '2026-07-24'
+updated: '2026-07-25 18:47'
 project: tacticum-dev
-status: planned
+status: archived
+superseded-by: "[[tz1-figma-ds-process]]"
 lead: lead-ds
 priority: '1 (Солонко: топ)'
 tags:
@@ -19,6 +20,8 @@ tags:
 ---
 
 # План ТЗ#1 — Дизайн-процесс Figma↔код, приоритет Сц.4 (перенос форм one→kmp)
+
+> **АРХИВ (2026-07-25).** Это рабочий план-хроника лида по ТЗ, а не досье. Работа закрыта и выкачена в прод; живое досье с человеческим статусом — [[tz1-figma-ds-process]]. Правильное место для документа такого типа — доска (`00-Board/plan-*`, `status: draft`); сюда перенесён без изменений содержания, чтобы `12-Features` осталось слоем досье.
 
 **Ведёт:** lead-ds. **Приоритет:** #1 (Солонко — топ). **Источник ТЗ:** пакет `90-Materials/figma-ds-process.zip` (распакован; сводное ТЗ + 4 сценария + мульти-репо). Разбор: [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]]. Направление: [[napravlenie-edinaia-dizain-sistema-tacticum-figma-tokeny-kod]].
 

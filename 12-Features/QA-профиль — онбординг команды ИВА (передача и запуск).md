@@ -2,7 +2,11 @@
 title: QA-профиль — онбординг команды ИВА (передача и запуск)
 type: runbook
 permalink: tacticum/12-features/qa-profil-onbording-komandy-iva-peredacha-i-zapusk
-status: current
+status: выкачено-выключено
+created: 2026-07-23 14:27
+updated: 2026-07-25 18:55
+repo: tacticum-dev
+project: tacticum-dev / профили (ADP) / QA-профиль
 role: lead-qa
 date: 2026-07-23
 tags:

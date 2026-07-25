@@ -3,9 +3,10 @@ title: 'План ТЗ#2: Режимы работы разработчика (л�
 type: note
 permalink: tacticum/12-features/plan-tz-2-rezhimy-raboty-razrabotchika-liogkie-flou-geity-lead-modes
 created: '2026-07-24'
-updated: '2026-07-24'
-project: tacticum-dev
-status: active
+updated: '2026-07-25 18:55'
+repo: tacticum-dev
+project: tacticum-dev / профили (ADP) / режимы разработчика
+status: готово
 lead: lead-modes
 priority: '2'
 tags:

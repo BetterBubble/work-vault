@@ -2,10 +2,11 @@
 title: 'ТЗ#1 Figma↔код — handoff-остаток для других команд'
 type: note
 permalink: tacticum/12-features/tz1-figma-ds-handoff-ostatok
-status: current
+status: в-плане
 created: '2026-07-25'
-updated: '2026-07-25'
-repo: /Users/bubblemac/tacticum/tacticum-dev
+updated: '2026-07-25 18:55'
+repo: tacticum-dev
+project: tacticum-dev / профили (ADP) / дизайн-процесс Figma↔код
 tags:
 - feature
 - tz1

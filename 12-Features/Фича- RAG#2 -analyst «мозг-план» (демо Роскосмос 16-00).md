@@ -2,9 +2,10 @@
 title: 'Фича: RAG#2 /analyst «мозг-план» (демо Роскосмос 16:00)'
 type: note
 permalink: tacticum/12-features/ficha-rag-2-analyst-mozg-plan-demo-roskosmos-16-00
-status: TODO — ждёт лида (director→lead)
+status: готово
 created: 2026-07-22 12:05
-updated: 2026-07-22 12:05
+updated: 2026-07-25 18:55
+repo: helm
 project: helm / RAG#2
 autonomy: 'off'
 deadline: 2026-07-22 16:00

@@ -1,7 +1,11 @@
 ---
 title: QA-профиль iva-role-qa — комплект передачи команде
 type: runbook
-status: current
+status: выкачено-выключено
+created: 2026-07-24 10:17
+updated: 2026-07-25 18:55
+repo: tacticum-dev
+project: tacticum-dev / профили (ADP) / QA-профиль
 date: 2026-07-24
 tags:
 - qa

@@ -3,9 +3,10 @@ title: 'План ТЗ#3: Аналитик — генерация требова�
 type: note
 permalink: tacticum/12-features/plan-tz-3-analitik-generatsiia-trebovanii-k-kontraktam-modeli-dannykh-lead-fr
 created: '2026-07-24'
-updated: '2026-07-24'
+updated: '2026-07-25 18:47'
 project: tacticum-dev
-status: in-progress
+status: archived
+superseded-by: "[[tz3-analitik-proektiruet-trebovaniia]]"
 lead: lead-fr
 priority: '3'
 tags:
@@ -19,6 +20,8 @@ tags:
 ---
 
 # План ТЗ#3 — Аналитик: генерация новых требований (контракты, модель данных)
+
+> **АРХИВ (2026-07-25).** Это рабочий план-хроника лида по ТЗ, а не досье. Работа закрыта и выкачена в прод; живое досье с человеческим статусом — [[tz3-analitik-proektiruet-trebovaniia]]. Правильное место для документа такого типа — доска (`00-Board/plan-*`, `status: draft`); сюда перенесён без изменений содержания, чтобы `12-Features` осталось слоем досье.
 
 **Ведёт:** lead-fr. **Приоритет:** #3. **Источник ТЗ:** `90-Materials/fr-analyst-contracts-skill-review.md` (это **уже утверждённое owner'ом ТЗ** с US-разбивкой, не ревью). Разбор: [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]].
 
