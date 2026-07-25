@@ -1,7 +1,7 @@
 ---
 title: 'План ТЗ#1: Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)'
 type: note
-permalink: tacticum/12-features/plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds
+permalink: tacticum/91-archive/plans/plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds
 created: '2026-07-24'
 updated: '2026-07-25 18:47'
 project: tacticum-dev

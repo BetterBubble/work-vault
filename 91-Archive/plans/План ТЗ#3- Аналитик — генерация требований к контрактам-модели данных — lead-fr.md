@@ -1,7 +1,7 @@
 ---
 title: 'План ТЗ#3: Аналитик — генерация требований к контрактам/модели данных — lead-fr'
 type: note
-permalink: tacticum/12-features/plan-tz-3-analitik-generatsiia-trebovanii-k-kontraktam-modeli-dannykh-lead-fr
+permalink: tacticum/91-archive/plans/plan-tz-3-analitik-generatsiia-trebovanii-k-kontraktam-modeli-dannykh-lead-fr
 created: '2026-07-24'
 updated: '2026-07-25 18:47'
 project: tacticum-dev
