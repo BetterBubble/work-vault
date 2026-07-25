@@ -50,3 +50,5 @@ START без STOP = воркер не вернулся; повисших пок�
 - 2026-07-26 01:48 START general-purpose spawner=— agent=a68e1edb sess=d2b374c0 · 
 - 2026-07-26 02:03 STOP  general-purpose spawner=— agent=a6c13129 sess=d2b374c0 · 17м · ok
 - 2026-07-26 02:05 STOP  ?            spawner=— agent=a92276b4 sess=7096b495 ·  · ok
+- 2026-07-26 02:08 STOP  general-purpose spawner=— agent=a101cb3a sess=d2b374c0 · 21м · ok
+- 2026-07-26 02:12 STOP  general-purpose spawner=— agent=a68e1edb sess=d2b374c0 · 24м · ok

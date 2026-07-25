@@ -1,15 +1,16 @@
 ---
 title: 'Задача (lead-arch): ADR — модель взаимодействия профилей (аналитик ↔ QA ↔
   разработчик)'
-type: feature
-permalink: tacticum/12-features/zadacha-lead-arch-adr-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik
-status: пауза
+type: note
+permalink: tacticum/91-archive/zadacha-lead-arch-adr-modeli-vzaimodeistviia
+status: archived
 created: 2026-07-23 11:40
 updated: 2026-07-25 18:55
 repo: tacticum-dev
 project: tacticum-dev / профили (ADP) / модель взаимодействия профилей
 lead: lead-arch
 owner: ГД (видение), Solonko (согласует механизм)
+superseded-by: "ADR-0060 (канон в 21-Decisions)"
 tags:
 - adr
 - profiles
