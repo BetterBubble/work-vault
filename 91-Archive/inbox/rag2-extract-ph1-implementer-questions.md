@@ -14,7 +14,7 @@ updated: 2026-07-18
 
 Статус: **работа НЕ начата** (0%). Ветка/worktree для этой задачи ещё не было — только что создал (`~/tacticum-worktrees/helm-rag2-extract`, ветка `feature/rag2-extract-ph1`), кода/тестов пока нет.
 
-Прочитал канон («RAG#2 pipeline выгрузки+ингеста — канон (для реализации)») + «пилот пройден» + существующие `src/helm/infrastructure/rag2/{ingest.py,confluence.py,extractors.py}` в helm. План модуля `src/helm/ingest/rag2_extract.py` готов, жду ответы на 4 вопроса ниже — дальше пишу код/тесты без пауз.
+Прочитал канон («RAG-2 pipeline выгрузки+ингеста — канон (для реализации)») + «пилот пройден» + существующие `src/helm/infrastructure/rag2/{ingest.py,confluence.py,extractors.py}` в helm. План модуля `src/helm/ingest/rag2_extract.py` готов, жду ответы на 4 вопроса ниже — дальше пишу код/тесты без пауз.
 
 ## Вопросы
 

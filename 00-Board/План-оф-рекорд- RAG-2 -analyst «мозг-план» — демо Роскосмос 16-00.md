@@ -43,7 +43,7 @@ tags:
 - D: включить `iva_docs__bge_m3_1024` в `_corpora_hits`/`build_rag2_context`/`_doc_from_payload`/`federate`/`SOURCE_LABELS`; риск дублей docs↔confluence и веса в RRF.
 - **Порядок A→UI→B→C→D. Cut:** A+UI обязательно; B важно; C, D — stretch.
 
-**Критические файлы:** `src/helm/interface/api/routers/rag2.py` · `src/helm/infrastructure/rag2/service.py` · `src/helm/infrastructure/assistant/service.py` (`TrivaLlm`) · `src/helm/application/docs_assistant.py` (эталон промпта) · `src/helm/interface/mcp/analyst_server.py` (хелперы B/C) · `web/src/screens/AnalystChat.tsx` (+`api.ts`,`types.ts`). Полный техплан — [[tekhplan-rag-2-analyst-sintez-triva-na-api-rag2-answer]].
+**Критические файлы:** `src/helm/interface/api/routers/rag2.py` · `src/helm/infrastructure/rag2/service.py` · `src/helm/infrastructure/assistant/service.py` (`TrivaLlm`) · `src/helm/application/docs_assistant.py` (эталон промпта) · `src/helm/interface/mcp/analyst_server.py` (хелперы B/C) · `web/src/screens/AnalystChat.tsx` (+`api.ts`,`types.ts`). Полный техплан — [[Техплан RAG-2 -analyst — синтез triva на -api-rag2-answer]].
 
 ## Демо-сценарий (6 актов + отклонение, реальные данные ИВА, tenant=iva)
 Паттерн акта: статус → заглубление «в процессе» → «как сделать + кому задачу + что уточнить» → зависимости/покрытие.
@@ -69,7 +69,7 @@ tags:
 - Избегать вживую: запись/скачивание ВКС (Rejected+403), настройка SIP-trunk, ссылка переводчика Terra (absent), `who_to_involve(system_id)` (пусто — владельцев брать из текста требования).
 
 ## Ссылки
-[[recon-demo-roskosmos-rag2]] · [[demo-hero-features-iva]] · [[demo-hero-features-iva-part2]] · [[tekhplan-rag-2-analyst-sintez-triva-na-api-rag2-answer]] · [[session-state]]
+[[recon-demo-roskosmos-rag2]] · [[demo-hero-features-iva]] · [[demo-hero-features-iva-part2]] · [[Техплан RAG-2 -analyst — синтез triva на -api-rag2-answer]] · [[session-state]]
 
 ## Дальше
 Показать пользователю → **старт у тимлида**: implementer в worktree (A→UI→B→C→D) → verifier (прогон демо-вопросов на реальных данных + triva-нагрузка + acceptance) → controller-гейт. **autonomy off:** PR+деплой — пользователь. Сценарии Актов 3–6 докручиваем с ГД параллельно.
@@ -77,7 +77,7 @@ tags:
 ---
 
 ## Доработки v2 (2026-07-22 12:37 — после фан-аута креатор/планер/критик/разведчик)
-Источники: [[idei-kreator-usilenie-demo-roskosmos-rag-2]] · [[plan-gaps-runbook-rag2-demo]] · critic-review-rag2-demo · [[recon-server-data-rag2]].
+Источники: [[Идеи (КРЕАТОР) — усиление демо Роскосмос + RAG-2]] · [[plan-gaps-runbook-rag2-demo]] · critic-review-rag2-demo · [[recon-server-data-rag2]].
 
 **Актуальный scope demo-critical (к 16:00), ЖЁСТКИЙ ПОРЯДОК:**
 1. **A — синтез triva** (`/api/rag2/answer`) — ядро. ⚠️ Бэкенд A не подтверждён; UI уже в ветке `feat/rag2-analyst-sintez-ui` → **свести A+UI в одну ветку, назначить кто**.

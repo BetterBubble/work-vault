@@ -21,7 +21,7 @@ tags:
 
 # Техплан RAG#2 `/analyst` — синтез triva (демо Роскосмос 16:00)
 
-repo=helm (`/Users/bubblemac/tacticum/helm`), база `main` (clean). Ветка **`feat/rag2-analyst-sintez`**. PR+деплой `/opt/helm` — пользователь. Родительский план: [[plan-of-rekord-rag-2-analyst-mozg-plan-demo-roskosmos-16-00]].
+repo=helm (`/Users/bubblemac/tacticum/helm`), база `main` (clean). Ветка **`feat/rag2-analyst-sintez`**. PR+деплой `/opt/helm` — пользователь. Родительский план: [[План-оф-рекорд- RAG-2 -analyst «мозг-план» — демо Роскосмос 16-00]].
 
 ## Что есть сейчас (grounded)
 - `/api/rag2/context` (`interface/api/routers/rag2.py`) → `Rag2ContextOut` (`context` markdown с `[n]` из `render_rag2_context`, `citations`, `structural`, `as_of`, `degraded`, `answerable`). **LLM НЕ вызывается.**

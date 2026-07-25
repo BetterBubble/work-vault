@@ -46,7 +46,7 @@ tags:
 `/home/tacticum/`: `kmp-full` (=клон su.ivcs.messenger, был старый release26Q1 — НЕ авторитет для инвентаря, брать shared kmp с adp), `kmp-pilot`, `int-pilot`, `disk-pilot`, `iva-role-{go,ios,mail}-post`. Тулчейн codex/node/serena тут — сюда сажать уровень-3 живой пилот роли.
 
 ## Связано
-[[session-state]] · [[napravlenie-edinaia-dizain-sistema-tacticum-figma-tokeny-kod]] · [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · [[tekh-dolg-qa-zhivaia-sinkhronizatsiia-ivaqa-kit-git-lab-nash-qa-profil]]
+[[session-state]] · [[napravlenie-edinaia-dizain-sistema-tacticum-figma-tokeny-kod]] · [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · [[tekh-dolg-qa-zhivaia-sinkhronizatsiia-ivaqa-kit-git-lab-nash-qa-profil]]
 
 ## Инфо-фикс (2026-07-24): GitHub-репо профилей переехал
 Наш профильный репо на GitHub: **`TacticumApps/dev`** (переименован из `TacticumApps/tacticum-dev`). Push проходит через редирект со старого URL; локальный `origin` обновить на новый — низкий приоритет (не критично, редирект работает). Локальный путь без изменений: `~/tacticum/tacticum-dev`.

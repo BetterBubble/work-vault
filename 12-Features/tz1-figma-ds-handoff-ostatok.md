@@ -48,4 +48,4 @@ tags:
 - **`_mirrors` для DS-навыков:** `design-system-discovery` (7 копий/6 хэшей, CI-лок только пара analysis-base↔fr-analyst) + `ui-mockup-match` (5 копий, вне _mirrors). Решить: расширить CI-лок на web-копии ИЛИ признать независимыми. **Прод-риск:** правка в одном стеке не доходит до других (CI ловит только задекл. пары).
 
 ## Связано
-[[handoff-tz1-deferred-remainder]] (исходная board-версия) · [[final-fidelity-tz1]] · [[prod-deploy-3tz-done-2026-07-25]] · [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]]
+[[handoff-tz1-deferred-remainder]] (исходная board-версия) · [[final-fidelity-tz1]] · [[prod-deploy-3tz-done-2026-07-25]] · [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]]

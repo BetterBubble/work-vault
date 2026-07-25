@@ -67,4 +67,4 @@ tags:
 ## Ссылки
 - Направление: [[Направление- Единая дизайн-система Tacticum (Figma-токены → код)]] · отчёт: [[otchet-adp-3-tz-solonko-2026-07-25]]
 - Остаток другим командам: [[tz1-figma-ds-handoff-ostatok]] · сверка полноты: [[final-fidelity-tz1]] · деплой: [[prod-deploy-3tz-done-2026-07-25]]
-- Полная хроника исполнения (архив рабочего плана, файл `91-Archive/plans/План ТЗ#1- Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds).md`): [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]]
+- Полная хроника исполнения (архив рабочего плана, файл `91-Archive/plans/План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds).md`): [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]]

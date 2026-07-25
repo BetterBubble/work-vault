@@ -54,4 +54,4 @@ Markdown-таблица **в теле навыка** (как в `design-system-d
 Спек Сц.4 §«Дополнить существующие навыки» просит доработать `design-system-discovery`/`design-token-usage` (Figma-мост) и `ui-mockup-match` (трёхсторонний паритет Compose↔Figma↔веб). **Эти навыки — owner `tacticum-ui-base` (шаренный базовый пакет, от него зависят и веб-профили).** Правка = пересечение скоупов (потенциально lead-fr/веб). **Гейт-правило:** прежде чем править `tacticum-ui-base` — сигналить ГД. Пока НЕ трогаю; подниму вопрос скоупа при разблокировке репо, вместе с запросом доступа (не плодить сигналы сейчас).
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/impl-ds-web-to-kmp-skill-skeleton` · `00-Board/gate-ds-web-to-kmp-phase1`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/impl-ds-web-to-kmp-skill-skeleton` · `00-Board/gate-ds-web-to-kmp-phase1`

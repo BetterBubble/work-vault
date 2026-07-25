@@ -51,6 +51,6 @@ A2 реранкер · A1 структурный чанкер · A5 богаты
 
 ## Отношения
 - part_of [[Концепт: три RAG для ИВА на общем движке]]
-- relates_to [[Codex (rag_eval_service) — слои поверх retrieval для RAG#1]]
-- relates_to [[RAG#1 ИВА — корпус iva.ru/docs + golden-set готовы]]
+- relates_to [[Codex (rag_eval_service) — слои поверх retrieval для RAG-1]]
+- relates_to [[RAG-1 ИВА — корпус iva.ru-docs + golden-set готовы]]
 - relates_to [[verify-data-credibility]]

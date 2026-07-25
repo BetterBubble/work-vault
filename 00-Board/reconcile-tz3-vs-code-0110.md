@@ -73,4 +73,4 @@ permalink: tacticum/00-board/reconcile-tz3-vs-code-0110
 **Зависит от развилки:** только СПОСОБ доставки (куда физически лягут правки — mirror). **Сам дельта-скоуп от развилки не зависит** — можно планировать US#1–3 детально сразу после решения по вопросу 1.
 
 ## Связано
-[[plan-tz-3-analitik-generatsiia-trebovanii-k-kontraktam-modeli-dannykh-lead-fr]] · [[explore-fr-analyst-baseline]]
+[[План ТЗ-3 Аналитик — генерация требований к контрактам-модели данных — lead-fr]] · [[explore-fr-analyst-baseline]]

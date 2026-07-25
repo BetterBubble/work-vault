@@ -38,7 +38,7 @@ RAG#1 (чат по документации ИВА) собран **целико�
 
 ## Отношения
 - part_of [[Концепт: три RAG для ИВА на общем движке]]
-- relates_to [[RAG#1 ИВА — корпус iva.ru/docs + golden-set готовы]]
-- relates_to [[RAG#1 — чеклист улучшений vs ЗУ (нюансы codex)]]
-- relates_to [[Бренд-гайд ИВА для фронта RAG#1]]
-- relates_to [[Codex (rag_eval_service) — слои поверх retrieval для RAG#1]]
+- relates_to [[RAG-1 ИВА — корпус iva.ru-docs + golden-set готовы]]
+- relates_to [[RAG-1 — чеклист улучшений vs ЗУ (нюансы codex)]]
+- relates_to [[Бренд-гайд ИВА для фронта RAG-1]]
+- relates_to [[Codex (rag_eval_service) — слои поверх retrieval для RAG-1]]

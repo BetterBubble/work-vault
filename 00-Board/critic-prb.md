@@ -33,4 +33,4 @@ tags:
 ## Сверх-ТЗ — НЕ обнаружено (метрики ΔE/size/token-conformance + допуск ровно по ш7).
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/gate-prb-git` · `00-Board/gate-prb-fidelity` · `00-Board/impl-prb-critic-fixes`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/gate-prb-git` · `00-Board/gate-prb-fidelity` · `00-Board/impl-prb-critic-fixes`

@@ -53,4 +53,4 @@ tags:
 **ТЗ#1 template-side = BUILD-COMPLETE** (по ТЗ Солонко, без отсебятины). В main: Сц.4 + Сц.1/2 + G5. Готов к мержу: PR-C (ось-1 + Сц.3-правило). Всё остальное — задокументированный handoff другим командам/ADR. Прод-предел достигнут.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `handoff-tz1-deferred-remainder` · `remainder-tz1-to-prod-limit` · `conclusion-sc4-by-tz-and-working`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `handoff-tz1-deferred-remainder` · `remainder-tz1-to-prod-limit` · `conclusion-sc4-by-tz-and-working`

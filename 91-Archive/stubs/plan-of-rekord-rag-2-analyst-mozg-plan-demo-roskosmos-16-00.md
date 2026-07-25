@@ -6,7 +6,7 @@ created: 2026-07-22 12:09
 updated: 2026-07-25 20:30
 permalink: tacticum/91-archive/stubs/plan-of-rekord-rag-2-analyst-mozg-plan-demo-roskosmos-16-00
 project: tacticum-dev / RAG#2 -analyst
-superseded-by: "00-Board/План-оф-рекорд- RAG#2 -analyst «мозг-план» — демо Роскосмос 16-00.md"
+superseded-by: "00-Board/План-оф-рекорд- RAG-2 -analyst «мозг-план» — демо Роскосмос 16-00.md"
 tags:
 - archive
 - stub
@@ -18,7 +18,7 @@ tags:
 
 **Что это.** Пустая заметка, которую **Obsidian создал сам** в корне хранилища **2026-07-22 12:09**, когда по нерезолвимой ссылке `[[plan-of-rekord-rag-2-analyst-mozg-plan-demo-roskosmos-16-00]]` кликнули. Слаг в ссылке — это `permalink`, а Obsidian резолвит вики-ссылки **только по имени файла**. Механизм и почему так — регламент памяти §8.
 
-**Настоящая заметка:** `00-Board/План-оф-рекорд- RAG#2 -analyst «мозг-план» — демо Роскосмос 16-00.md`
+**Настоящая заметка:** `00-Board/План-оф-рекорд- RAG-2 -analyst «мозг-план» — демо Роскосмос 16-00.md`
 
 ## Почему ссылка здесь НЕ вики-стиль, а путь в бэктиках
 

@@ -37,4 +37,4 @@ tags:
 - «После» (max_tokens=700) — прогон ещё генерился на момент заметки, добить и сравнить дельту.
 
 ## Связано
-- [[rag-1-bot-plan-uluchshenii-kratkost-utochniaiushchie-voprosy-approved]] · [[explore-rag1-docs-ask-pipeline]] · [[session-state]]
+- [[RAG-1 бот — план улучшений (краткость + уточняющие вопросы) — APPROVED]] · [[explore-rag1-docs-ask-pipeline]] · [[session-state]]

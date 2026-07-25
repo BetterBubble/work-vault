@@ -62,4 +62,4 @@ permalink: tacticum/00-board/plan-tz3-us-breakdown-detailed
 US#0 (enabling, малый PR) → US#1 + US#2 (ядро, параллельно разными implementer в одном worktree/ветке) → US#3 (после parity-согласования с ГД) → US#5 → US#4 (парная, координация lead-ds через ГД).
 
 ## Связано
-[[plan-tz-3-analitik-generatsiia-trebovanii-k-kontraktam-modeli-dannykh-lead-fr]] · [[reconcile-tz3-vs-code-0110]] · [[explore-mirror-depreciation-mechanism]] · [[explore-fr-analyst-baseline]]
+[[План ТЗ-3 Аналитик — генерация требований к контрактам-модели данных — lead-fr]] · [[reconcile-tz3-vs-code-0110]] · [[explore-mirror-depreciation-mechanism]] · [[explore-fr-analyst-baseline]]

@@ -34,4 +34,4 @@ Payload несёт `as_of` (момент выгрузки чанка) и `update
 ## Статус
 Дизайн. Реализация — отдельная задача (режим харнесса `--updated-since` + badge-хелпер в analyst_server + конфиг порога). Данных не ждёт, но приоритет ниже Ф0/eval. Changelog re-index (для effort_hint durations) — родственный, но отдельный и дороже (пере-индексация) → след. день.
 
-Связано: [[Концепт доработки MCP RAG#2 — по фазам (мастер)]], routing_golden freshness-trap.
+Связано: [[Концепт доработки MCP RAG-2 — по фазам (мастер)]], routing_golden freshness-trap.

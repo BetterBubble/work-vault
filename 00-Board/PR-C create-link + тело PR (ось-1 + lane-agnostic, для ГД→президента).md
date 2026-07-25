@@ -60,4 +60,4 @@ eb70dcb feat(ds-web): iva-core skill + design-system-discovery ось-1 fix + we
 Серверная ДС iva-core + её словарь code-bindings (server/RE); авто-пересборка словаря + CI-проверка; дозаполнение 17 null-ключей словаря (дизайнеры/Figma-доступ); фактический прогон миграции iva-one (команда iva-one); канон общей UI-базы (унификация приёмки по поверхностям) — на уровне ADR.
 
 ## Связано
-`00-board/tz1-build-complete-summary` · `00-board/handoff-tz1-deferred-remainder` · [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]]
+`00-board/tz1-build-complete-summary` · `00-board/handoff-tz1-deferred-remainder` · [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]]

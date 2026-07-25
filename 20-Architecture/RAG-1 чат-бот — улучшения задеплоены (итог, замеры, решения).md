@@ -51,4 +51,4 @@ tags:
 - **Только ОДИН eval за раз** — параллельные docs_eval перегружают Qdrant → 408 (задевает и живой путь). Контейнер стирает temp `/app` при rebuild (golden перезаливать с `/root`). SSH с мака к helm недоступен (алиас только в ssh-manager, окно 300с).
 
 ## Связано
-- [[rag-1-bot-plan-uluchshenii-kratkost-utochniaiushchie-voprosy-approved]] · [[rag-1-zamer-na-prode-latentnost-dlina-kliuchevye-nakhodki]] · [[rag-1-clarify-trigger-u-score-geita-net-signala-nakhodka-kalibrovki-t]] · [[bot-podderzhka-webhook-rag-1-v-chat-iva-zadeploen]] · [[session-state]]
+- [[RAG-1 бот — план улучшений (краткость + уточняющие вопросы) — APPROVED]] · [[RAG-1 замер на проде — латентность-длина (ключевые находки)]] · [[RAG-1 clarify-триггер — у score-гейта нет сигнала (находка калибровки τ)]] · [[Бот «Поддержка» — webhook RAG-1 в чат IVA (задеплоен)]] · [[session-state]]

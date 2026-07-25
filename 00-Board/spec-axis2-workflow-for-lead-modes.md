@@ -46,4 +46,4 @@ tags:
 - НЕ вводить ограничений/инвариантов сверх перечисленного в ТЗ (принцип президента 17:00).
 
 ## Ссылки
-Спек-источник: `figma-ds-multirepo-and-selection.md` §«Ось 2» (материалы `scratchpad/ds-scan/`). Модель reference-скилла: `angular-legacy-web-context`. Карточка: [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]].
+Спек-источник: `figma-ds-multirepo-and-selection.md` §«Ось 2» (материалы `scratchpad/ds-scan/`). Модель reference-скилла: `angular-legacy-web-context`. Карточка: [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]].

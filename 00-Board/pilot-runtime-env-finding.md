@@ -38,4 +38,4 @@ tags:
 - Дефект целевого кода (raw Spacer→IvaSpacer, ContactDetailScreen.kt:70-77) и IvaSpacer(size:Dp) как дроп-ин — подтверждены статически, чинятся при реальном порте в билд-среде команды.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/proposal-phase4-pilot-run-model` · `00-Board/pilot-sts.4-contact-detail-sukh-oi-progon-web-to-kmp-screen-port`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/proposal-phase4-pilot-run-model` · `00-Board/pilot-sts.4-contact-detail-sukh-oi-progon-web-to-kmp-screen-port`

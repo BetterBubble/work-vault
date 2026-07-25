@@ -62,4 +62,4 @@ tags:
 Память (остаток ТЗ#1: Сц.1/2/3, ось-1) → прод-сид (gated) + проверка.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `gate-bundle1-fidelity` · `critic-bundle1` · `pilot-runtime-env-finding` · `phase2-provisional-iva-web-dictionary`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `gate-bundle1-fidelity` · `critic-bundle1` · `pilot-runtime-env-finding` · `phase2-provisional-iva-web-dictionary`

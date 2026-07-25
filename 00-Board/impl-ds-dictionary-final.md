@@ -51,4 +51,4 @@ tags:
 Строго в рамках: только чтение локального `tokens.json` + обновление двух заметок на доске. Код в репозитории/worktree не трогал (задача — словарь на доске, не правка кода). Расширения скоупа не было.
 
 ## Связано
-[[phase2-provisional-iva-web-dictionary]] · `00-Board/prep-ds-phase2-kmp-dictionary` · [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]]
+[[phase2-provisional-iva-web-dictionary]] · `00-Board/prep-ds-phase2-kmp-dictionary` · [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]]

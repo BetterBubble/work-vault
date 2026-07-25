@@ -73,4 +73,4 @@ tags:
 - Незамапленное — честно в пробел; null там, где каталог даёт null.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/prep-ds-phase2-kmp-dictionary` · `00-Board/impl-ds-dictionary-final`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/prep-ds-phase2-kmp-dictionary` · `00-Board/impl-ds-dictionary-final`

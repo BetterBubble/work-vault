@@ -14,7 +14,7 @@ tags:
 # Пробелы плана + ранбук демо-дня — RAG#2 /analyst (Роскосмос 16:00)
 
 _Роль: планёр. Составлено 2026-07-22 (день, МСК). Только анализ, ничего не менял._
-_Источники: [[plan-of-rekord-rag-2-analyst-mozg-plan-demo-roskosmos-16-00]] · [[tekhplan-rag-2-analyst-sintez-triva-na-api-rag2-answer]] · [[recon-demo-roskosmos-rag2]] · [[impl-rag2-analyst-ui]] · [[verifier-brief-rag2-analyst-demo]] · [[demo-hero-features-iva]]_
+_Источники: [[План-оф-рекорд- RAG-2 -analyst «мозг-план» — демо Роскосмос 16-00]] · [[Техплан RAG-2 -analyst — синтез triva на -api-rag2-answer]] · [[recon-demo-roskosmos-rag2]] · [[impl-rag2-analyst-ui]] · [[verifier-brief-rag2-analyst-demo]] · [[demo-hero-features-iva]]_
 
 ## TL;DR
 UI-ветка готова и типизируется, но **бэкенд-синтез (A, `/api/rag2/answer`) в памяти не подтверждён**, **ветки фрагментированы** (UI на `-ui`, план ждёт `feat/rag2-analyst-sintez`), **vite build не гонялся**, **прогон верификатора ещё не сделан**. Три вещи реально ломают показ: живой бэкенд `/answer`, SSH-туннель к triva (истинный SPOF), рабочий вход tenant=iva. Ранбук ниже завязан на «деплой+прогон закончить к T-60, не позже».
@@ -116,4 +116,4 @@ UI-ветка готова и типизируется, но **бэкенд-си
 
 ## Relations
 - refutes [[recon-demo-roskosmos-rag2]]
-- part_of [[plan-of-rekord-rag-2-analyst-mozg-plan-demo-roskosmos-16-00]]
+- part_of [[План-оф-рекорд- RAG-2 -analyst «мозг-план» — демо Роскосмос 16-00]]

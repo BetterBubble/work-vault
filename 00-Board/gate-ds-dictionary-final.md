@@ -46,4 +46,4 @@ tags:
 Гейт «ключи реальны + матчи честны + сверх-каталога не выдумано» — **пройден**. Замечание по IvaBottomSheet→Dialog передать дизайнерам при доснятии полного инвентаря. Готово к OK президента (через ГД).
 
 ## Связано
-[[phase2-provisional-iva-web-dictionary]] · [[impl-ds-dictionary-final]] · [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]]
+[[phase2-provisional-iva-web-dictionary]] · [[impl-ds-dictionary-final]] · [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]]

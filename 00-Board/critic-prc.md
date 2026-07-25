@@ -36,4 +36,4 @@ tags:
 - VCS/VKS терминологический микс в iva-core — косметика на потом (не трогаем, чтобы не дрейфить 2 копии).
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/gate-prc-git` · `00-Board/gate-prc-fidelity` · `00-Board/impl-prc-g8-fixes`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/gate-prc-git` · `00-Board/gate-prc-fidelity` · `00-Board/impl-prc-g8-fixes`

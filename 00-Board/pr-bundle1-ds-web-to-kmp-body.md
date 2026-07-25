@@ -61,7 +61,7 @@ tags:
 *Финальный коммит ветки: `39ae642` (после critic-правок). Итог: 4 файла от merge-base.*
 
 ### Ссылки
-ТЗ Сц.4 (`figma-ds-scenario-4-kmp-port.md`), карточка [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]].
+ТЗ Сц.4 (`figma-ds-scenario-4-kmp-port.md`), карточка [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]].
 
 ---
 *Примечание: коммиты без AI-подписей, дом навыка = Вариант 1 (решение президента). Мерж — осознанное действие президента.*

@@ -46,4 +46,4 @@ tags:
 3. **Glossary** — только как гейтируемый эксперимент (precision-guard).
 4. constraints/contradiction_check[кандидаты] (после индекса ADR+IS), gap_questions, contracts, surface changelog/комментов.
 
-Связано: [[rag-2-dlia-analitika-sloi-dannykh-za-predelami-topologii-glossarii-dizain]], [[rag-2-vneshnie-korpusa-upushchennoe-vnutri-i-deistviia-vazhnee-dannykh-strategiia]].
+Связано: [[RAG-2 для аналитика — слои данных за пределами топологии + глоссарий (дизайн)]], [[RAG-2 — внешние корпуса, упущенное внутри, и «действия важнее данных» (стратегия)]].

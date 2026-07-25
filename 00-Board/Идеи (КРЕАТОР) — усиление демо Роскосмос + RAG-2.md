@@ -19,7 +19,7 @@ tags:
 # Идеи (КРЕАТОР) — усиление демо Роскосмос + направление RAG#2
 
 _Только дивергент, ничего не менял. Метки: [demo к 16:00] / [после демо]. У=усилие, Э=эффект (низк/сред/выс)._
-Родитель: [[plan-of-rekord-rag-2-analyst-mozg-plan-demo-roskosmos-16-00]] · [[tekhplan-rag-2-analyst-sintez-triva-na-api-rag2-answer]] · [[demo-hero-features-iva]] · [[demo-hero-features-iva-part2]]
+Родитель: [[План-оф-рекорд- RAG-2 -analyst «мозг-план» — демо Роскосмос 16-00]] · [[Техплан RAG-2 -analyst — синтез triva на -api-rag2-answer]] · [[demo-hero-features-iva]] · [[demo-hero-features-iva-part2]]
 
 ## 1. Wow-моменты демо (приёмы/вопросы/визуал)
 

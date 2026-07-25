@@ -39,4 +39,4 @@ tags:
 5. **Iva*-истина** — с adp `kmp` (49, commonMain), НЕ старый пилот 41.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/impl-ds-web-to-kmp-skill-skeleton` · `00-Board/gate-ds-web-to-kmp-phase1`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/impl-ds-web-to-kmp-skill-skeleton` · `00-Board/gate-ds-web-to-kmp-phase1`

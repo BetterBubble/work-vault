@@ -25,7 +25,7 @@ tags:
 - **Фидбэк** 👍/👎: в историю + Langfuse-score. Идёт с BFF+telemetry.
 - **Presigned** (`bff/citations.py`): порт Presigner, beget-S3. Для ИВА — **адаптер под Confluence-ссылки** (не S3).
 - **document_processing**: extract docx/xlsx/pdf+OCR (для вложений).
-- **eval-harness** (`eval/`): recall@k/MRR/nDCG. Для RAG#1 golden-set **уже готов** (1306 кейсов, см. [[RAG#1 ИВА — корпус iva.ru/docs + golden-set готовы]]).
+- **eval-harness** (`eval/`): recall@k/MRR/nDCG. Для RAG#1 golden-set **уже готов** (1306 кейсов, см. [[RAG-1 ИВА — корпус iva.ru-docs + golden-set готовы]]).
 
 ## Git-состояние (на 2026-07-13)
 - remote `github.com/TacticumApps/rag_eval_service`. Локальный `main` **отстаёт от origin на 3 коммита** (нужен pull перед работой). Незапушенного своего нет. `.env` gitignored; `.env.example` (100 стр) документирует все подключения.
@@ -35,4 +35,4 @@ tags:
 
 ## Отношения
 - part_of [[Концепт: три RAG для ИВА на общем движке]]
-- relates_to [[RAG#1 ИВА — корпус iva.ru/docs + golden-set готовы]]
+- relates_to [[RAG-1 ИВА — корпус iva.ru-docs + golden-set готовы]]

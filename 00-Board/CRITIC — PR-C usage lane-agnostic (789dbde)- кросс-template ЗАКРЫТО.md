@@ -33,4 +33,4 @@ tags:
 - Nice-to-have (микро): разнобой условия — depends-on «when the attached ui-mockup-match provides it» vs Step 7/anti-patterns «when the attached profile provides it». Смысл один, единообразие опционально.
 
 ## Связано
-`00-board/gate-prc-usage-lane-agnostic-fidelity` (FIDELITY-PASS) · `00-board/gate-prc-usage-git` · [[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]]
+`00-board/gate-prc-usage-lane-agnostic-fidelity` (FIDELITY-PASS) · `00-board/gate-prc-usage-git` · [[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]]

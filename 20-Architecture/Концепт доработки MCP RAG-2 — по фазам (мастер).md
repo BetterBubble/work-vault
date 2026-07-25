@@ -14,7 +14,7 @@ tags:
 
 # Концепт доработки MCP RAG#2 — по фазам
 
-Мастер-роадмап. Синтез: [[format-postanovki-analitika-iva-fr-feature-request-kanon]] · [[rag-2-dlia-analitika-sloi-dannykh-za-predelami-topologii-glossarii-dizain]] · [[rag-2-vneshnie-korpusa-upushchennoe-vnutri-i-deistviia-vazhnee-dannykh-strategiia]] · [[resheniia-po-mcp-katalogu-rag-2-kritika-prioritetov]].
+Мастер-роадмап. Синтез: [[format-postanovki-analitika-iva-fr-feature-request-kanon]] · [[RAG-2 для аналитика — слои данных за пределами топологии + глоссарий (дизайн)]] · [[RAG-2 — внешние корпуса, упущенное внутри, и «действия важнее данных» (стратегия)]] · [[Решения по MCP-каталогу RAG-2 (критика приоритетов)]].
 
 ## Сквозные принципы (действуют во всех фазах)
 - **Eval-гейт до изменений ретрива:** любое изменение поиска меряем на `rag2_golden` (recall/precision/ndcg/mrr) ДО включения; гейт = precision не просел.

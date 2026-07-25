@@ -65,4 +65,4 @@ status: verdict · роль: controller (read-only, не правил/не ме�
 Мержить можно (ph1→main, затем ph2→main; ветки стекнуты). Перед деплоем: (1) катить миграции штатным процессом `upgrade heads`/merge (multi-head baseline); (2) clarify оставить OFF до калибровки τ на корпусе + reranker ON (иначе score=None → иммунитет, clarify не сработает). max_tokens=700 — держать под наблюдением на обрывы длинных инструкций (быстрый откат env).
 
 ## Связано
-- [[report-rag1-ph1-brevity-f1-realizovana-draft]] · [[report-rag1-ph2-clarify]] · [[rag-1-bot-plan-uluchshenii-kratkost-utochniaiushchie-voprosy-approved]]
+- [[report-rag1-ph1-brevity-f1-realizovana-draft]] · [[report-rag1-ph2-clarify]] · [[RAG-1 бот — план улучшений (краткость + уточняющие вопросы) — APPROVED]]

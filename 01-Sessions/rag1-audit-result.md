@@ -63,7 +63,7 @@ Ingest размечает канон/дубль (D5), но `docs_near_dup_dedup_
 
 ## Ссылки
 - Код: `src/helm/application/docs_assistant.py`, `infrastructure/docs_assistant/*`, `interface/api/routers/{docs,bot_support}.py`, `ingest/docs_index.py`, `eval/docs_eval.py`.
-- Бот: [[bot-podderzhka-webhook-rag-1-v-chat-iva-zadeploen]]
+- Бот: [[Бот «Поддержка» — webhook RAG-1 в чат IVA (задеплоен)]]
 - Чекпойнт: [[session-state]]
 
 ## Апдейт: решения лида + финализация F1 (2026-07-17, ночь)

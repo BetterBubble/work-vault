@@ -6,7 +6,7 @@ created: 2026-07-22 12:09
 updated: 2026-07-25 20:30
 permalink: tacticum/91-archive/stubs/plan-tech-demo-rag2-analyst-sintez
 project: tacticum-dev / RAG#2 -analyst
-superseded-by: "00-Board/Техплан RAG#2 -analyst — синтез triva на -api-rag2-answer.md"
+superseded-by: "00-Board/Техплан RAG-2 -analyst — синтез triva на -api-rag2-answer.md"
 tags:
 - archive
 - stub
@@ -18,7 +18,7 @@ tags:
 
 **Что это.** Пустая заметка, которую **Obsidian создал сам** в корне хранилища **2026-07-22 12:09**, когда по нерезолвимой ссылке `[[plan-tech-demo-rag2-analyst-sintez]]` кликнули. Слаг в ссылке — это `permalink`, а Obsidian резолвит вики-ссылки **только по имени файла**. Механизм и почему так — регламент памяти §8.
 
-**Настоящая заметка:** `00-Board/Техплан RAG#2 -analyst — синтез triva на -api-rag2-answer.md`
+**Настоящая заметка:** `00-Board/Техплан RAG-2 -analyst — синтез triva на -api-rag2-answer.md`
 
 ## Почему ссылка здесь НЕ вики-стиль, а путь в бэктиках
 

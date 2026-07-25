@@ -45,4 +45,4 @@ tags:
 Ф1: замер p50/p90 до/после (embed/Qdrant/Meili/LLM), длина ответа ↓, judge-score не просел, цитаты не сломаны. Ф2: сценарии «неоднозначный→1 вопрос→ответ», «кап 2», «TTL истёк», «уверенный не тронут», «дубль messageId». e2e: `docs_ask` через MCP/REST; бот — на `/docs` гарантированно, в чате если достижим.
 
 ## Связано
-- [[bot-podderzhka-webhook-rag-1-v-chat-iva-zadeploen]] · [[explore-rag1-docs-ask-pipeline]] · [[session-state]]
+- [[Бот «Поддержка» — webhook RAG-1 в чат IVA (задеплоен)]] · [[explore-rag1-docs-ask-pipeline]] · [[session-state]]

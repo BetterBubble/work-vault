@@ -75,4 +75,4 @@ tags:
 - Направление: [[Направление- Оптимизация Tacticum под токены + лёгкие режимы (GPT-5.6)]] · отчёт: [[otchet-adp-3-tz-solonko-2026-07-25]]
 - Сверка полноты: [[final-fidelity-tz2]] · чеклист прод-сида: [[prep-tz2-prod-seed-checklist]] · деплой: [[prod-deploy-3tz-done-2026-07-25]]
 - Соседние ТЗ того же захода: [[tz1-figma-ds-process]] · [[tz3-analitik-proektiruet-trebovaniia]]
-- Полная хроника исполнения (архив рабочего плана, файл `91-Archive/plans/План ТЗ#2- Режимы работы разработчика (лёгкие флоу + гейты) — lead-modes.md`): [[plan-tz-2-rezhimy-raboty-razrabotchika-liogkie-flou-geity-lead-modes]]
+- Полная хроника исполнения (архив рабочего плана, файл `91-Archive/plans/План ТЗ-2 Режимы работы разработчика (лёгкие флоу + гейты) — lead-modes.md`): [[План ТЗ-2 Режимы работы разработчика (лёгкие флоу + гейты) — lead-modes]]

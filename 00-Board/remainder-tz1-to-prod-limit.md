@@ -55,4 +55,4 @@ tags:
 **Рекомендую предел:** довести PR-B→PR-C до мержа (полная батарея каждый), опц. Сц.3-тонкое-правило по слову президента, остальное — вынести как ADR/handoff, не раздувать в наши PR.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/map-sc3-and-remainder` · `00-Board/map-existing-vs-gap-sc12` · `00-Board/map-existing-vs-gap-pr-c-axis1`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/map-sc3-and-remainder` · `00-Board/map-existing-vs-gap-sc12` · `00-Board/map-existing-vs-gap-pr-c-axis1`

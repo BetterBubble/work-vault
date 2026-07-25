@@ -58,4 +58,4 @@ teststand уже несёт тулчейн (codex/node/serena, уровень-3)
 Рантайм-сборка пилота: (B) дать точечный write-scratch на teststand ПОД гейтом (бэкап/границы/снос), ИЛИ (A) подтвердить, что локальный KMP-тулчейн + доступ к внутренним деп реалистичны? Статическую часть (C) начинаю по «go», разблокировок она не требует.
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `figma-ds-scenario-4-kmp-port.md` §Верификация
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `figma-ds-scenario-4-kmp-port.md` §Верификация

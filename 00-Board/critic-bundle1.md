@@ -32,4 +32,4 @@ tags:
 - 8 (ужать description) — отложено (не блокер).
 
 ## Связано
-[[plan-tz-1-dizain-protsess-figma-kod-sts.4-perenos-form-one-kmp-lead-ds]] · `00-Board/impl-ds-critic-fixes` · `00-Board/gate-bundle1-git-final` · `00-Board/gate-bundle1-fidelity`
+[[План ТЗ-1 Дизайн-процесс Figma↔код — Сц.4 перенос форм one→kmp (lead-ds)]] · `00-Board/impl-ds-critic-fixes` · `00-Board/gate-bundle1-git-final` · `00-Board/gate-bundle1-fidelity`
