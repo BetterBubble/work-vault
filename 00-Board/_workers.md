@@ -40,3 +40,5 @@ START без STOP = воркер не вернулся; повисших пок�
 - 2026-07-25 22:28 STOP  general-purpose spawner=— agent=a399772b sess=d2b374c0 · 12м · ok
 - 2026-07-25 22:31 CLOSE START        agent=aadcaf28 · убит ошибкой API на середине переименования заметок; целостность проверена вручную: 37 из 37 переименований на
 - 2026-07-25 22:31 STOP  critic       spawner=— agent=ae0018df sess=d2b374c0 · 13м · ok
+- 2026-07-25 22:47 STOP  ?            spawner=— agent=a7159d21 sess=d2b374c0 ·  · ok
+- 2026-07-25 22:52 STOP  critic       spawner=— agent=a7c0bf81 sess=d2b374c0 · 35м · ok
