@@ -48,4 +48,4 @@ tags:
 - **Tier 2 (внешнее публичное, тот же краулер, позже):** протоколы (SIP/WebRTC), вендорская дока интеграций, сырые тексты нормативки.
 - **Отложить:** конкуренты; тендеры — RAG#3.
 
-Связано: [[format-postanovki-analitika-iva-fr-feature-request-kanon]], [[rag-2-dlia-analitika-sloi-dannykh-za-predelami-topologii-glossarii-dizain]], [[knowledge-consolidation-landscape]].
+Связано: [[format-postanovki-analitika-iva-fr-feature-request-kanon]], [[rag-2-dlia-analitika-sloi-dannykh-za-predelami-topologii-glossarii-dizain]], knowledge-consolidation-landscape.

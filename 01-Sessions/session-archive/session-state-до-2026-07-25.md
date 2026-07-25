@@ -71,7 +71,7 @@ tags:
 - **3 роли-пресета + лейн `iva-write-base` — СДЕЛАНО как договаривались** (сверка verifier 22.07, [[report-verify-3-roli-iva-write-base]]). Работа в ветке `feat/iva-write-base`, worktree `/Users/bubblemac/tacticum/tacticum-dev-iva-write` (4 коммита, **НЕ смержено в main** — ждёт controller-гейт + твой OK).
   - `iva-role-architect` = [core, iva-analysis-base, iva-write-base] — точно по плану (Вариант A).
   - `tacticum-role-techwriter` = [core, tacticum-documentation-base, iva-write-base] — точно по плану.
-  - `iva-role-qa` = [core, **iva-qa-autotest-base**, iva-write-base] — санкционированная эволюция: вместо плейсхолдера собран новый лейн `iva-qa-autotest-base` (9 реальных QA-скиллов автотест-команды one-web) — ровно созвон-договорённость «собрать из существующего QA-контента» (ГД принял: [[qa-profil-trek-b-gotovo]]).
+  - `iva-role-qa` = [core, **iva-qa-autotest-base**, iva-write-base] — санкционированная эволюция: вместо плейсхолдера собран новый лейн `iva-qa-autotest-base` (9 реальных QA-скиллов автотест-команды one-web) — ровно созвон-договорённость «собрать из существующего QA-контента» (ГД принял: [[QA-профиль (Трек B) — готово (built+verified), флаги для ГД]]).
   - `iva-write-base` — есть (1 ингредиент `iva-write`, `mcp.tacticum.ru/iva-write/mcp`, bearer).
   - Тест `test_iva_role_presets.py` — **35 passed** (single-owner-disjoint / golden-parity / depth-1 / schema-v2).
   - **Открытый флаг:** в QA-роли **потерян тул `requirement_tests`** (ушёл вместе с `iva-analysis-base`), а созвон его для QA называл. Решить: нужен ли он в QA. ← ждёт решения пользователя.

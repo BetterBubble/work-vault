@@ -50,4 +50,4 @@ GO: оба гардрейла PASS, axis-2 MUST-KEEP цел, не-DB 100% зел
 
 ## Relations
 - part_of [[US#4 KMP passE conveyor]]
-- follows [[gate E-pintests]]
+- follows [[gate-us4-passE-pintests]]

@@ -45,7 +45,7 @@ tags:
 
 ## Заметки по процессу
 - git bundle прямой заливкой на прод и auth-off контейнер были заблокированы классификатором как обход PR-ревью / ослабление auth. Уважил — rerank включил через штатный серверный .env, MCP проверил read-only интроспекцией в прод-контейнере без изменения auth.
-- Связано: [[teamlead-delegate-not-do]], [[dont-duplicate-agent-work]], [[verify-data-credibility]].
+- Связано: teamlead-delegate-not-do, dont-duplicate-agent-work, verify-data-credibility.
 
 
 ---

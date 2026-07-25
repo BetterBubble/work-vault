@@ -47,4 +47,4 @@ tags:
 Если скилл упирается в отсутствующий субагент/тул/доступ — стоп, флаг ГД/QA-команде, не подгонять «зелёное».
 
 ## Связано
-- [[qa-profile-model]] · [[plan-qa-profile-obogatit-iva-role-qa-realnymi-qa-skillami-trek-b-lidu]] · [[verify-data-credibility]]
+- [[qa-profile-model]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]] · verify-data-credibility

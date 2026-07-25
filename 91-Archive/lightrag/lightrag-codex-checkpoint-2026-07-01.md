@@ -25,7 +25,7 @@ updated: 2026-07-18
 - Ветка **`migration/lightrag`** в worktree `~/tacticum-worktrees/rag_eval_service-lightrag`. **Не запушена, не смёржена.**
 - **7 коммитов**: 5 Neo4j-эпохи (до `f7dfabe`) + 2 сверху под AGE (`7334cb2` refactor Neo4j→Postgres+AGE, `bd38ab2` verifier-тесты). Историю НЕ переписывали (решение пользователя). HEAD `bd38ab2`, working tree чист.
 - Push-превью (origin/main..HEAD): 12 файлов, +745, без .env/секретов/.venv312/.serena.
-- Дом задачи: [[lightrag-в-codex]]. Решение: [[ADR-0002 — LightRAG (graph-RAG) для ЗУ]]. План сервера: [[plan-lightrag-server-eval]].
+- Дом задачи: [[lightrag-в-codex]]. Решение: [[0002-zu-lightrag-graph-rag]]. План сервера: [[plan-lightrag-server-eval]].
 
 ## Что в ветке (после миграции)
 - `rag/config.py` — env-блок LightRAG + **POSTGRES_*** (host/port/user/password/database) + `LIGHTRAG_GRAPH_STORAGE` (дефолт PGGraphStorage); отдельная Qdrant-коллекция, граф-LLM=chat_model, эмбеддинги=bge-m3.
@@ -52,7 +52,7 @@ updated: 2026-07-18
 ## Relations
 - part_of [[01-Sessions]]
 - relates_to [[lightrag-в-codex]]
-- relates_to [[ADR-0002 — LightRAG (graph-RAG) для ЗУ]]
+- relates_to [[0002-zu-lightrag-graph-rag]]
 - relates_to [[plan-lightrag-server-eval]]
 - relates_to [[Runbook: прогон eval на сервере]]
 - relates_to [[Корпус ЗУ (КЦ папка) — индекс]]

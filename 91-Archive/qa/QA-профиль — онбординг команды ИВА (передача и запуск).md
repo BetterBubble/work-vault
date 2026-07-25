@@ -1,10 +1,11 @@
 ---
 title: QA-профиль — онбординг команды ИВА (передача и запуск)
-type: runbook
-permalink: tacticum/12-features/qa-profil-onbording-komandy-iva-peredacha-i-zapusk
-status: выкачено-выключено
+type: reference
+permalink: tacticum/91-archive/qa/qa-profil-onbording-komandy-iva-peredacha-i-zapusk
+status: archived
+superseded-by: "[[iva-role-qa — установка и работа (для команды)]]"
 created: 2026-07-23 14:27
-updated: 2026-07-25 18:55
+updated: 2026-07-25 20:06
 repo: tacticum-dev
 project: tacticum-dev / профили (ADP) / QA-профиль
 role: lead-qa
@@ -20,6 +21,9 @@ tags:
 ---
 
 # QA-профиль `iva-role-qa` — передача QA-команде и запуск
+
+> **АРХИВ (2026-07-25).** Это рабочий план передачи (наша сторона + сторона QA), первая версия от 2026-07-23. Содержательное слито в актуальный документ [[iva-role-qa — установка и работа (для команды)]] — он единственный актуальный по теме. Сюда перенесён без изменений содержания, чтобы не потерять исходник.
+> ⚠️ **Устаревшие факты, не использовать:** здесь репозиторий назван `one-web` и стек «pytest + Selenium» — по факту это `one-web-kmp` и pytest + Playwright (canvas), исправлено 2026-07-24. Версия профиля `0.4.0` тоже устарела (в проде роль 0.5.1). Открытые уточнения по workspace и токенам закрыты — см. актуальный документ.
 
 Пошаговый план: как отдать готовый профиль QA-команде ИВА и как они заводят его у себя и начинают проверять. QA-команда работает на **Codex** — ведущий путь Codex, Claude Code — как альтернатива.
 

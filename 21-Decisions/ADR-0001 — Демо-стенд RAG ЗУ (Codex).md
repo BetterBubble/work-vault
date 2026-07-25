@@ -48,7 +48,7 @@ tags:
 
 ## Relations
 - part_of [[21-Decisions]]
-- relates_to [[ADR-0002 — LightRAG (graph-RAG) для ЗУ]]
+- relates_to [[0002-zu-lightrag-graph-rag]]
 - relates_to [[TARGET — целевая архитектура knowledge v2.3]]
 - relates_to [[Водораздел: платформенный knowledge vs Codex]]
 - relates_to [[Runbook: прогон eval на сервере]]

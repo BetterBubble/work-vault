@@ -32,6 +32,6 @@ tags:
 ## Relations
 - part_of [[20-Architecture]]
 - relates_to [[Руководство: составление golden-set]]
-- relates_to [[ADR-0002 — LightRAG (graph-RAG) для ЗУ]]
+- relates_to [[0002-zu-lightrag-graph-rag]]
 - relates_to [[lightrag-в-codex]]
 - relates_to [[glossary]]

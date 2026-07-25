@@ -145,7 +145,7 @@ tags:
 
 ## Codex-переделка ЗАВЕРШЕНА + PR СМЕРЖЕН + ДЕПЛОЙ-READY (2026-07-24)
 Полная сводка решений/итогов — [[decisions-qa-codex-2026-07-24]]. Кратко: вся Codex-переделка (субагенты+write/fix/batch/jira→spawn_agent, ADR-0025/codex_body_path) сделана на `feat/qa-codex-rework` (12 коммитов, +оракул Глеба #2), Level 0+1 зелёно (288), контролёр GO, **Level-3 на живом codex-стенде PASS** (скиллы+агенты видны, spawn_agent работает), **PR СМЕРЖЕН президентом**.
-**Деплой:** прод-каталог `tacticum_prod` — **R1 pre-flight ЧИСТО** (0 строк по 3 профилям, сид=created, re-pin не нужен). Деплой ручной по SSH ([[deployment_prod_catalog_mcp]]), rebuild не нужен (контент). Gated-сид ждёт команды президента/Солонко.
+**Деплой:** прод-каталог `tacticum_prod` — **R1 pre-flight ЧИСТО** (0 строк по 3 профилям, сид=created, re-pin не нужен). Деплой ручной по SSH (deployment_prod_catalog_mcp), rebuild не нужен (контент). Gated-сид ждёт команды президента/Солонко.
 **Осталось (follow-up):** golden `codex.json` реген (docker); полный write-autotest e2e (one-web); wiki-sync мануала.
 
 ## Тех-долг (записан ГД 2026-07-24, НЕ блокер передачи) — живая синхронизация с upstream ivaqa/kit

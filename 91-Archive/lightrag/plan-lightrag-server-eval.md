@@ -77,7 +77,7 @@ LIGHTRAG_ENABLED(false), **POSTGRES_HOST(localhost), POSTGRES_PORT(5432), POSTGR
 ## Relations
 - part_of [[20-Architecture]]
 - relates_to [[lightrag-в-codex]]
-- relates_to [[ADR-0002 — LightRAG (graph-RAG) для ЗУ]]
+- relates_to [[0002-zu-lightrag-graph-rag]]
 - relates_to [[lightrag-codex-checkpoint-2026-07-01]]
 - relates_to [[server-zu-demo]]
 - relates_to [[Runbook: прогон eval на сервере]]

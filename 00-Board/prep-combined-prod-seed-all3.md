@@ -222,4 +222,4 @@ tags:
 - Docker-образ не пересобирать; прод трогать точечно.
 
 ## Связано
-[[prep-tz2-prod-seed-checklist]] · [[prep-tz2-acceptance-package]] · [[plan-modes]] · [[deployment_prod_catalog_mcp]] · [[prod-seed-iva-role-qa-prep]]
+[[prep-tz2-prod-seed-checklist]] · [[prep-tz2-acceptance-package]] · [[plan-modes]] · deployment_prod_catalog_mcp · [[prod-seed-iva-role-qa-prep]]

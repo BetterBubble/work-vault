@@ -77,7 +77,7 @@ tags:
 ---
 
 ## Доработки v2 (2026-07-22 12:37 — после фан-аута креатор/планер/критик/разведчик)
-Источники: [[idei-kreator-usilenie-demo-roskosmos-rag-2]] · [[plan-gaps-runbook-rag2-demo]] · [[critic-review-rag2-demo]] · [[recon-server-data-rag2]].
+Источники: [[idei-kreator-usilenie-demo-roskosmos-rag-2]] · [[plan-gaps-runbook-rag2-demo]] · critic-review-rag2-demo · [[recon-server-data-rag2]].
 
 **Актуальный scope demo-critical (к 16:00), ЖЁСТКИЙ ПОРЯДОК:**
 1. **A — синтез triva** (`/api/rag2/answer`) — ядро. ⚠️ Бэкенд A не подтверждён; UI уже в ветке `feat/rag2-analyst-sintez-ui` → **свести A+UI в одну ветку, назначить кто**.

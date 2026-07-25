@@ -58,4 +58,4 @@ tags:
 3. `affected_systems`/C4 — killer-фича для «Серверного описания» + координации владельцев.
 4. При ретриве прецедентов приоритезировать спейс IVCS (там эталонные FR).
 
-Связано: [[knowledge-consolidation-landscape]].
+Связано: knowledge-consolidation-landscape.

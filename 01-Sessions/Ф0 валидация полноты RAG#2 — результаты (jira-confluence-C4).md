@@ -42,7 +42,7 @@ helm_mgmt 400 точек + helm_requirements 1465. arch_map живо прове�
 ## Итог Ф0
 Данные выгружены и ПРОВЕРЕНЫ фактически: jira 14/14 полон (gap=легитимный фильтр, доказано), confluence полон, C4 рабочий, ACL соблюдён. Осталось по концепту: retrieval-eval baseline (gateway свободен).
 
-Связано: [[avtonomnaia-noch-2026-07-16-realizatsiia-vsego-kontsepta-mcp-mandat-plan]], [[verify-data-credibility]] (зелёные тесты ≠ верные данные — здесь проверено по факту ре-раном).
+Связано: [[Автономная ночь 2026-07-16 — реализация всего концепта MCP (мандат+план)]], verify-data-credibility (зелёные тесты ≠ верные данные — здесь проверено по факту ре-раном).
 
 
 ## Eval baseline (после Ф0)

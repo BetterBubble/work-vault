@@ -30,7 +30,7 @@ tags:
 ## Чеклист ГЛУБОКОЙ проверки (запустить, когда выгрузка ЗАВЕРШИТСЯ)
 1. **Полнота (counts):** для каждого проекта/спейса сверить source-count (Jira `/search` total, Confluence space total) vs проиндексировано в Qdrant (`scroll_distinct_payload_values` по project/space). Расхождения — расследовать (QualityConfig-фильтр vs реальные потери). Крупные: IVAONE, VCSMOB, VCSWEB2, VCSWEB, IVCS.
 2. **Полнота полей:** аудит по items.jsonl — Jira: desc/com/ch/links/att % (эталон капнутого IVAONE: desc 89%, changelog 99%, 8693 изменений). Confluence: body непустой, вложения, комменты.
-3. **Достоверность (credibility):** взять 3-5 случайных ingested-задач/страниц и СВЕРИТЬ с живым источником через iva-mcp (`jira_get_issue`/`confluence_get_page`) — контент совпадает? Не побит? Не устаревший? (память [[verify-data-credibility]] — зелёные счётчики ≠ верные данные).
+3. **Достоверность (credibility):** взять 3-5 случайных ingested-задач/страниц и СВЕРИТЬ с живым источником через iva-mcp (`jira_get_issue`/`confluence_get_page`) — контент совпадает? Не побит? Не устаревший? (память verify-data-credibility — зелёные счётчики ≠ верные данные).
 4. **Точность/качество ретрива:** набор аналитических запросов → analyst_search/context релевантны? rerank улучшает порядок? Нет мусора/стейла в топе?
 5. **Заход в MCP:** прямой вызов внутреннего пути (_answer) + e2e через реальный токен (файл токена пользователь удалил — при необходимости попросить снова) — все 8 инструментов на ПОЛНЫХ данных.
 6. **Данные нормальные:** чанки не побиты, кириллица целая, нет HTML-мусора/дублей, ссылки/ключи валидны.
@@ -40,7 +40,7 @@ tags:
 
 ## Git-состояние
 - origin/main = `3a23974` (PR#49 rerank-флаги, #50 rerank-фикс, #51 harness-windowing — все смержены). Сервер /opt/helm: rerank в .env + reranker.py/harness прямыми правками = совпадают с main (sha сверены).
-- Связано: [[teamlead-delegate-not-do]], [[dont-duplicate-agent-work]], [[verify-data-credibility]], [[agents-communicate-via-notes]].
+- Связано: teamlead-delegate-not-do, dont-duplicate-agent-work, verify-data-credibility, agents-communicate-via-notes.
 
 
 ---

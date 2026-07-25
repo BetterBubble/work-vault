@@ -33,4 +33,4 @@ tags:
 Меняется только конструкция `mcp_server_spec` в дизайн-спеке [[dizain-speka-iva-write-base-variant-a-na-apruv]] + добавляется платформенная работа (схема+рендереры). Композиция лейна, allowed_tools, аддитивность — не меняются.
 
 ## Связано
-- [[dizain-speka-iva-write-base-variant-a-na-apruv]] · [[explore-iva-write-multikey]] · [[resheniia-po-2a-iva-write-base-2026-07-21]]
+- [[dizain-speka-iva-write-base-variant-a-na-apruv]] · [[explore-iva-write-multikey]] · [[Решения по 2A iva-write-base (2026-07-21)]]

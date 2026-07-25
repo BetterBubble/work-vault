@@ -32,7 +32,7 @@ tags:
 - `config.py` — 4 поля (env `HELM_IVA_BOT_*`), `main.py` — роут за флагом `iva_bot_support_enabled` (дефолт off).
 - Тесты: 15 новых, весь прогон 1447 passed, ruff/mypy clean.
 
-**Ключевой принцип — двухконтурность allowlist по источнику:** наружу клиенту физически может уйти только контент из публичной доки (RAG#1). Никакого RAG#2/внутреннего. Это база для [[support-mcp-concept]] (концепт support-MCP, `helm/docs/iva-support-mcp-concept.md`).
+**Ключевой принцип — двухконтурность allowlist по источнику:** наружу клиенту физически может уйти только контент из публичной доки (RAG#1). Никакого RAG#2/внутреннего. Это база для support-mcp-concept (концепт support-MCP, `helm/docs/iva-support-mcp-concept.md`).
 
 ## Деплой (прод helm)
 - Сервер `helm` (159.194.233.33), `/opt/helm` — git-репо, но **без git-доступа к GitHub** (deploy-key нет) → код доставлен **git-bundle с локали** (ff до main), т.к. `git pull` на сервере не работает.
@@ -51,5 +51,5 @@ tags:
 3. **Остальные 3 бота** (Техподдержка, Sales/Продажка, Аналитики — токены в `.secrets`): своя логика/контур, дадим URL по мере готовности. Аналитики, вероятно, внутренний контур (не RAG#1).
 
 ## Связано
-- [[support-mcp-concept]] — концепт support-MCP (тот же двухконтурный принцип).
+- support-mcp-concept — концепт support-MCP (тот же двухконтурный принцип).
 - Достижимость: helm.tacticum.ru публичен из интернета; helm → iva-uc.ru работает (проверено); iva-uc.ru → helm не подтверждено.

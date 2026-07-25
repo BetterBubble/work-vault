@@ -14,7 +14,7 @@ tags:
 # explore-qa-autotest-skills
 
 Разведка исходников QA-команды под дизайн лейна `iva-qa-autotest-base` (Трек B). Read-only, ничего не правил.
-Линк на план: [[plan-qa-profile-obogatit-iva-role-qa-realnymi-qa-skillami-trek-b-lidu]]
+Линк на план: [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
 
 Источник: `/private/tmp/claude-501/-Users-bubblemac-tacticum/048dfc9a-e975-420e-80f0-d87e7b55d956/scratchpad/iva-qa/iva/` (2 docs + 9 skills, каталога агентов НЕТ).
 

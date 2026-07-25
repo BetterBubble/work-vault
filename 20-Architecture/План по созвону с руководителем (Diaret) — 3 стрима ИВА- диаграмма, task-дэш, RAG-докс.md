@@ -65,7 +65,7 @@ tags:
 - relates_to [[Граф Signal→Initiative vs реляционные витрины — read-path на SQL]]
 
 ## Финал для Тайги — ОДОБРЕНО пользователем (Шульга), ждёт выкладки
-Статус выкладки 2026-07-09: **отложена — протух `phk_`-токен Тайги/Вики** (`-32602` на всех вызовах, включая `me`). Фикс: новый `phk_` (scope mcp) на https://master.cifragen.ru/me → заменить header в `~/.claude.json` (taiga + wiki-mcp) → `/mcp` Reconnect. См. [[wiki-mcp-paths]]. Как токен обновят — создать 3 US ниже.
+Статус выкладки 2026-07-09: **отложена — протух `phk_`-токен Тайги/Вики** (`-32602` на всех вызовах, включая `me`). Фикс: новый `phk_` (scope mcp) на https://master.cifragen.ru/me → заменить header в `~/.claude.json` (taiga + wiki-mcp) → `/mcp` Reconnect. См. wiki-mcp-paths. Как токен обновят — создать 3 US ниже.
 
 Параметры создания: проект `tacticum-helm` (**project_id 32**), assigned_to **36** (Шульга), status **187** (New). Привязка к эпику — `link_user_story_to_epic` (epic_id = внутренний id: CPO=187, RAG=193).
 

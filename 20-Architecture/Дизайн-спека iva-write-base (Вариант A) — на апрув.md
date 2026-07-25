@@ -14,7 +14,7 @@ tags:
 
 # Дизайн-спека: лейн `iva-write-base` (2A, Вариант A)
 
-Синтез из [[explore-iva-write-base]] + [[explore-iva-write-multikey]] + решений [[resheniia-po-2a-iva-write-base-2026-07-21]]. Модель — Вариант A (одобрен пользователем).
+Синтез из [[explore-iva-write-base]] + [[explore-iva-write-multikey]] + решений [[Решения по 2A iva-write-base (2026-07-21)]]. Модель — Вариант A (одобрен пользователем).
 
 ## Ключевая идея
 Клиент несёт **один** ключ `phk_` (`TACTICUM_TOKEN`). Gateway резолвит его → инжектит актора (`X-Auth-User-Id`) = **подпись актора**. Write-credential (PAT) и Allure-токен — **серверные** (env mcp-atlassian / helm), в манифест не попадают. → Манифест лейна **одинаков** при обеих auth-моделях ADR-грилла (техучётка vs личный PAT различаются только серверным env). Мульти-ключевость реализована архитектурой gateway, а не клиентским манифестом.
@@ -60,4 +60,4 @@ create page + create issue + transition на песочном Jira/Confluence; �
 3. Финал auth-модели (техучётка/личный PAT) — по гриллу ADR-0058 сегодня; на манифест НЕ влияет, только на серверный деплой.
 
 ## Связано
-- [[explore-iva-write-multikey]] · [[resheniia-po-2a-iva-write-base-2026-07-21]] · [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+- [[explore-iva-write-multikey]] · [[Решения по 2A iva-write-base (2026-07-21)]] · [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]

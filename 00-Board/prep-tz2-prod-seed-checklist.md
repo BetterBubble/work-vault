@@ -14,7 +14,7 @@ tags:
 # Прод-сид ТЗ#2 (режимы работы разработчика) — финальный чеклист
 
 > **DRY-подготовка, версия от 2026-07-24 22:5x (после публикации §1.2).** Прод-сид — **gated-шаг президента**, сам НЕ выполняю и не деплою. Всё доведено до состояния «нажать go».
-> Паттерн: как QA-профиль [[prod-seed-iva-role-qa-prep]] + рунбук [[deployment_prod_catalog_mcp]].
+> Паттерн: как QA-профиль [[prod-seed-iva-role-qa-prep]] + рунбук deployment_prod_catalog_mcp.
 > Код ТЗ#2 в main (#142 режимы + добор), §1.2 — в origin `feat/workflow-modes-infra`, **ждёт мержа президента**. Прод-каталог автоматически НЕ обновляется — нужен ручной сид по SSH.
 > Этот чеклист рассчитан на включение в **общий прод-сид всех 3 ТЗ** — он покрывает только пакеты ТЗ#2, границы с ТЗ#1/#3 явно отмечены в §5.
 
@@ -88,4 +88,4 @@ done
 - Docker-образ не пересобирать, прод трогать точечно.
 
 ## Связано
-[[plan-modes]] · [[prep-tz2-acceptance-package]] · [[prep-tz2-eval-readiness]] · [[deployment_prod_catalog_mcp]] · [[prod-seed-iva-role-qa-prep]] · [[pilot-tz2-teststand-results]]
+[[plan-modes]] · [[prep-tz2-acceptance-package]] · [[prep-tz2-eval-readiness]] · deployment_prod_catalog_mcp · [[prod-seed-iva-role-qa-prep]] · [[pilot-tz2-teststand-results]]

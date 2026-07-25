@@ -57,4 +57,4 @@ tags:
 
 **Фаза 2 — вывести слои как инструменты** (данные есть, надо surface): `constraints` (НФТ+риски+ADR) · release/roadmap/clients (расширить affected_systems) · changelog/комменты · `contracts`. Выровнять выход под секции FR (Начальная постановка · БФТ · ФТТ · Нефункц · Интерфейсные · Дизайн).
 
-Связано: [[format-postanovki-analitika-iva-fr-feature-request-kanon]], [[knowledge-consolidation-landscape]].
+Связано: [[format-postanovki-analitika-iva-fr-feature-request-kanon]], knowledge-consolidation-landscape.

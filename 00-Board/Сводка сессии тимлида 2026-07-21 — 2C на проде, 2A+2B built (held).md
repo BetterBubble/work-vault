@@ -24,7 +24,7 @@ updated: 2026-07-21 16:48
 - **2C my_todo** — ✅ на проде (verify PASS на живой БД, данные целы). Закрыт. [[2-c-my-todo-zadeploen-na-prod-verify-pass-na-zhivoi-bd]]
 - **2A iva-write-base** — 🟡 built+валидирован (Вариант A), коммит `cf8dd61`. Держим. [[dizain-speka-iva-write-base-variant-a-na-apruv]]
 - **2B три роли** — 🟢 built, test_iva_role_presets 35 passed, коммит `69eb440`. [[impl-2b-roles]]
-- **Трек B QA** — 🟢 лейн `iva-qa-autotest-base` (9 скиллов) + `iva-role-qa` пересобран `[core,iva-qa-autotest-base,iva-write-base]`, тесты 35 passed, README+опись+слот defs, коммиты `5df061c`+`8a7e854`. Документация: [[qa-two-layers]] · [[qa-profile-model]] · [[qa-validation-plan]]
+- **Трек B QA** — 🟢 лейн `iva-qa-autotest-base` (9 скиллов) + `iva-role-qa` пересобран `[core,iva-qa-autotest-base,iva-write-base]`, тесты 35 passed, README+опись+слот defs, коммиты `5df061c`+`8a7e854`. Документация: [[qa-two-layers — два слоя QA, что готово, зачем ждём 3 субагента]] · [[qa-profile-model]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]]
 
 ## Следующий шаг
 - Ждём внешние входы (ниже). Активной работы «до результата» нет.
@@ -48,5 +48,5 @@ updated: 2026-07-21 16:48
 - iva-write Вариант A: 1 клиентский phk_ + подпись актора gateway + серверные downstream-креды.
 
 ## Ссылки
-- Планы: [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]] · [[plan-qa-profile-obogatit-iva-role-qa-realnymi-qa-skillami-trek-b-lidu]]
+- Планы: [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
 - Отчёт QA для ГД: [[qa-profil-trek-b-gotovo-built-verified-flagi-dlia-gd]]

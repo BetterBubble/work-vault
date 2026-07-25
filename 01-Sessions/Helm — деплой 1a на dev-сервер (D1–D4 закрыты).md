@@ -41,4 +41,4 @@ tags:
 - Прод-обвязка: OIDC project-hub + TLS/reverse-proxy.
 - Follow-up: `RawJiraIssue` +summary → `Signal.text` (под LLM/RAG-контекст).
 
-Связано: [[control-tower-v02 — чеклист выравнивания]], ADR субстрата (PG-ядро + подключение к платформе).
+Связано: [[control-tower-v02 — чеклист выравнивания (канон = спека)]], ADR субстрата (PG-ядро + подключение к платформе).

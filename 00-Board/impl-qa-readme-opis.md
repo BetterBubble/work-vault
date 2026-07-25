@@ -39,5 +39,5 @@ tags:
 
 ## Связано
 - [[qa-profile-model]]
-- [[plan-qa-profile-obogatit-iva-role-qa-realnymi-qa-skillami-trek-b-lidu]]
+- [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
 - [[impl-qa-autotest-base]]

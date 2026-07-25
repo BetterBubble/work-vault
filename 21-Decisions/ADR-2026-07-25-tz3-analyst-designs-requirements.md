@@ -30,4 +30,4 @@ tags:
 **Принято и реализовано.** Build-complete (все проходы US#1-5 + US#4 конвейер); финальная сверка полноты = ДА; v2-FR пилот на teststand = зелёный (структурный, оговорка: helm-analyst MCP на стенде не подключён → живая оркестрация тулов = интеграция/рантайм у команды). Осталось: прод-сид (gated президент) + прод-verify.
 
 ## Связано
-[[summary-us4-done-vs-tz4]] · [[pilot-tz3-teststand-results]] · [[verify-data-credibility]]
+[[summary-us4-done-vs-tz4]] · [[pilot-tz3-teststand-results]] · verify-data-credibility

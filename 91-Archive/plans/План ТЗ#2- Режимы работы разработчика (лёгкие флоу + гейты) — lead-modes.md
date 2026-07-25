@@ -1,12 +1,13 @@
 ---
 title: 'План ТЗ#2: Режимы работы разработчика (лёгкие флоу + гейты) — lead-modes'
 type: note
-permalink: tacticum/12-features/plan-tz-2-rezhimy-raboty-razrabotchika-liogkie-flou-geity-lead-modes
+permalink: tacticum/91-archive/plans/plan-tz-2-rezhimy-raboty-razrabotchika-liogkie-flou-geity-lead-modes
 created: '2026-07-24'
-updated: '2026-07-25 18:55'
+updated: '2026-07-25 20:06'
 repo: tacticum-dev
 project: tacticum-dev / профили (ADP) / режимы разработчика
-status: готово
+status: archived
+superseded-by: "[[tz2-rezhimy-raboty-razrabotchika]]"
 lead: lead-modes
 priority: '2'
 tags:
@@ -20,6 +21,8 @@ tags:
 ---
 
 # План ТЗ#2 — Режимы работы разработчика (лёгкие флоу + гейты)
+
+> **АРХИВ (2026-07-25).** Это рабочий план-хроника лида по ТЗ, а не досье. Работа закрыта и выкачена в прод; живое досье с человеческим статусом — [[tz2-rezhimy-raboty-razrabotchika]]. Правильное место для документа такого типа — доска (`00-Board/plan-*`, `status: draft`); сюда перенесён без изменений содержания, чтобы `12-Features` осталось слоем досье. Оговорка по статусу: в момент переноса план стоял «готово» — в досье статус опущен до «ждёт живой проверки», потому что пилот на стенде и прод-verify не доказывают работу команд на реальных задачах.
 
 **Ведёт:** lead-modes. **Приоритет:** #2. **Источник ТЗ:** пакет `90-Materials/workflow-modes-proposal.zip` (распакован в `scratchpad/modes-scan/`). Направление: [[napravlenie-optimizatsiia-tacticum-pod-tokeny-liogkie-rezhimy-gpt-5.6]]. Разбор: [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]].
 

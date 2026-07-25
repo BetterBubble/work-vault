@@ -49,6 +49,6 @@ knowledge read-only; в боевую БД только артефакты LightR
 ## Relations
 - part_of [[01-Sessions]]
 - relates_to [[plan-lightrag-server-eval]]
-- relates_to [[ADR-0002 — LightRAG (graph-RAG) для ЗУ]]
+- relates_to [[0002-zu-lightrag-graph-rag]]
 - relates_to [[lightrag-codex-checkpoint-2026-07-01]]
 - relates_to [[server-zu-demo]]

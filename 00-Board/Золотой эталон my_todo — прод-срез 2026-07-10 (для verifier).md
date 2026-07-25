@@ -33,5 +33,5 @@ tags:
 Тул `my_todo(email)` на этих реальных строках обязан вернуть ровно: множество open-ключей == эталону; `blocked_by` непустой ровно у blocked-ключей; `high_priority=true` ровно у high-ключей; `matched=true`. Отклонение — баг.
 
 ## Связано
-- [[speka-2c-my-todo-dlia-implementer-2026-07-21]]
+- [[Спека 2C my_todo — для implementer (2026-07-21)]]
 - [[impl-my-todo]]
