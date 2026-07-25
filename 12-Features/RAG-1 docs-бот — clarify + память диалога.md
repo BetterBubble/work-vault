@@ -13,6 +13,7 @@ tags:
 - clarify
 - conversation-context
 - feature
+done-at: 2026-07-26
 ---
 
 # RAG#1 docs-бот — уточняющие вопросы + память диалога

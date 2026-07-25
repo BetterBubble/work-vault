@@ -18,6 +18,7 @@ tags:
 - helm
 - handoff
 - analyst
+done-at: 2026-07-26
 ---
 
 # Фича: RAG#2 `/analyst` «мозг-план» — демо Роскосмос 16:00

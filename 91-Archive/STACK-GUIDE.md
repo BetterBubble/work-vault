@@ -8,7 +8,9 @@ status: archived
 type: reference
 created: 2026-07-21 00:00
 updated: 2026-07-25 23:40
-superseded-by: "[[HANDBOOK]]"
+# Заменено на ~/claude-stack/HANDBOOK.md — это ДРУГОЙ дом памяти, поэтому здесь путь, а не
+# вики-ссылка: вики-ссылка резолвится только внутри своего vault и была бы битой по построению.
+superseded-by: "~/claude-stack/HANDBOOK.md"
 ---
 
 # Стек и команды — шпаргалка (АРХИВ)
