@@ -1,7 +1,7 @@
 ---
 title: 'Задача (lead-arch): ADR — модель взаимодействия профилей (аналитик ↔ QA ↔
   разработчик)'
-type: note
+type: feature
 permalink: tacticum/12-features/zadacha-lead-arch-adr-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik
 status: пауза
 created: 2026-07-23 11:40
