@@ -87,4 +87,4 @@ iva-qa-autotest-base      manifest=VALID  ingredients=15 all VALID
 **Настоящих блокеров (дефектов) — НЕ найдено.**
 
 ## Связано
-[[impl-qa-kit-subagents]] · [[impl-qa-role-atlassian-write]] · [[impl-qa-mcp-thin-lanes]] · [[verify-qa-kit-subagents]] · [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]]
+[[impl-qa-kit-subagents]] · [[impl-qa-role-atlassian-write]] · [[impl-qa-mcp-thin-lanes]] · [[verify-qa-kit-subagents]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]]

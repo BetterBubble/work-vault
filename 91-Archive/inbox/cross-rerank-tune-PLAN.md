@@ -4,7 +4,7 @@ type: handoff
 author: explorer (team helm)
 date: 2026-07-16
 scope: READ-ONLY разведка + дизайн. Реализацию делает implementer позже.
-permalink: tacticum/00-board/cross-rerank-tune-plan
+permalink: tacticum/91-archive/inbox/cross-rerank-tune-plan
 status: archived
 updated: 2026-07-18
 ---

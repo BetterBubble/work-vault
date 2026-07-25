@@ -6,7 +6,7 @@ tags:
 - harness
 - worker-report
 date: 2026-07-15
-permalink: tacticum/00-board/harness-windowing-summary-1
+permalink: tacticum/91-archive/inbox/harness-windowing-summary-1
 status: archived
 updated: 2026-07-18
 ---

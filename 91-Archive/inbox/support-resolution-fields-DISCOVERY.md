@@ -12,7 +12,7 @@ created: 2026-07-16
 author: exp-data (explorer)
 safety: агрегаты + обезличенные примеры; сырьё с PII не копировалось (клиент/контракт/ФИО/тел/серийники
   → маска)
-permalink: tacticum/00-board/support-resolution-fields-discovery
+permalink: tacticum/91-archive/inbox/support-resolution-fields-discovery
 status: archived
 updated: 2026-07-18
 ---

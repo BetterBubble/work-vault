@@ -1,9 +1,13 @@
 ---
 title: recon-aqa-kit-zhenya
 type: note
+status: draft
+created: 2026-07-22 17:10
+updated: 2026-07-25 20:30
 permalink: tacticum/00-board/recon-aqa-kit-zhenya
+project: tacticum-dev / профили
 lead: aqa-scout
-status: blocked-no-access
+blocked: нет read-доступа к приватному GitLab git.hi-tech.org (группа ivaqa)
 tags:
 - recon
 - aqa
@@ -16,6 +20,7 @@ tags:
 # Разведка AQA-kit (Женя) — карта
 
 **Когда:** 2026-07-22 ~17:10 · **Кто:** aqa-scout → director + lead-qa
+**Состояние:** заблокировано — нет доступа к репо (было `status: blocked-no-access`, приведено к словарю §3 как `draft` + поле `blocked`).
 
 ## Доступ: НЕТ (репо не прочитаны)
 Цель — `git.hi-tech.org/ivaqa/kit` (новый) и `.../aqa-agent-toolkit` (старый). Что пробовал:
@@ -60,4 +65,4 @@ tags:
 - [ ] to:director from:aqa-scout Репо ivaqa/kit+toolkit НЕ прочитаны (нет PAT/ключа к приватному GitLab git.hi-tech.org); наша сторона: 9 скиллов = byte-copy из upstream Жени, нужен доступ + 3 def субагентов.
 
 ## Связано
-[[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]
+[[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]

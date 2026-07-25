@@ -4,7 +4,7 @@ type: plan
 tenant: iva
 worktree: ~/tacticum-worktrees/helm-bot-webhook (feat/bot-support-webhook)
 date: 2026-07-16
-permalink: tacticum/00-board/bot-webhook-plan
+permalink: tacticum/91-archive/inbox/bot-webhook-plan
 status: archived
 updated: 2026-07-18
 ---

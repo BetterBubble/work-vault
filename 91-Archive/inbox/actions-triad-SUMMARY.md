@@ -6,7 +6,7 @@ tags:
 - mcp
 - worker-report
 date: 2026-07-16
-permalink: tacticum/00-board/actions-triad-summary-1
+permalink: tacticum/91-archive/inbox/actions-triad-summary-1
 status: archived
 updated: 2026-07-18
 ---

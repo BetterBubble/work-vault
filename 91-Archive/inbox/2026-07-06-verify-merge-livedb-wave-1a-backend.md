@@ -1,7 +1,7 @@
 ---
 title: 2026-07-06-verify-merge-livedb-wave-1a-backend
 type: note
-permalink: tacticum/00-board/2026-07-06-verify-merge-livedb-wave-1a-backend
+permalink: tacticum/91-archive/inbox/2026-07-06-verify-merge-livedb-wave-1a-backend
 status: archived
 updated: 2026-07-18
 ---

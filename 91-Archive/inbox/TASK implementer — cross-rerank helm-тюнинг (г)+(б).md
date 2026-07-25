@@ -1,7 +1,7 @@
 ---
 title: TASK implementer — cross-rerank helm-тюнинг (г)+(б)
 type: note
-permalink: tacticum/00-board/task-implementer-cross-rerank-helm-tiuning-g-b-1
+permalink: tacticum/91-archive/inbox/task-implementer-cross-rerank-helm-tiuning-g-b-1
 tags:
 - task
 - rag2

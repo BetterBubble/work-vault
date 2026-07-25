@@ -9,7 +9,7 @@ tags:
 worktree: /Users/bubblemac/tacticum-worktrees/rag_eval_service-lightrag
 branch: migration/lightrag
 date: 2026-07-01
-permalink: tacticum/00-board/lightrag-implementer-plan-1
+permalink: tacticum/91-archive/lightrag/lightrag-implementer-plan-1
 status: archived
 updated: 2026-07-18
 ---

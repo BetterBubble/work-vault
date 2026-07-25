@@ -1,7 +1,7 @@
 ---
 title: lightrag-server-eval-2026-07-02
 type: report
-permalink: tacticum/01-sessions/lightrag-server-eval-2026-07-02-1
+permalink: tacticum/91-archive/lightrag/lightrag-server-eval-2026-07-02-1
 tags:
 - lightrag
 - zu_demo

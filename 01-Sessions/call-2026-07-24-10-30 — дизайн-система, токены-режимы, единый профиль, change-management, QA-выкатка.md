@@ -22,7 +22,7 @@ tags:
 
 Сырьё: `90-Materials/Созовон 24:07 10-30.rtf`. Участники: Александр Шульга (я), руководитель, Дима (дизайн-система/ТЗ). Транскрипт Whisper, термины нормализованы по глоссарию.
 
-**Статус разбора:** ✅ ПОДТВЕРЖДЁН ПРЕЗИДЕНТОМ 2026-07-24 — все пункты 1-6 верны. Оформлено: направления [[napravlenie-edinaia-dizain-sistema-tacticum-figma-tokeny-kod]] + [[napravlenie-optimizatsiia-tacticum-pod-tokeny-liogkie-rezhimy-gpt-5.6]] (варка creator→planner); единый профиль — видение в [[profili-rolei-v-tacticum-dev-itogovaia-svodka-kak-ustroeno-kak-dobavit]]; QA-факты — в досье QA; change-mgmt/гайдлайны/погружение — мои задачи (ниже).
+**Статус разбора:** ✅ ПОДТВЕРЖДЁН ПРЕЗИДЕНТОМ 2026-07-24 — все пункты 1-6 верны. Оформлено: направления [[napravlenie-edinaia-dizain-sistema-tacticum-figma-tokeny-kod]] + [[napravlenie-optimizatsiia-tacticum-pod-tokeny-liogkie-rezhimy-gpt-5.6]] (варка creator→planner); единый профиль — видение в [[Профили ролей в tacticum-dev — итоговая сводка (как устроено + как добавить)]]; QA-факты — в досье QA; change-mgmt/гайдлайны/погружение — мои задачи (ниже).
 
 ## 1. Change management — назначение мне (на апрув)
 Руководитель просит подключиться к ежедневной встрече 10:00 (каждый будний день) с командами-потребителями tacticum-dev (аналитики/разработчики), стать «проводником знаний» / change management. Причина: Солонко 3 дня/нед + перегружен, у потребителей нет change management. Могу перехватить инициативу. Дима добавит в календарь.
@@ -57,7 +57,7 @@ tags:
 Руководитель советует самому сделать одну задачку под профилем, понять как работает, обновить — «быть на одной волне» с командой.
 
 ## Связано
-[[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[profile-testing-guide-1]] · [[prod-seed-iva-role-qa-prep]] · [[glossary-1]]
+[[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[profile-testing-guide-1]] · [[prod-seed-iva-role-qa-prep]] · [[glossary-1]]
 
 ## Задачи Президента на сегодня 2026-07-24 (консолидировано)
 **QA (активное):** (1) прод-сид QA-профиля — деплоит сам с lead-qa [в процессе]; (2) дать доступ QA-команде + передать профиль Брейкину (сообщение готово + токен tacticum + quickstart + сценарий приёмки); (3) уровень-3 пилот на стенде (доступ есть).

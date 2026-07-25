@@ -16,7 +16,7 @@ tags:
 
 # План: 4 новых профиля в tacticum-dev (2026-07-20, на апрув пользователя)
 
-Планер-агент по запросу руководителя. Модель профилей — см. [[profili-rolei-v-tacticum-dev-itogovaia-svodka-kak-ustroeno-kak-dobavit]]. Образец doc-профилей — **`templates/iva-fr-analyst`** (свежий безклоновый аналитик-документщик). **QA-автоматизатор — не профиль**, а команда `/extend-coverage` в dev-профилях.
+Планер-агент по запросу руководителя. Модель профилей — см. [[Профили ролей в tacticum-dev — итоговая сводка (как устроено + как добавить)]]. Образец doc-профилей — **`templates/iva-fr-analyst`** (свежий безклоновый аналитик-документщик). **QA-автоматизатор — не профиль**, а команда `/extend-coverage` в dev-профилях.
 
 ## Профиль 1 — QA `iva-qa` 🟢 готовность высокая
 - Схема: single-tier doc-профиль без клона/без depends_on, образец iva-fr-analyst. Дельта: agent `qa`, skills `test-case-authoring`+`regression-checklist`, команда `/start-testing`, MCP iva-mcp+helm-analyst(affected_systems)+tacticum-mcp. Артефакт: TC-n→UC-n + регресс-чеклист в TMS.
@@ -55,7 +55,7 @@ tags:
 Досье готово (process-analyst-dev-qa.md + свод) → написать `iva-qa-task.md` (образец `iva-ios-brownfield-task.md`) → **ГЕЙТ апрув owner** → US под #682 → worktree → coder/tester → сид+приёмка. Пилот «Отзыв и замена письма».
 
 ## Связано
-- [[profili-rolei-v-tacticum-dev-itogovaia-svodka-kak-ustroeno-kak-dobavit]] · [[session-state]]
+- [[Профили ролей в tacticum-dev — итоговая сводка (как устроено + как добавить)]] · [[session-state]]
 ---
 
 # Проработанный вариант профилей (заготовка к созвону с Diaret)

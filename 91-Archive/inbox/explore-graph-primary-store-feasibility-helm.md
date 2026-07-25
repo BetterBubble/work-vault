@@ -1,7 +1,7 @@
 ---
 title: explore-graph-primary-store-feasibility-helm
 type: report
-permalink: tacticum/00-board/explore-graph-primary-store-feasibility-helm
+permalink: tacticum/91-archive/inbox/explore-graph-primary-store-feasibility-helm
 tags:
 - helm
 - explore

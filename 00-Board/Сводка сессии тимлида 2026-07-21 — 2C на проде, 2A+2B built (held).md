@@ -24,7 +24,7 @@ updated: 2026-07-21 16:48
 - **2C my_todo** — ✅ на проде (verify PASS на живой БД, данные целы). Закрыт. [[2-c-my-todo-zadeploen-na-prod-verify-pass-na-zhivoi-bd]]
 - **2A iva-write-base** — 🟡 built+валидирован (Вариант A), коммит `cf8dd61`. Держим. [[dizain-speka-iva-write-base-variant-a-na-apruv]]
 - **2B три роли** — 🟢 built, test_iva_role_presets 35 passed, коммит `69eb440`. [[impl-2b-roles]]
-- **Трек B QA** — 🟢 лейн `iva-qa-autotest-base` (9 скиллов) + `iva-role-qa` пересобран `[core,iva-qa-autotest-base,iva-write-base]`, тесты 35 passed, README+опись+слот defs, коммиты `5df061c`+`8a7e854`. Документация: [[qa-two-layers — два слоя QA, что готово, зачем ждём 3 субагента]] · [[qa-profile-model]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]]
+- **Трек B QA** — 🟢 лейн `iva-qa-autotest-base` (9 скиллов) + `iva-role-qa` пересобран `[core,iva-qa-autotest-base,iva-write-base]`, тесты 35 passed, README+опись+слот defs, коммиты `5df061c`+`8a7e854`. Документация: [[qa-two-layers — два слоя QA, что готово, зачем ждём 3 субагента]] · [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]]
 
 ## Следующий шаг
 - Ждём внешние входы (ниже). Активной работы «до результата» нет.

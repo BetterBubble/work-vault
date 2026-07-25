@@ -57,7 +57,7 @@ tags:
   - worktree с полным набором ролей: `/Users/bubblemac/tacticum/tacticum-dev-iva-write/templates/` — + `iva-role-qa`, `iva-role-architect`, `tacticum-role-techwriter`, `iva-qa-autotest-base`, `iva-write-base`.
   - worktree QA-kit (в работе у lead-qa): `/Users/bubblemac/tacticum/tacticum-dev-qa-kit/`.
 - **Созвон:** сырьё `/Users/bubblemac/tacticum-vault/90-Materials/Созвон 23:07 10-30.rtf` + разбор [[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]].
-- **Наши заметки:** [[qa-profile-model-opis-multi-stek-model-qa-leinov]] (мульти-стэк модель, отделяемые части), [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]], [[recon-kit-full-qa-dorabotka]] (kit: профили/маркетплейс/субагенты), [[resheniia-po-qa-profiliu-trek-b-2026-07-21]].
+- **Наши заметки:** [[qa-profile-model-opis-multi-stek-model-qa-leinov]] (мульти-стэк модель, отделяемые части), [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]], [[recon-kit-full-qa-dorabotka]] (kit: профили/маркетплейс/субагенты), [[resheniia-po-qa-profiliu-trek-b-2026-07-21]].
 - **MCP (объект вопроса о разделении):** `helm-analyst` (mcp-analyst — reading-индекс: analyst_search/context, arch_map, requirement_tests и т.д.), `iva-read`, `iva-write`. Посмотреть, какие тулы реально нужны каждой роли.
 - **kit-эталон:** `/private/tmp/.../scratchpad/kit-extract/kit-main/` (или зип `90-Materials/kit-main.zip`) — их кросс-провайдерная модель профилей 0/1/2 как референс.
 

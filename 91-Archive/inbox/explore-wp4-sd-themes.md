@@ -1,7 +1,7 @@
 ---
 title: explore-wp4-sd-themes
 type: report
-permalink: tacticum/00-board/explore-wp4-sd-themes
+permalink: tacticum/91-archive/inbox/explore-wp4-sd-themes
 tags:
 - helm
 - servicedesk

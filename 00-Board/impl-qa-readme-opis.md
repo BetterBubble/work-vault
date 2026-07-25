@@ -20,9 +20,9 @@ tags:
 - 2 файла: `templates/iva-qa-autotest-base/README.md`, `.../CHANGELOG.md`
 
 ## Что дописал в README (3 новых раздела перед «Установка / поддержка CLI»)
-1. **«Опись скиллов»** — таблица 6 рабочих ✅ (playwright-cli, run-tests, jira-issue-autotest, prepare-mr-branch, rebuild-autocore, retro) / 3 заблокированных ⛔ (write-autotest, batch-autotest, fix-failed-test — ждут defs) + строки: субагенты (3 отсутствуют), MCP (свой QA-MCP отсутствует; iva-write из iva-write-base + tacticum-mcp/context7 из core), Allure/TestOps (allurectl/glab/playwright-cli + tools/testops в one-web, локально не MCP), окружение (репо one-web: autocore-venv/tools.testops/.gitlab-ci). Синхронизировано с [[qa-profile-model]].
+1. **«Опись скиллов»** — таблица 6 рабочих ✅ (playwright-cli, run-tests, jira-issue-autotest, prepare-mr-branch, rebuild-autocore, retro) / 3 заблокированных ⛔ (write-autotest, batch-autotest, fix-failed-test — ждут defs) + строки: субагенты (3 отсутствуют), MCP (свой QA-MCP отсутствует; iva-write из iva-write-base + tacticum-mcp/context7 из core), Allure/TestOps (allurectl/glab/playwright-cli + tools/testops в one-web, локально не MCP), окружение (репо one-web: autocore-venv/tools.testops/.gitlab-ci). Синхронизировано с [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]].
 2. **«Слот под 3 agent_spec»** — таблица кто из каких скиллов зовёт codebase-analyst/dom-explorer/code-writer через Task; куда лягут файлы, что прописать в manifest, что после этого 3 скилла станут рабочими. Файлы НЕ создавал — только слот.
-3. **«Мульти-стэк»** — web (one-web) = этот лейн; iOS/KMP = отдельные лейны (iva-qa-ios-autotest-base/iva-qa-kmp-autotest-base) со скиллами их команд; стэк-агностичное (tests-authoring/requirement_tests в analysis) не дублировать. Ссылка на [[qa-profile-model]].
+3. **«Мульти-стэк»** — web (one-web) = этот лейн; iOS/KMP = отдельные лейны (iva-qa-ios-autotest-base/iva-qa-kmp-autotest-base) со скиллами их команд; стэк-агностичное (tests-authoring/requirement_tests в analysis) не дублировать. Ссылка на [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]].
 
 ## Формат agent_spec — СВЕРЕНО (не выдумка)
 Сверил по существующим agent_spec в `templates/iva-analysis-base` (system-analyst, tacticum-workflow) и по `templates/_schema/ingredient.v1.schema.json` (kind:agent_spec → metadata.required = model, description; опц. tools/permissions_ref/delegation).
@@ -38,6 +38,6 @@ tags:
 - Патч-бамп версии (0.1.0 → 0.1.1) под док-дополнение **не сделан** намеренно — это правка `manifest.yaml` (не `.md`), вне моего скоупа. Если по конвенции репо нужен явный патч-бамп при доп-документации — это отдельная однострочная правка манифеста, оставляю решение лиду.
 
 ## Связано
-- [[qa-profile-model]]
+- [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]]
 - [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
 - [[impl-qa-autotest-base]]

@@ -10,7 +10,7 @@ tags:
 created: 2026-07-16
 author: exp-data (explorer)
 safety: агрегаты + обезличенные примеры; сырьё с PII не копировалось
-permalink: tacticum/00-board/support-data-discovery
+permalink: tacticum/91-archive/inbox/support-data-discovery
 status: archived
 updated: 2026-07-18
 ---

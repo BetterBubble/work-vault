@@ -1,7 +1,7 @@
 ---
 title: explore-r5-changelog-recon-raw
 type: note
-permalink: tacticum/00-board/explore-r5-changelog-recon-raw
+permalink: tacticum/91-archive/inbox/explore-r5-changelog-recon-raw
 tags:
 - helm
 - rag2

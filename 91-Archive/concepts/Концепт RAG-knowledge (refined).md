@@ -1,7 +1,7 @@
 ---
 title: Концепт RAG/knowledge (refined)
 type: note
-permalink: tacticum/20-architecture/kontsept-rag-knowledge-refined-1
+permalink: tacticum/91-archive/concepts/kontsept-rag-knowledge-refined-1
 tags:
 - architecture
 - knowledge

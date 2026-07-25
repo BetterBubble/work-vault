@@ -1,7 +1,7 @@
 ---
 title: rag2-golden-ready
 type: report
-permalink: tacticum/00-board/rag2-golden-ready
+permalink: tacticum/20-architecture/rag2-golden-ready
 tags:
 - rag2
 - golden

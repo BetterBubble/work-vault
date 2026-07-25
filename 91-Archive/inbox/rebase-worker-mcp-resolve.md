@@ -8,7 +8,7 @@ tags:
 - merge
 - worker-report
 date: 2026-07-15
-permalink: tacticum/00-board/rebase-worker-mcp-resolve-1
+permalink: tacticum/91-archive/inbox/rebase-worker-mcp-resolve-1
 status: archived
 updated: 2026-07-18
 ---

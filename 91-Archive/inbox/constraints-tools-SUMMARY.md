@@ -7,7 +7,7 @@ tags:
 - analyst
 - constraints
 - handoff
-permalink: tacticum/00-board/constraints-tools-summary
+permalink: tacticum/91-archive/inbox/constraints-tools-summary
 status: archived
 updated: 2026-07-18
 ---

@@ -1,7 +1,7 @@
 ---
 title: explore-task-hygiene-map
 type: report
-permalink: tacticum/00-board/explore-task-hygiene-map
+permalink: tacticum/91-archive/inbox/explore-task-hygiene-map
 tags:
 - helm
 - task-manager

@@ -1,7 +1,7 @@
 ---
 title: helm-v12-e2e-verify-raw-2026-07-03
 type: note
-permalink: tacticum/00-board/helm-v12-e2e-verify-raw-2026-07-03
+permalink: tacticum/91-archive/inbox/helm-v12-e2e-verify-raw-2026-07-03
 status: archived
 updated: 2026-07-18
 ---

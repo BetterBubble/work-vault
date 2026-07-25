@@ -1,7 +1,7 @@
 ---
 title: plan-lightrag-server-eval
 type: note
-permalink: tacticum/20-architecture/plan-lightrag-server-eval-1
+permalink: tacticum/91-archive/lightrag/plan-lightrag-server-eval-1
 tags:
 - lightrag
 - zu_demo

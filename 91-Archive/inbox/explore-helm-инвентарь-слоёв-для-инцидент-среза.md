@@ -1,7 +1,7 @@
 ---
 title: explore-helm-инвентарь-слоёв-для-инцидент-среза
 type: report
-permalink: tacticum/00-board/explore-helm-inventar-sloiov-dlia-intsident-sreza
+permalink: tacticum/91-archive/inbox/explore-helm-inventar-sloiov-dlia-intsident-sreza
 tags:
 - helm
 - explore

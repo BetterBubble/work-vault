@@ -1,7 +1,7 @@
 ---
 title: RAG#2 Ф1.5 — TLS-verify bypass НЕ реализован (нужно решение человека-пользователя)
 type: note
-permalink: tacticum/00-board/rag2-extract-ph1-5-tls-verify-question
+permalink: tacticum/91-archive/inbox/rag2-extract-ph1-5-tls-verify-question
 tags:
 - rag2
 - ingest

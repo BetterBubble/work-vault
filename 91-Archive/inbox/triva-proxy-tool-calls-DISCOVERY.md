@@ -2,7 +2,7 @@
 title: triva proxy tool-calling — DISCOVERY (explorer handoff)
 date: 2026-07-16
 author: explorer
-permalink: tacticum/00-board/triva-proxy-tool-calls-discovery
+permalink: tacticum/91-archive/inbox/triva-proxy-tool-calls-discovery
 status: archived
 updated: 2026-07-18
 ---

@@ -1,7 +1,7 @@
 ---
 title: rag2-dotyazhka-ab-result
 type: report
-permalink: tacticum/00-board/rag2-dotyazhka-ab-result-1
+permalink: tacticum/91-archive/inbox/rag2-dotyazhka-ab-result-1
 tags:
 - rag2
 - exact-key

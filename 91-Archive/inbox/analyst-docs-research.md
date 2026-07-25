@@ -6,7 +6,7 @@ tags:
 - research
 - business-analysis
 - c4
-permalink: tacticum/00-board/analyst-docs-research-1
+permalink: tacticum/91-archive/inbox/analyst-docs-research-1
 status: archived
 updated: 2026-07-18
 ---

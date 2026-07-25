@@ -35,7 +35,7 @@ tags:
 
 ## Пересечения (уже в работе)
 - В main: `#132` iva-web DS 0.3.0 (стабильные figma_key в code-bindings) + `#134` iva-mobile DS 0.2.0 (KMP code-bindings + figma quickstart).
-- Прежний контекст: «дизайнер-профиль = дельта над `tacticum-ui-base` + новый скилл mockup-генерации + опц. Figma MCP; ждём концепт руководителя» ([[profili-rolei-v-tacticum-dev-itogovaia-svodka-kak-ustroeno-kak-dobavit]]). **Концепт теперь приходит** — направление не с нуля.
+- Прежний контекст: «дизайнер-профиль = дельта над `tacticum-ui-base` + новый скилл mockup-генерации + опц. Figma MCP; ждём концепт руководителя» ([[Профили ролей в tacticum-dev — итоговая сводка (как устроено + как добавить)]]). **Концепт теперь приходит** — направление не с нуля.
 
 ## Видение / куда идём
 - **Сейчас:** ждём ТЗ Димы + требования Солонко; я захожу в change management (встреча 10:00 ежедневно).
@@ -43,4 +43,4 @@ tags:
 - **Дальше:** все фронт-команды на одну дизайн-систему; дизайнер-профиль tacticum как носитель.
 
 ## Связано
-[[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]] · [[profili-rolei-v-tacticum-dev-itogovaia-svodka-kak-ustroeno-kak-dobavit]]
+[[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]] · [[Профили ролей в tacticum-dev — итоговая сводка (как устроено + как добавить)]]

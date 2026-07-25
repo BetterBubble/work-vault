@@ -1,7 +1,7 @@
 ---
 title: rag2-p2a-audit-SUMMARY
 type: report
-permalink: tacticum/00-board/rag2-p2a-audit-summary
+permalink: tacticum/91-archive/inbox/rag2-p2a-audit-summary
 tags:
 - rag2
 - rerank

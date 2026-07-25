@@ -1,7 +1,7 @@
 ---
 title: lightrag-codex-checkpoint-2026-07-01
 type: note
-permalink: tacticum/01-sessions/lightrag-codex-checkpoint-2026-07-01-1
+permalink: tacticum/91-archive/lightrag/lightrag-codex-checkpoint-2026-07-01-1
 tags:
 - session
 - checkpoint

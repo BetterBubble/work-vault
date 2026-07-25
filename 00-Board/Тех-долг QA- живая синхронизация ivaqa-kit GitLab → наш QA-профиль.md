@@ -36,4 +36,4 @@ tags:
 - **iOS** — в kit **ничего нет**; для iOS-профиля нужны отдельные вводные от команды Жени.
 
 ## Связано
-[[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[recon-aqa-kit-zhenya]] · [[recon-kit-full-qa-dorabotka]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]
+[[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[recon-aqa-kit-zhenya]] · [[recon-kit-full-qa-dorabotka]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]

@@ -1,7 +1,7 @@
 ---
 title: rag2-retrieval-miss-diag
 type: report
-permalink: tacticum/00-board/rag2-retrieval-miss-diag-1
+permalink: tacticum/91-archive/inbox/rag2-retrieval-miss-diag-1
 tags:
 - rag2
 - retrieval

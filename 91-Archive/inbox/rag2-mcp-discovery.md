@@ -8,7 +8,7 @@ tags:
 - c4
 - helm
 - analyst
-permalink: tacticum/00-board/rag2-mcp-discovery-1
+permalink: tacticum/91-archive/inbox/rag2-mcp-discovery-1
 status: archived
 updated: 2026-07-18
 ---

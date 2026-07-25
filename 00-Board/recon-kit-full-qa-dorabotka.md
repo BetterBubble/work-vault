@@ -120,4 +120,4 @@ tags:
 - [ ] to:lead-qa from:director взять разбор+доработку [[recon-kit-full-qa-dorabotka]]
 
 ## Связано
-[[recon-aqa-kit-zhenya]] · [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]
+[[recon-aqa-kit-zhenya]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]

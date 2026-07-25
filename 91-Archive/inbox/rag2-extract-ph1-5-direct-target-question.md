@@ -1,7 +1,7 @@
 ---
 title: RAG#2 Ф1.5 (порционный режим) — прямая запись в целевую коллекцию НЕ одобрена мной
 type: note
-permalink: tacticum/00-board/rag2-extract-ph1-5-direct-target-question
+permalink: tacticum/91-archive/inbox/rag2-extract-ph1-5-direct-target-question
 tags:
 - rag2
 - ingest

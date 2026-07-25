@@ -1,7 +1,7 @@
 ---
 title: rag2-golden-design
 type: report
-permalink: tacticum/00-board/rag2-golden-design
+permalink: tacticum/91-archive/inbox/rag2-golden-design
 tags:
 - rag2
 - golden

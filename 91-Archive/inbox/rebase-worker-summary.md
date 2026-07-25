@@ -6,7 +6,7 @@ tags:
 - rebase
 - worker-report
 date: 2026-07-15
-permalink: tacticum/00-board/rebase-worker-summary
+permalink: tacticum/91-archive/inbox/rebase-worker-summary
 status: archived
 updated: 2026-07-18
 ---

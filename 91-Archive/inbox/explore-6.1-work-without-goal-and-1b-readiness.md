@@ -1,7 +1,7 @@
 ---
 title: explore-6.1-work-without-goal-and-1b-readiness
 type: report
-permalink: tacticum/00-board/explore-6.1-work-without-goal-and-1b-readiness
+permalink: tacticum/91-archive/inbox/explore-6.1-work-without-goal-and-1b-readiness
 tags:
 - helm
 - explore

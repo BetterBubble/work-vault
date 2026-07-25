@@ -7,7 +7,7 @@ tags:
 - extractor
 - helm
 - lead-answer
-permalink: tacticum/00-board/rag2-extract-ph1-answers-1
+permalink: tacticum/91-archive/inbox/rag2-extract-ph1-answers-1
 status: archived
 updated: 2026-07-18
 ---

@@ -1,7 +1,7 @@
 ---
 title: Концепт RAG/knowledge v2
 type: note
-permalink: tacticum/20-architecture/kontsept-rag-knowledge-v2-1
+permalink: tacticum/91-archive/concepts/kontsept-rag-knowledge-v2-1
 tags:
 - architecture
 - knowledge

@@ -9,7 +9,7 @@ tags:
 - acl
 - разведка
 - explore
-permalink: tacticum/00-board/support-delivery-discovery-1
+permalink: tacticum/91-archive/inbox/support-delivery-discovery-1
 status: archived
 updated: 2026-07-18
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'explore-eval-harness (вынос #86)'
 type: note
-permalink: tacticum/00-board/explore-eval-harness-vynos-86
+permalink: tacticum/91-archive/inbox/explore-eval-harness-vynos-86
 tags:
 - eval
 - refactor

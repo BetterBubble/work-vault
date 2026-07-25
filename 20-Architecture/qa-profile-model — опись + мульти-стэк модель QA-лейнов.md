@@ -17,7 +17,7 @@ tags:
 
 # Модель QA-профиля: финальная карта + мульти-стэк
 
-Канонная опись профиля `iva-role-qa`. Собран из kit-снапшота Жени, пересобран на прод write-канал, прогнан через гейт (GO). Ветка `feat/qa-kit-subagents` (не в main). Направление: [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]].
+Канонная опись профиля `iva-role-qa`. Собран из kit-снапшота Жени, пересобран на прод write-канал, прогнан через гейт (GO). Ветка `feat/qa-kit-subagents` (не в main). Направление: [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]].
 
 ## Финальная композиция (`iva-role-qa` v0.4.0)
 
@@ -87,7 +87,7 @@ tags:
 Бандл собран, **controller-гейт GO с условием, дефектов нет** ([[gate-qa-profile-bundle]]): гит-чистота/скоуп/консистентность/валидатор 7/7/память — PASS; 73/73 профильных + 330 non-DB catalog зелёные. **Условие мержа:** DB-backed catalog-тесты (`test_seed_depends_on`…) — в docker-CI (локально нет docker). Не-блокеры: ребейз на main, `retro:25`, тикет двойного фронтматера. **Готов к PR — ждёт OK пользователя.** Осталось до «QA тестят»: PR+merge → provision в one-web + доступы (`TESTOPS_*`/Atlassian PAT/helm Bearer) → живой прогон 3 скиллов QA-командой по сценарию [[verify-qa-kit-subagents]].
 
 ## Связано
-- [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[gate-qa-profile-bundle]] · [[explore-qa-vs-analyst-final]] · [[verify-qa-kit-subagents]]
+- [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[gate-qa-profile-bundle]] · [[explore-qa-vs-analyst-final]] · [[verify-qa-kit-subagents]]
 - [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[recon-kit-full-qa-dorabotka]] · [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]]
 
 ## Уточнено по ADR-0060 (2026-07-23)

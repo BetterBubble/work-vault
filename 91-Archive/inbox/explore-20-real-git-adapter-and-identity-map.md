@@ -1,7 +1,7 @@
 ---
 title: explore-20-real-git-adapter-and-identity-map
 type: report
-permalink: tacticum/00-board/explore-20-real-git-adapter-and-identity-map
+permalink: tacticum/91-archive/inbox/explore-20-real-git-adapter-and-identity-map
 tags:
 - helm
 - explore

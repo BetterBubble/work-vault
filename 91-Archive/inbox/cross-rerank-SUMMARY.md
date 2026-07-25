@@ -6,7 +6,7 @@ tags:
 - rerank
 - worker-report
 date: 2026-07-15
-permalink: tacticum/00-board/cross-rerank-summary
+permalink: tacticum/91-archive/inbox/cross-rerank-summary
 status: archived
 updated: 2026-07-18
 ---

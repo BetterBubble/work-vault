@@ -1,7 +1,7 @@
 ---
 title: cross-rerank-tune IMPL-SUMMARY
 type: handoff
-permalink: tacticum/00-board/cross-rerank-tune-impl-summary-1
+permalink: tacticum/91-archive/inbox/cross-rerank-tune-impl-summary-1
 author: implementer (team helm)
 date: 2026-07-16
 tags:

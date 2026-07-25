@@ -7,7 +7,7 @@ tags:
 - skill
 - worker-report
 date: 2026-07-16
-permalink: tacticum/00-board/fr-skill-summary
+permalink: tacticum/91-archive/inbox/fr-skill-summary
 status: archived
 updated: 2026-07-18
 ---

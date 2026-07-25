@@ -16,7 +16,7 @@ tags:
 - [[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]] — `tacticum/01-sessions/razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks` (первичка созвона)
 - [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]] — `tacticum/21-decisions/...` (approved-решение по TC)
 - [[qa-profile-model-opis-multi-stek-model-qa-leinov]] — `tacticum/20-architecture/...` (модель QA-лейнов)
-- [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] — `tacticum/11-directions/...` (направление, вопросы)
+- [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] — `tacticum/11-directions/...` (направление, вопросы)
 - [[recon-kit-full-qa-dorabotka]] — `tacticum/00-board/...` (разбор kit: профили 0/1/2, субагенты)
 - [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] — `tacticum/00-board/...` (решения Трек B)
 
@@ -84,4 +84,4 @@ tags:
 - kit-репо `git.hi-tech.org/ivaqa` — **доступа нет** (нужен PAT read_repository / деплой-ключ); детали профилей взяты из уже распакованного архива `kit-main` в recon-kit-full.
 
 ## Связано
-[[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]] · [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]] · [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[recon-kit-full-qa-dorabotka]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[zadacha-lead-arch-adr-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik]]
+[[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]] · [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[recon-kit-full-qa-dorabotka]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[zadacha-lead-arch-adr-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik]]

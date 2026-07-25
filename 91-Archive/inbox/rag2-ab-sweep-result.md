@@ -1,7 +1,7 @@
 ---
 title: rag2-ab-sweep-result
 type: report
-permalink: tacticum/00-board/rag2-ab-sweep-result-1
+permalink: tacticum/91-archive/inbox/rag2-ab-sweep-result-1
 tags:
 - rag2
 - ab-test

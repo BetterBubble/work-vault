@@ -1,7 +1,7 @@
 ---
 title: rag2-eva-prod-audit-SUMMARY
 type: report
-permalink: tacticum/00-board/rag2-eva-prod-audit-summary
+permalink: tacticum/91-archive/inbox/rag2-eva-prod-audit-summary
 tags:
 - rag2
 - eva

@@ -1,7 +1,7 @@
 ---
 title: rag2-tz-recon-SUMMARY
 type: report
-permalink: tacticum/00-board/rag2-tz-recon-summary
+permalink: tacticum/91-archive/inbox/rag2-tz-recon-summary
 tags:
 - rag2
 - analyst-mcp

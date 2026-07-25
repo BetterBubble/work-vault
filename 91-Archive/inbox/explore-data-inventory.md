@@ -1,7 +1,7 @@
 ---
 title: explore-data-inventory
 type: report
-permalink: tacticum/00-board/explore-data-inventory
+permalink: tacticum/91-archive/inbox/explore-data-inventory
 tags:
 - helm
 - data

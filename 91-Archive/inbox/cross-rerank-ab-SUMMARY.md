@@ -9,7 +9,7 @@ tags:
 - ab-test
 - eval
 - '#32'
-permalink: tacticum/00-board/cross-rerank-ab-summary
+permalink: tacticum/91-archive/inbox/cross-rerank-ab-summary
 status: archived
 updated: 2026-07-18
 ---

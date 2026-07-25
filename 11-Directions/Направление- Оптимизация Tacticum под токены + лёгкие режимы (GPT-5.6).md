@@ -46,7 +46,7 @@ tags:
 - Противоречие Codex/Claude-Code у QA-профиля (эскалация lead-qa) — тот же вектор «целевой носитель Codex».
 
 ## Связано
-[[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]] · [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]]
+[[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]]
 
 ## Развилка «один профиль vs режим=лейн» — СНЯТА (решение президента 2026-07-24)
 Действуем **по докам Солонко**: режим = **процесс-лейн** (ADR-0056/57/59). Обоснование президента: Солонко был на созвоне 24.07 → его ТЗ и есть согласованная позиция, документ главнее. «Один профиль» (созвон, п.4) НЕ противоречит и реализуется как **роль-композиция лейнов** (пользователь видит один профиль на рабочем месте; режимы-лейны внутри; входной гейт выбирает лейн). Переделок нет. → ТЗ#2 дальше идёт целиком по пакету `workflow-modes-proposal`; открытых дизайн-развилок нет. Источник ТЗ Солонко: [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]].

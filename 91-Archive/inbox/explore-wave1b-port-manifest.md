@@ -1,7 +1,7 @@
 ---
 title: explore-wave1b-port-manifest
 type: report
-permalink: tacticum/00-board/explore-wave1b-port-manifest
+permalink: tacticum/91-archive/inbox/explore-wave1b-port-manifest
 tags:
 - helm
 - wave1b

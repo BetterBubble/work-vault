@@ -1,7 +1,7 @@
 ---
 title: explore-24-platform-substrate-graphiti-gateway-rag-re
 type: report
-permalink: tacticum/00-board/explore-24-platform-substrate-graphiti-gateway-rag-re
+permalink: tacticum/91-archive/inbox/explore-24-platform-substrate-graphiti-gateway-rag-re
 tags:
 - helm
 - explore

@@ -55,7 +55,7 @@ tags:
 7. batch-autotest масштабирует; rebuild-autocore/retro — инфра.
 
 ## Серьёзная оговорка — репо-специфичность
-Даже с субагентами этот QA работает ТОЛЬКО для one-web / web-стека: хардкод инфры (`/Users/oc4kxb/…`, пакет autocore, стенды at-test-*-one.ivcs.su, tools/testops, GitLab CI). iOS/KMP = отдельные лейны (см. [[qa-profile-model]]).
+Даже с субагентами этот QA работает ТОЛЬКО для one-web / web-стека: хардкод инфры (`/Users/oc4kxb/…`, пакет autocore, стенды at-test-*-one.ivcs.su, tools/testops, GitLab CI). iOS/KMP = отдельные лейны (см. [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]]).
 
 ## ЗАПРОС К QA-КОМАНДЕ (точная формулировка)
 Прислать **определения 3 субагентов** (то, что вызывается через `Task` из write-autotest/batch-autotest/fix-failed-test):
@@ -66,4 +66,4 @@ tags:
 Главный анлок — **получить 3 agent_spec** от QA-команды → Вариант 3 + валидация 1-в-1 ([[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]]). Промежуточно можно раздать Вариант 2 (прогон/поддержка существующих автотестов), если полезно тестировщикам.
 
 ## Связано
-- [[qa-profile-model]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]] · [[explore-qa-autotest-skills]] · [[qa-profil-trek-b-gotovo-built-verified-flagi-dlia-gd]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
+- [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]] · [[explore-qa-autotest-skills]] · [[qa-profil-trek-b-gotovo-built-verified-flagi-dlia-gd]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]

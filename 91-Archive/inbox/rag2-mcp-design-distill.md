@@ -8,7 +8,7 @@ tags:
 - distill
 - helm
 - analyst
-permalink: tacticum/00-board/rag2-mcp-design-distill
+permalink: tacticum/91-archive/inbox/rag2-mcp-design-distill
 status: archived
 updated: 2026-07-18
 ---

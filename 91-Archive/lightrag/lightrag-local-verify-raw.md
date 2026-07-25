@@ -7,7 +7,7 @@ tags:
 - verifier
 - draft
 - adr-0002
-permalink: tacticum/00-board/lightrag-local-verify-raw
+permalink: tacticum/91-archive/lightrag/lightrag-local-verify-raw
 status: archived
 updated: 2026-07-18
 ---

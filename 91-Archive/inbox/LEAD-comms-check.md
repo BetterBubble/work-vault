@@ -5,7 +5,7 @@ tags:
 - comms
 - test
 date: 2026-07-16
-permalink: tacticum/00-board/lead-comms-check-1
+permalink: tacticum/91-archive/inbox/lead-comms-check-1
 status: archived
 updated: 2026-07-18
 ---

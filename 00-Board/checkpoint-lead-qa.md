@@ -17,7 +17,7 @@ tags:
 
 **Регистрация:** на старте `bash ~/.claude/hooks/role-register.sh lead-qa` → проверь сигналы `bash ~/.claude/hooks/signals-check.sh`.
 **Репо:** `~/tacticum/tacticum-dev` (прод-каталог; деплой РУЧНОЙ по SSH — Serena-заметка `deployment_prod_catalog_mcp`).
-**Полная картина:** досье [[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] + решения/итоги [[decisions-qa-codex-2026-07-24]]. Этот файл — быстрый вход.
+**Полная картина:** досье [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] + решения/итоги [[decisions-qa-codex-2026-07-24]]. Этот файл — быстрый вход.
 
 ## Где стоим (ГОТОВО и в проде)
 - **QA-профиль в проде и отдан команде.** Codex-переделка автотест-лейна (субагенты + write/fix/batch/jira → `spawn_agent`, ADR-0025/`codex_body_path`) сделана, смержена (PR #133 → #136 → #138 fix → #139 role-bump).

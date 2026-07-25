@@ -1,7 +1,7 @@
 ---
 title: explore-26-memory-knowledge-contracts-for-helm-connectors
 type: report
-permalink: tacticum/00-board/explore-26-memory-knowledge-contracts-for-helm-connectors
+permalink: tacticum/91-archive/inbox/explore-26-memory-knowledge-contracts-for-helm-connectors
 tags:
 - helm
 - explore

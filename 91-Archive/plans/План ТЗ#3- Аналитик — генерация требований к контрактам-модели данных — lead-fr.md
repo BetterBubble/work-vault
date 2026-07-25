@@ -82,7 +82,7 @@ dev-профили (`iva-kmp-brownfield`/`iva-web-brownfield`/mail + скилл�
 - **2026-07-24 — US#0 СМЕРЖЕН президентом (PR #140**, origin/main @ `66bbc0d`, коммит `192c90a`). Первая mirror-пара теперь = только `start-feature`. ⚠️ **Сверка с Приёмкой:** Приёмка фичи (валидатор границы работает / FR v2 генерится / серии CT/DM/EV) относится к US#1-5 — **НЕ выполнена** (US#1-5 только заспечены, код не написан). US#0 — enabling-инфра (разъединение зеркала + version bump 0.1.10→0.1.11 + ADR/CHANGELOG), **контент навыков не менял** → для пользователя 0.1.11 функционально = 0.1.10. Деплой US#0 в одиночку = сид no-op version-bump в прод-каталог (mcp.tacticum.dev) + wiki-sync, без пользовательской ценности. → **деплоить рано; сначала US#1-5 → verify vs Приёмка → потом деплой всей capability (teststand→прод по runbook `deployment_prod_catalog_mcp`)**. Вынес развилку президенту.
 
 ## Связано
-[[napravlenie-profili-qa-profil-iva-role-qa-aqa-toolkit-iva]] · [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]]
+[[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]]
 
 ## Mirror-развилка — РЕШЕНА: вариант Б (решение президента 2026-07-24)
 `iva-fr-analyst` — зеркало (`_mirrors.yaml`, ADR-0059), владелец = заморож. `iva-analysis-base` (Diaret). Правки ТЗ#3 в общих скиллах (`fr-authoring`/`api-contracts-discovery`) байт-заблокированы к владельцу — «править только зеркало» неисполнимо.

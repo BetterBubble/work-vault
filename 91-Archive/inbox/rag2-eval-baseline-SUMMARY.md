@@ -1,7 +1,7 @@
 ---
 title: rag2-eval-baseline-SUMMARY
 type: report
-permalink: tacticum/00-board/rag2-eval-baseline-summary
+permalink: tacticum/91-archive/inbox/rag2-eval-baseline-summary
 tags:
 - rag2
 - eval

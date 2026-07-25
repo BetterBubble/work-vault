@@ -1,7 +1,7 @@
 ---
 title: deploy-verify-raw-2026-07-17
 type: note
-permalink: tacticum/00-board/deploy-verify-raw-2026-07-17
+permalink: tacticum/91-archive/inbox/deploy-verify-raw-2026-07-17
 status: archived
 updated: 2026-07-18
 ---

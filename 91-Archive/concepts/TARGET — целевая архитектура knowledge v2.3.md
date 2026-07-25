@@ -1,7 +1,7 @@
 ---
 title: TARGET — целевая архитектура knowledge v2.3
 type: note
-permalink: tacticum/20-architecture/target-tselevaia-arkhitektura-knowledge-v2.3-1
+permalink: tacticum/91-archive/concepts/target-tselevaia-arkhitektura-knowledge-v2.3-1
 tags:
 - architecture
 - knowledge

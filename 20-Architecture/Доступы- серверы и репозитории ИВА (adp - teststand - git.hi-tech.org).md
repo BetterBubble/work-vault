@@ -1,9 +1,10 @@
 ---
 title: 'Доступы: серверы и репозитории ИВА (adp / teststand / git.hi-tech.org)'
 type: reference
-permalink: tacticum/02-architecture/dostupy-servery-i-repozitorii-iva-adp-teststand-git.hi-tech.org
-created: '2026-07-24'
-updated: '2026-07-24'
+status: current
+created: 2026-07-24 16:42
+updated: 2026-07-25 20:30
+permalink: tacticum/20-architecture/dostupy-servery-i-repozitorii-iva-adp-teststand-git.hi-tech.org
 project: tacticum-dev
 tags:
 - reference

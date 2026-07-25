@@ -1,7 +1,7 @@
 ---
 title: RAG#2 extract Ф1 — вопросы имплементера перед стартом
 type: note
-permalink: tacticum/00-board/rag2-extract-ph1-implementer-questions
+permalink: tacticum/91-archive/inbox/rag2-extract-ph1-implementer-questions
 tags:
 - rag2
 - ingest

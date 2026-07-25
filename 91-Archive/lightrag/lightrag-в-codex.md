@@ -1,7 +1,7 @@
 ---
 title: lightrag-в-codex
 type: note
-permalink: tacticum/20-architecture/lightrag-v-codex-1
+permalink: tacticum/91-archive/lightrag/lightrag-v-codex-1
 tags:
 - codex
 - lightrag
