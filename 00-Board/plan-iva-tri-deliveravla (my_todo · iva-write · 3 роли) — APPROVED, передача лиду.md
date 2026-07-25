@@ -22,7 +22,7 @@ tags:
 
 # plan-iva-tri-deliveravla — APPROVED (ГД → лид)
 
-Владелец: @aleksandr_shulga0507. Полный план с грунтом по коду: [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]. Здесь — апрувленный хендофф лиду.
+Владелец: @aleksandr_shulga0507. Полный план с грунтом по коду: [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]. Здесь — апрувленный хендофф лиду.
 
 ## Режим
 - **autonomy: off** — пользователь на смене (present). Исполнять до **controller-гейта**; перед любым мержем/пушем — OK пользователя (гит-гигиена: только feature-ветка явно, без AI-подписей, PR не создаём).

@@ -35,4 +35,4 @@ tags:
 
 Остаточный follow-up (не блокер): 1 честный recall-miss `one-ios-ug-calls` не в топ-8 для «активный вызов на iPhone» — отдельная retrieval/корпус-задача, 1 кейс.
 
-Связи: [[diag-rag1-issue1-correctness-realdata]] · [[plan-rag1-quality-3issues-korrektnost-clarify-kontekst-chata-novomu-lidu]]. Ср. session-state «НЕ включать — доказано замером».
+Связи: [[diag-rag1-issue1-correctness-realdata]] · [[plan-rag1-quality-3issues — корректность - clarify - контекст чата (новому лиду)]]. Ср. session-state «НЕ включать — доказано замером».

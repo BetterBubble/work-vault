@@ -20,4 +20,4 @@ tags:
 5. **allowed_tools — сузить до write-тулов** (confluence_create/update_page, jira_create_issue/add_comment, +transition, +Allure).
 
 ## Связано
-- [[explore-iva-write-base]] · [[konflikt-2-a-iva-write-adr-0058-lichnyi-pat-razvesti-do-dizaina]] · [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+- [[explore-iva-write-base]] · [[⚠️ Конфликт 2A iva-write ↔ ADR-0058 (личный PAT) — развести до дизайна]] · [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]

@@ -115,5 +115,5 @@ Helm-миграция `0026_membership_role_architect.py` — это enum РОЛ
 
 ## Связано
 
-- [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
-- [[dizain-speka-iva-write-base-variant-a-na-apruv]]
+- [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]
+- [[Дизайн-спека iva-write-base (Вариант A) — на апрув]]

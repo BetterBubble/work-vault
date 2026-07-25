@@ -25,4 +25,4 @@ tags:
 **Плюс:** мульти-ключевой схемы (2+ ключа на сервер) в манифестах прецедента НЕТ — будет новая конструкция (`auth_type` один на сервер; `required_scopes` в схеме есть, но нигде не используется).
 
 ## Связано
-- [[explore-iva-write-base]] · [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+- [[explore-iva-write-base]] · [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]

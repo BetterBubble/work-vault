@@ -12,7 +12,7 @@ tags:
 
 Реализован MCP-тул `my_todo` (2C) в helm-analyst. Работа велась изолированно в git-worktree, не в основном дереве. Не мержил/не пушил/не деплоил.
 
-Спека: [[speka-2-c-my-todo-dlia-implementer-2026-07-21]] · разведка: [[explore-my-todo-helm-analyst]]
+Спека: [[Спека 2C my_todo — для implementer (2026-07-21)]] · разведка: [[explore-my-todo-helm-analyst]]
 
 ## Worktree / ветка
 - worktree: `/Users/bubblemac/tacticum-worktrees/helm-my-todo`
@@ -57,5 +57,5 @@ tags:
 - Данные снапшотные (as_of последнего среза), не realtime — консистентно с task_attention.
 
 ## Связано
-- [[speka-2-c-my-todo-dlia-implementer-2026-07-21]]
+- [[Спека 2C my_todo — для implementer (2026-07-21)]]
 - [[explore-my-todo-helm-analyst]]

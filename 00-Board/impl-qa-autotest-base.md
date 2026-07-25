@@ -12,7 +12,7 @@ tags:
 
 # impl-qa-autotest-base
 
-Собран автотест-лейн `iva-qa-autotest-base` из 9 реальных QA-скиллов и пересобран `iva-role-qa` под Трек B. По решениям [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] и разведке [[explore-qa-autotest-skills]]. Не провижнил/не пушил/не мержил.
+Собран автотест-лейн `iva-qa-autotest-base` из 9 реальных QA-скиллов и пересобран `iva-role-qa` под Трек B. По решениям [[Решения по QA-профилю (Трек B) — 2026-07-21]] и разведке [[explore-qa-autotest-skills]]. Не провижнил/не пушил/не мержил.
 
 ## Worktree / ветка / коммит
 - Worktree: `/Users/bubblemac/tacticum/tacticum-dev-iva-write`
@@ -54,4 +54,4 @@ tags:
 
 ## Связано
 - [[explore-qa-autotest-skills]]
-- [[resheniia-po-qa-profiliu-trek-b-2026-07-21]]
+- [[Решения по QA-профилю (Трек B) — 2026-07-21]]

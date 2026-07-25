@@ -56,11 +56,11 @@ tags:
 
 ### Платформенный субстрат «граф через платформу» (канон §8.2, ADR принят) — встроен в план как Ф3-подтрек
 
-- [decision] Оператор напомнил: по канону граф идёт через платформу. Сверено с [[ADR — Helm: PG-ядро + подключение к платформенному субстрату (Graphiti/Gateway/knowledge_rag)]] и разведкой #26 [[explore-26-memory-knowledge-contracts-for-helm-connectors]]. **Это НЕ перенос ядра в Graphiti:** детерминированный Signal→Initiative остаётся в PG Helm; в платформу идёт темпоральная/knowledge-**проекция**. Шаг 4 канона реконсилирован. #substrate
+- [decision] Оператор напомнил: по канону граф идёт через платформу. Сверено с [[ADR — Helm- PG-ядро + подключение к платформенному субстрату (Graphiti-Gateway-knowledge_rag)]] и разведкой #26 [[explore-26-memory-knowledge-contracts-for-helm-connectors]]. **Это НЕ перенос ядра в Graphiti:** детерминированный Signal→Initiative остаётся в PG Helm; в платформу идёт темпоральная/knowledge-**проекция**. Шаг 4 канона реконсилирован. #substrate
 - [plan] Субстрат — **аддитивно в Ф3 (1b), приоритет ADR: Gateway (готов, M8) → knowledge_rag → memory/Graphiti.** Коннекторы за Helm-Port + вендоренные shape-типы (platform-SDK пуст), тесты на стаб-транспорте, e2e-смоук за флагом. knowledge_rag MCP `:8090/mcp` (knowledge_search/ingest, коллекция `knowledge__bge-m3_1024`, tenant fail-closed) — код(repomix)/CV/Confluence + semantic_dedup (M3 дубли, D3/D4). memory/Graphiti MCP `:8080/mcp` (memory_write/read L0-L2, bi-temporal) — нарратив/velocity/дрейф (периодические project_state-эпизоды). Ограничение: reference_time на тул не проброшен → бэкфилл истории требует доработки тула/прямого lib-вызова (live-снимки без него). #substrate #wave-1b
 - [need] Реальное подключение субстрата = **та же связка, что OIDC**: base_url Gateway + project-hub service-key/тенант + достижимость memory/knowledge_rag. До ключа — Port+стаб+локальный compose-смоук (X-Tenant-Id обходит IdP). Внесено в список запросов к IVA. #external-blocker
 
-- relates_to [[ADR — Helm: PG-ядро + подключение к платформенному субстрату (Graphiti/Gateway/knowledge_rag)]]
+- relates_to [[ADR — Helm- PG-ядро + подключение к платформенному субстрату (Graphiti-Gateway-knowledge_rag)]]
 
 ## Апдейт 3 — 1a на реальных + project-hub ключ получен
 

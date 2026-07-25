@@ -41,5 +41,5 @@ tags:
 Работать ИЗОЛИРОВАННО в git-worktree, НЕ в основном дереве. Не мержить/не пушить/не деплоить. Результат — на доску.
 
 ## Связано
-- [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
-- [[razvilki-plana-iva-tri-deliveravla-resheniia-polzovatelia-2026-07-21]]
+- [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]
+- [[Развилки плана iva-tri-deliveravla — решения пользователя (2026-07-21)]]

@@ -24,7 +24,7 @@ tags:
 
 > **АРХИВ (2026-07-25).** Это рабочий план-хроника лида по ТЗ, а не досье. Работа закрыта и выкачена в прод; живое досье с человеческим статусом — [[tz2-rezhimy-raboty-razrabotchika]]. Правильное место для документа такого типа — доска (`00-Board/plan-*`, `status: draft`); сюда перенесён без изменений содержания, чтобы `12-Features` осталось слоем досье. Оговорка по статусу: в момент переноса план стоял «готово» — в досье статус опущен до «ждёт живой проверки», потому что пилот на стенде и прод-verify не доказывают работу команд на реальных задачах.
 
-**Ведёт:** lead-modes. **Приоритет:** #2. **Источник ТЗ:** пакет `90-Materials/workflow-modes-proposal.zip` (распакован в `scratchpad/modes-scan/`). Направление: [[napravlenie-optimizatsiia-tacticum-pod-tokeny-liogkie-rezhimy-gpt-5.6]]. Разбор: [[call-2026-07-24-10-30-dizain-sistema-tokeny-rezhimy-edinyi-profil-change-management-qa-vykatka]].
+**Ведёт:** lead-modes. **Приоритет:** #2. **Источник ТЗ:** пакет `90-Materials/workflow-modes-proposal.zip` (распакован в `scratchpad/modes-scan/`). Направление: [[Направление- Оптимизация Tacticum под токены + лёгкие режимы (GPT-5.6)]]. Разбор: [[call-2026-07-24-10-30 — дизайн-система, токены-режимы, единый профиль, change-management, QA-выкатка]].
 
 ## ⭐ ПРИНЦИП РАБОТЫ (обязателен)
 **Документы и ТЗ Солонко = приоритет важности. Работаем ПО НИМ**, дизайн не переоткрываем (owner согласовал таксономию/гейты/посадку). Расхождение/пробел → вопрос на сверку, не обход. **GitHub/main = истина** (GitLab — зеркало).
@@ -57,7 +57,7 @@ tags:
 `scratchpad/modes-scan/`: `workflow-modes-proposal.md` (главный), `research-task-flow-scenario.md`, `gate-calibration-cases.md` (эталон 31), `gate-calibration-inputs.md`, `jira-discipline-report.md`, `README.md`.
 
 ## Связано
-[[napravlenie-optimizatsiia-tacticum-pod-tokeny-liogkie-rezhimy-gpt-5.6]]
+[[Направление- Оптимизация Tacticum под токены + лёгкие режимы (GPT-5.6)]]
 
 ## Ход работы — что реально сделано (обновлено 2026-07-24 21:39)
 

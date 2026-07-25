@@ -62,4 +62,4 @@ tags:
 3. iva-write = продакшн существующего write-канала fr-authoring (те же имена тулов), НЕ новый сервер — подтвердить.
 
 ## Связь с e2e-санити (отдельно)
-Профиль аналитика (собран ночью Diaret): ядро (TC + контракты) работает на живых данных; BRD/ADR/FR — не подтвердить без kb_*/iva-mcp в среде роли. 2 бага в скиллах: gap_questions/who_to_involve зовут `query` вместо `requirement_text`; fr-authoring publish-дрейф vs manifest-MVP. См. [[sozvon-3-diaret-razbor-konveier-artefaktov-profil-analitika-mcp-iva-write-priviazka-k-helm]].
+Профиль аналитика (собран ночью Diaret): ядро (TC + контракты) работает на живых данных; BRD/ADR/FR — не подтвердить без kb_*/iva-mcp в среде роли. 2 бага в скиллах: gap_questions/who_to_involve зовут `query` вместо `requirement_text`; fr-authoring publish-дрейф vs manifest-MVP. См. [[Созвон 3 (Diaret) — разбор- конвейер артефактов, профиль аналитика, mcp-iva-write, привязка к helm]].

@@ -12,7 +12,7 @@ tags:
 
 # impl-iva-write-base
 
-Собран **скелет leaf-лейна `iva-write-base`** (2A, Вариант A) по спеке [[dizain-speka-iva-write-base-variant-a-na-apruv]]. Строго аддитивно, analysis не тронут. НЕ провижнил / НЕ сидил / НЕ пушил.
+Собран **скелет leaf-лейна `iva-write-base`** (2A, Вариант A) по спеке [[Дизайн-спека iva-write-base (Вариант A) — на апрув]]. Строго аддитивно, analysis не тронут. НЕ провижнил / НЕ сидил / НЕ пушил.
 
 ## Worktree / ветка
 - Worktree: `/Users/bubblemac/tacticum/tacticum-dev-iva-write` (изолирован, вне основного дерева).
@@ -58,4 +58,4 @@ VALIDATION: PASS (manifest.v2 + ingredient.v1, all ingredients)
 - Guardrail соблюдён: файлы `iva-analysis-base/*`, `iva-role-analyst/*` не изменялись (git показывает только 3 новых файла в `templates/iva-write-base/`).
 
 ## Связано
-- [[dizain-speka-iva-write-base-variant-a-na-apruv]] · [[explore-iva-write-base]]
+- [[Дизайн-спека iva-write-base (Вариант A) — на апрув]] · [[explore-iva-write-base]]

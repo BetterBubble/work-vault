@@ -66,4 +66,4 @@ tags:
 Главный анлок — **получить 3 agent_spec** от QA-команды → Вариант 3 + валидация 1-в-1 ([[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]]). Промежуточно можно раздать Вариант 2 (прогон/поддержка существующих автотестов), если полезно тестировщикам.
 
 ## Связано
-- [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]] · [[explore-qa-autotest-skills]] · [[qa-profil-trek-b-gotovo-built-verified-flagi-dlia-gd]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
+- [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]] · [[explore-qa-autotest-skills]] · [[QA-профиль (Трек B) — готово (built+verified), флаги для ГД]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]

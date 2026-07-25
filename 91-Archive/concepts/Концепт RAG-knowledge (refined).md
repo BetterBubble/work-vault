@@ -15,7 +15,7 @@ updated: 2026-07-18
 # Концепт RAG / `knowledge` — доработанный (fact-checked)
 
 **Источник на диске:** `~/tacticum/_analysis/CONCEPT_refined.md`
-**Тип:** архитектурный концепт (refined, 2026-06-23). База: концепт v2 + проверка по коду/MCP. Заменяет [[Концепт RAG/knowledge v2]].
+**Тип:** архитектурный концепт (refined, 2026-06-23). База: концепт v2 + проверка по коду/MCP. Заменяет [[Концепт RAG-knowledge v2]].
 
 ## Суть
 RAG в флоте реализован фактически **дважды** (`agents` — бизнес-агенты; `tacticum-dev/knowledge` — RE-KB) + producer (RE-конвейер, ChromaDB). Консолидируем retrieval в один платформенный сервис `knowledge`; апки — потребители контракта, RE — производитель.
@@ -30,7 +30,7 @@ RAG в флоте реализован фактически **дважды** (`a
 ## Relations
 - part_of [[20-Architecture]]
 - relates_to [[TARGET — целевая архитектура knowledge v2.3]]
-- relates_to [[Концепт RAG/knowledge v2]]
+- relates_to [[Концепт RAG-knowledge v2]]
 - relates_to [[MISMATCHES — концепт vs код]]
 - relates_to [[Аудит текущего RAG по флоту]]
 - relates_to [[glossary]]

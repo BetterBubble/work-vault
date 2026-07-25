@@ -14,7 +14,7 @@ tags:
 ---
 
 ## Факт
-В `rag_eval_service` (codex, RAG ЗУ) всё «поверх голого retrieval» уже собрано и **живёт в проде на zu_demo** с реальными адаптерами (не моки): `/health` → scope=ProjectHubScopeResolver, embed=gateway, langfuse=on, history_db=on, presigner=beget; фронт `zu-demo.cifragen.ru` = 200. Наш RAG#1-прототип (`iva-rag1-engine`) — пока только retrieval+eval; эти слои надо будет **прикрутить, переиспользуя codex как донор** (не писать с нуля). Заложено в концепте [[Концепт: три RAG для ИВА на общем движке]] §3.
+В `rag_eval_service` (codex, RAG ЗУ) всё «поверх голого retrieval» уже собрано и **живёт в проде на zu_demo** с реальными адаптерами (не моки): `/health` → scope=ProjectHubScopeResolver, embed=gateway, langfuse=on, history_db=on, presigner=beget; фронт `zu-demo.cifragen.ru` = 200. Наш RAG#1-прототип (`iva-rag1-engine`) — пока только retrieval+eval; эти слои надо будет **прикрутить, переиспользуя codex как донор** (не писать с нуля). Заложено в концепте [[Концепт- три RAG для ИВА на общем движке]] §3.
 
 ## Компоненты (донор для RAG#1)
 - **Ask-BFF** (`bff/app.py`, ~250 стр): FastAPI `/ask` scope→search→LLM(Gateway, стрим NDJSON)→{answer,citations}. Почти прямой донор.
@@ -34,5 +34,5 @@ tags:
 1. Ask-BFF (ответ+цитаты) → 2. Фронт (чат+OIDC) → 3. Langfuse → 4. История → 5. Фидбэк → 6. Presigned (адаптер Confluence) → 7. eval (golden уже есть).
 
 ## Отношения
-- part_of [[Концепт: три RAG для ИВА на общем движке]]
+- part_of [[Концепт- три RAG для ИВА на общем движке]]
 - relates_to [[RAG-1 ИВА — корпус iva.ru-docs + golden-set готовы]]

@@ -10,7 +10,7 @@ tags:
 
 # impl-2b-roles
 
-Реализация трёх ролей-пресетов 2B по разведке [[explore-2b-roles]] и плану [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]. Работа строго аддитивная; guardrail соблюдён (analysis-лейны/analyst-роль/скиллы НЕ тронуты).
+Реализация трёх ролей-пресетов 2B по разведке [[explore-2b-roles]] и плану [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]. Работа строго аддитивная; guardrail соблюдён (analysis-лейны/analyst-роль/скиллы НЕ тронуты).
 
 ## Worktree / ветка / коммит
 
@@ -81,4 +81,4 @@ ROLE_PERSONA = {
 ## Связано
 
 - [[explore-2b-roles]]
-- [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+- [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]

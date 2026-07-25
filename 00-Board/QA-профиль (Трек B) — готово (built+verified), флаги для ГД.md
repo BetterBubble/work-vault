@@ -33,4 +33,4 @@ tags:
 5. **Развилка «кто генерит TC»** (аналитик vs QA) — НЕ решена, за ГД/созвоном. Пока QA без analysis (без requirement_tests/tests-authoring).
 
 ## Связано
-- [[impl-qa-autotest-base]] · [[verify-qa-autotest-base]] · [[explore-qa-autotest-skills]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]]
+- [[impl-qa-autotest-base]] · [[verify-qa-autotest-base]] · [[explore-qa-autotest-skills]] · [[Решения по QA-профилю (Трек B) — 2026-07-21]]

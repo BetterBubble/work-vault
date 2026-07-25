@@ -16,7 +16,7 @@ updated: 2026-07-18
 # Концепт архитектуры RAG / knowledge (v2)
 
 **Источник на диске:** `~/tacticum/_analysis/CONCEPT_rag_architecture-2.md`
-**Тип:** архитектурный концепт v2 (для согласования). ⚠️ **Заменён** доработанной версией → [[Концепт RAG/knowledge (refined)]].
+**Тип:** архитектурный концепт v2 (для согласования). ⚠️ **Заменён** доработанной версией → [[Концепт RAG-knowledge (refined)]].
 
 ## Суть
 Сейчас RAG трижды переизобретён (в `agents`, `tacticum-dev`, `TactFlow/форум`), везде по-своему и почти не обкатан. Консолидируем retrieval в один платформенный сервис `knowledge`; апки — потребители, RE-конвейер — производитель.
@@ -31,6 +31,6 @@ updated: 2026-07-18
 
 ## Relations
 - part_of [[20-Architecture]]
-- relates_to [[Концепт RAG/knowledge (refined)]]
+- relates_to [[Концепт RAG-knowledge (refined)]]
 - relates_to [[TARGET — целевая архитектура knowledge v2.3]]
 - relates_to [[glossary]]

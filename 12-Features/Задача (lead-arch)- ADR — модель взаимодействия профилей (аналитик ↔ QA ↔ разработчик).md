@@ -37,9 +37,9 @@ tags:
 **`mcp-analyst` (helm-analyst) сейчас общий для ВСЕХ ролей, а не только аналитиков — возможно, это плохо.** Рассмотреть **разделение на разные MCP** с нужными тулами под роль: кто какие тулы должен видеть/уметь (аналитик / QA / разработчик / архитектор). Дать рекомендацию: делить или нет, если делить — как (какие MCP, какие тулы куда).
 
 ## Материал из созвона 2026-07-23 (сверено)
-Разбор: [[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]]. По профилям/ADR говорили:
+Разбор: [[Разбор созвона 2026-07-23 10-30 — профили, QA, процесс, демо РКС]]. По профилям/ADR говорили:
 - **Профили ПЕРЕСЕКАЮТСЯ, части ОТДЕЛЯЕМЫ и переиспользуемы:** анализ / QA / разработка. Профиль аналитика пишет всю аналитику; разработчик может по ней разрабатывать И сам написать юз-кейс; при необходимости профиль может «залезть и провалидировать» чужую часть. Части должны быть отделимы.
-- **Решение по TC:** аналитики пишут тест-кейсы, QA дополняет на ревью ([[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]]). ADR должен отразить эту границу ответственности.
+- **Решение по TC:** аналитики пишут тест-кейсы, QA дополняет на ревью ([[Решение- тест-кейсы пишут аналитики, QA дополняет на ревью (2026-07-23)]]). ADR должен отразить эту границу ответственности.
 - **Долгосрочно — минимальная BPMS** для фиксации статуса согласования (Дима рисует BPMN процесса; пока в Project). ADR закладывает роли/согласования под это.
 - **«Дырка» (лёгкая опция)** под общие/разделяемые части — заложить в модель.
 
@@ -56,8 +56,8 @@ tags:
   - main: `/Users/bubblemac/tacticum/tacticum-dev/templates/` — `iva-role-analyst`, `iva-role-go`, `iva-analysis-base`, `iva-go-development-base`, `tacticum-*-base` (core/dev/documentation/ui/bugfix/internal/platform).
   - worktree с полным набором ролей: `/Users/bubblemac/tacticum/tacticum-dev-iva-write/templates/` — + `iva-role-qa`, `iva-role-architect`, `tacticum-role-techwriter`, `iva-qa-autotest-base`, `iva-write-base`.
   - worktree QA-kit (в работе у lead-qa): `/Users/bubblemac/tacticum/tacticum-dev-qa-kit/`.
-- **Созвон:** сырьё `/Users/bubblemac/tacticum-vault/90-Materials/Созвон 23:07 10-30.rtf` + разбор [[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]].
-- **Наши заметки:** [[qa-profile-model-opis-multi-stek-model-qa-leinov]] (мульти-стэк модель, отделяемые части), [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]], [[recon-kit-full-qa-dorabotka]] (kit: профили/маркетплейс/субагенты), [[resheniia-po-qa-profiliu-trek-b-2026-07-21]].
+- **Созвон:** сырьё `/Users/bubblemac/tacticum-vault/90-Materials/Созвон 23:07 10-30.rtf` + разбор [[Разбор созвона 2026-07-23 10-30 — профили, QA, процесс, демо РКС]].
+- **Наши заметки:** [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] (мульти-стэк модель, отделяемые части), [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]], [[recon-kit-full-qa-dorabotka]] (kit: профили/маркетплейс/субагенты), [[Решения по QA-профилю (Трек B) — 2026-07-21]].
 - **MCP (объект вопроса о разделении):** `helm-analyst` (mcp-analyst — reading-индекс: analyst_search/context, arch_map, requirement_tests и т.д.), `iva-read`, `iva-write`. Посмотреть, какие тулы реально нужны каждой роли.
 - **kit-эталон:** `/private/tmp/.../scratchpad/kit-extract/kit-main/` (или зип `90-Materials/kit-main.zip`) — их кросс-провайдерная модель профилей 0/1/2 как референс.
 
@@ -78,7 +78,7 @@ tags:
 **Корректный фундамент ADR:** опубликованная архитектура ADR-0057/0059 + живая QA-ветка `qa-kit-subagents` (НЕ `iva-write-base`). Запущена точечная ре-разведка на правильных ветках (через `git show`, worktrees не трогаются) → потом синтез ADR.
 
 ### 2026-07-23 — черновик ADR готов (на верной фактуре)
-Ре-разведка на актуальных ветках завершена. Написан черновик: [[adr-draft-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik-skouping-mcp-po-roliam]] (20-Architecture, status draft).
+Ре-разведка на актуальных ветках завершена. Написан черновик: [[ADR (draft) — Модель взаимодействия профилей- аналитик ↔ QA ↔ разработчик + скоупинг MCP по ролям]] (20-Architecture, status draft).
 
 **Стержень:** механизм скоупинга тулов под роль уже есть в архитектуре (ADR-0057: `mcp_server_spec` → `allowed_tools`+`required_scopes`, `iva-write` уже применяет). Рекомендация по ключевому вопросу ГД: **mcp-analyst НЕ делить на серверы-под-роль — сузить тул-поверхность пресетами по ролям** (универсальный слой ~60% тулов общий; деление дублировало бы его). Пайплайн аналитик→QA→dev с ownership (TC пишет аналитик, QA дополняет; dev implement-only) зафиксирован.
 

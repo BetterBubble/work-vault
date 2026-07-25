@@ -20,7 +20,7 @@ tags:
 ## Итоги (закрыто)
 - **PR #133 смержен в main** (`20ff9b8`) — профиль `iva-role-qa` + `iva-qa-autotest-base` + 3 per-role MCP-лейна. Пост-мерж гигиена: qa в `ROLE_LANES`/`ROLE_PERSONA`, статика **73/73**.
 - **CI-сид каталога** отработал — роль устанавливаема.
-- **Комплект передачи QA-команде** ([[qa-profil-onbording-komandy-iva-peredacha-i-zapusk]] + `12-Features/QA-профиль iva-role-qa — комплект передачи команде`) — готов, gpt-5.4, внешний регистр.
+- **Комплект передачи QA-команде** ([[QA-профиль — онбординг команды ИВА (передача и запуск)]] + `12-Features/QA-профиль iva-role-qa — комплект передачи команде`) — готов, gpt-5.4, внешний регистр.
 - **Quickstart** `docs/user_manuals/iva-role-qa-profile-quickstart.md` — готов (worktree, не закоммичен).
 - **Прод-сид подготовлен** ([[prod-seed-iva-role-qa-prep]]) — до «нажать выполнить», передаём Солонко.
 - **Чанк 1 Codex-переделки** ([[impl-qa-codex-mechanical]]) — механика (secrets/gitignore/retro→кросс, craft-stack пути, run-tests), версия 0.1.0→0.2.0, тесты 73/73.

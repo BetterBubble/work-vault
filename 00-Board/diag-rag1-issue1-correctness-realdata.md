@@ -39,4 +39,4 @@ aic@10 0.92 · hit@10 0.90 · **mrr 0.58 · ndcg 0.66** → правильная
 ## Артефакты на проде
 `/app/golden_ambiguous.json`, `/app/amb_diag.json`, `/app/probe_rank.py` (temp, сотрутся при rebuild). Локально golden: `iva-rag1-docs/golden/golden_iva_rag1.ambiguous.json`.
 
-Связи: [[plan-rag1-quality-3issues-korrektnost-clarify-kontekst-chata-novomu-lidu]] · [[explore-rag1-retrieval-clarify-map]] · [[report-rag1-corrclar-groundwork]]
+Связи: [[plan-rag1-quality-3issues — корректность - clarify - контекст чата (новому лиду)]] · [[explore-rag1-retrieval-clarify-map]] · [[report-rag1-corrclar-groundwork]]

@@ -81,14 +81,14 @@ tags:
 - **Расширение на iOS/KMP** = получить автотест-скиллы тех команд (как получили web). Пока их нет → **web-only = реальный скоуп сегодня.**
 
 ## Развилка «кто генерит TC» — РЕШЕНА (2026-07-23)
-**Аналитики пишут ТС**, **QA дополняет на ревью**. Авторинг у аналитика (`tests-authoring` в analysis); QA-лейн = исполнение/автоматизация + **ревью-дополнение**. Решение: [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]].
+**Аналитики пишут ТС**, **QA дополняет на ревью**. Авторинг у аналитика (`tests-authoring` в analysis); QA-лейн = исполнение/автоматизация + **ревью-дополнение**. Решение: [[Решение- тест-кейсы пишут аналитики, QA дополняет на ревью (2026-07-23)]].
 
 ## Статус доставки (2026-07-23)
 Бандл собран, **controller-гейт GO с условием, дефектов нет** ([[gate-qa-profile-bundle]]): гит-чистота/скоуп/консистентность/валидатор 7/7/память — PASS; 73/73 профильных + 330 non-DB catalog зелёные. **Условие мержа:** DB-backed catalog-тесты (`test_seed_depends_on`…) — в docker-CI (локально нет docker). Не-блокеры: ребейз на main, `retro:25`, тикет двойного фронтматера. **Готов к PR — ждёт OK пользователя.** Осталось до «QA тестят»: PR+merge → provision в one-web + доступы (`TESTOPS_*`/Atlassian PAT/helm Bearer) → живой прогон 3 скиллов QA-командой по сценарию [[verify-qa-kit-subagents]].
 
 ## Связано
 - [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[gate-qa-profile-bundle]] · [[explore-qa-vs-analyst-final]] · [[verify-qa-kit-subagents]]
-- [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[recon-kit-full-qa-dorabotka]] · [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]]
+- [[Решения по QA-профилю (Трек B) — 2026-07-21]] · [[recon-kit-full-qa-dorabotka]] · [[Решение- тест-кейсы пишут аналитики, QA дополняет на ревью (2026-07-23)]]
 
 ## Уточнено по ADR-0060 (2026-07-23)
 Финальная модель — **ADR-0060** (репо `tacticum-dev/docs/adr/`; ранее номер 0059 — переименован). Для QA: **QA = исполнение/автоматизация + review-augment TC** (авторинг TC у аналитика; уточняет ADR-0058 §6); helm read-срез доставляется **через capability-лейн** (`allowed_tools` в ЛЕЙНЕ, не на роли); write — `iva-write` ADR-0058 (техучётка+подпись, scope `iva-req-write`, не личный PAT); **гейты §6** (`/qa-coverage` + «regression from PIN Impact» = обязательная часть гейта шага 4; `tc: reviewed→covered` при зелёных).

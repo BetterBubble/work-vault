@@ -13,12 +13,12 @@ tags:
 **Explorer-разведка (read-only) для lead-arch.** Извлечено из 6 заметок памяти. Канон не пишу — материал для ADR.
 
 ## Источники (permalink)
-- [[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]] — `tacticum/01-sessions/razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks` (первичка созвона)
-- [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]] — `tacticum/21-decisions/...` (approved-решение по TC)
-- [[qa-profile-model-opis-multi-stek-model-qa-leinov]] — `tacticum/20-architecture/...` (модель QA-лейнов)
+- [[Разбор созвона 2026-07-23 10-30 — профили, QA, процесс, демо РКС]] — `tacticum/01-sessions/razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks` (первичка созвона)
+- [[Решение- тест-кейсы пишут аналитики, QA дополняет на ревью (2026-07-23)]] — `tacticum/21-decisions/...` (approved-решение по TC)
+- [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] — `tacticum/20-architecture/...` (модель QA-лейнов)
 - [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] — `tacticum/11-directions/...` (направление, вопросы)
 - [[recon-kit-full-qa-dorabotka]] — `tacticum/00-board/...` (разбор kit: профили 0/1/2, субагенты)
-- [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] — `tacticum/00-board/...` (решения Трек B)
+- [[Решения по QA-профилю (Трек B) — 2026-07-21]] — `tacticum/00-board/...` (решения Трек B)
 
 ---
 
@@ -84,4 +84,4 @@ tags:
 - kit-репо `git.hi-tech.org/ivaqa` — **доступа нет** (нужен PAT read_repository / деплой-ключ); детали профилей взяты из уже распакованного архива `kit-main` в recon-kit-full.
 
 ## Связано
-[[razbor-sozvona-2026-07-23-10-30-profili-qa-protsess-demo-rks]] · [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[recon-kit-full-qa-dorabotka]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[zadacha-lead-arch-adr-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik]]
+[[Разбор созвона 2026-07-23 10-30 — профили, QA, процесс, демо РКС]] · [[Решение- тест-кейсы пишут аналитики, QA дополняет на ревью (2026-07-23)]] · [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[recon-kit-full-qa-dorabotka]] · [[Решения по QA-профилю (Трек B) — 2026-07-21]] · [[Задача (lead-arch)- ADR — модель взаимодействия профилей (аналитик ↔ QA ↔ разработчик)]]

@@ -34,8 +34,8 @@ tags:
 2C my_todo **живёт на проде**, работает на реальных данных, данные не пострадали. Деливеравл закрыт.
 
 ## Осталось по плану
-- **2A iva-write** — запаркован, требует решения по [[konflikt-2-a-iva-write-adr-0058-lichnyi-pat-razvesti-do-dizaina]] (личный PAT vs ADR-0058 техучётка).
+- **2A iva-write** — запаркован, требует решения по [[⚠️ Конфликт 2A iva-write ↔ ADR-0058 (личный PAT) — развести до дизайна]] (личный PAT vs ADR-0058 техучётка).
 - **2B три роли** — после лейна из 2A.
 
 ## Связано
-- [[svodka-2-c-my-todo-gotov-k-dostavke-go-zhdiot-ok-polzovatelia]] · [[verify-my-todo]] · [[gate-my-todo]]
+- [[Сводка 2C my_todo — готов к доставке (GO, ждёт OK пользователя)]] · [[verify-my-todo]] · [[gate-my-todo]]

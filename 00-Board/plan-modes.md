@@ -17,7 +17,7 @@ tags:
 
 # План: ТЗ#2 — режимы workflow + двухслойный гейт
 
-**Направление:** [[napravlenie-optimizatsiia-tacticum-pod-tokeny-liogkie-rezhimy-gpt-5.6]] (lead-modes).
+**Направление:** [[Направление- Оптимизация Tacticum под токены + лёгкие режимы (GPT-5.6)]] (lead-modes).
 **Источник истины:** пакет ТЗ#2 Солонко `workflow-modes-proposal` (owner-согласован по таксономии/двухслойной схеме/сценарию research/посадке на лейны). Дизайн НЕ переоткрываем.
 **Репо:** `TacticumApps/tacticum-dev` → `templates/` · **github/main = истина** (GitLab — зеркало) · **autonomy off** (PR/мерж — президент).
 **Статус разведки:** карта лейнов — explorer (`explore-modes-lanes-map`, в работе); детали посадки дошлифуются его результатом.

@@ -21,8 +21,8 @@ updated: 2026-07-21 16:48
 Репо: helm (2C) + tacticum-dev (2A/2B/QA). autonomy: off — до гейта, мерж по OK. Guardrail: analysis (iva-analysis-base/iva-role-analyst) — не трогать (можно с эскалацией). Всё, кроме 2C, живёт на ветке `feat/iva-write-base` (worktree `/Users/bubblemac/tacticum/tacticum-dev-iva-write`), НЕ мержено.
 
 ## Где стоим
-- **2C my_todo** — ✅ на проде (verify PASS на живой БД, данные целы). Закрыт. [[2-c-my-todo-zadeploen-na-prod-verify-pass-na-zhivoi-bd]]
-- **2A iva-write-base** — 🟡 built+валидирован (Вариант A), коммит `cf8dd61`. Держим. [[dizain-speka-iva-write-base-variant-a-na-apruv]]
+- **2C my_todo** — ✅ на проде (verify PASS на живой БД, данные целы). Закрыт. [[2C my_todo — задеплоен на прод (verify PASS на живой БД)]]
+- **2A iva-write-base** — 🟡 built+валидирован (Вариант A), коммит `cf8dd61`. Держим. [[Дизайн-спека iva-write-base (Вариант A) — на апрув]]
 - **2B три роли** — 🟢 built, test_iva_role_presets 35 passed, коммит `69eb440`. [[impl-2b-roles]]
 - **Трек B QA** — 🟢 лейн `iva-qa-autotest-base` (9 скиллов) + `iva-role-qa` пересобран `[core,iva-qa-autotest-base,iva-write-base]`, тесты 35 passed, README+опись+слот defs, коммиты `5df061c`+`8a7e854`. Документация: [[qa-two-layers — два слоя QA, что готово, зачем ждём 3 субагента]] · [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · [[qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)]]
 
@@ -33,7 +33,7 @@ updated: 2026-07-21 16:48
 
 ## Заблокировано (внешние входы)
 1. Грилл **ADR-0058** (auth-модель iva-write, серверная).
-2. **A/C мульти-ключ** — согласование с руководителем (provisional=A). [[resh-enie-provisional-iva-write-multi-kliuch-variant-a]]
+2. **A/C мульти-ключ** — согласование с руководителем (provisional=A). [[РЕШЕНИЕ (provisional)- iva-write мульти-ключ — Вариант A]]
 3. **Монахов** — IVAREQ + Confluence-space + write-endpoint (PoC 2A + прод).
 4. **3 agent_spec** от QA-команды (codebase-analyst/dom-explorer/code-writer) — оживляют 3 из 9 QA-скиллов.
 
@@ -48,5 +48,5 @@ updated: 2026-07-21 16:48
 - iva-write Вариант A: 1 клиентский phk_ + подпись актора gateway + серверные downstream-креды.
 
 ## Ссылки
-- Планы: [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
-- Отчёт QA для ГД: [[qa-profil-trek-b-gotovo-built-verified-flagi-dlia-gd]]
+- Планы: [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]] · [[plan-qa-profile — обогатить iva-role-qa реальными QA-скиллами (Трек B, лиду)]]
+- Отчёт QA для ГД: [[QA-профиль (Трек B) — готово (built+verified), флаги для ГД]]

@@ -51,4 +51,4 @@ tags:
 ## Дальше
 - Написать **инструкцию аналитику** (пайплайн открыт: `/start-feature`→Q-гейт→per-artifact→публикация; + установка/ключи).
 - Передать находки Diaret (recall, SD, phk).
-Связь: [[sozvon-10-30-status-lida-2026-07-21-analitiki-segodnia-qa-profil-iva-write-gotovyi-atlassian-mcp]]
+Связь: [[Созвон 10-30 + статус лида (2026-07-21)- аналитики сегодня, QA-профиль, iva-write = готовый Atlassian MCP]]

@@ -25,5 +25,5 @@ tags:
 - 2A/2B разблокированы решениями; исполняются после/параллельно по порядку плана.
 
 ## Связано
-- [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
-- [[lead-claim-timlid-na-smene-beriot-vkhodiashchii-plan-gd-2026-07-21]]
+- [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]
+- [[lead-claim — тимлид на смене, берёт входящий план ГД (2026-07-21)]]

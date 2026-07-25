@@ -23,7 +23,7 @@ tags:
 - **QA-профиль в проде и отдан команде.** Codex-переделка автотест-лейна (субагенты + write/fix/batch/jira → `spawn_agent`, ADR-0025/`codex_body_path`) сделана, смержена (PR #133 → #136 → #138 fix → #139 role-bump).
 - **Прод-каталог `tacticum_prod` (159.194.224.59):** цепочка сомкнута — installation `b258bb6b` pin **0.5.1** → лейн `iva-qa-autotest-base` **0.3.0** (+ `iva-qa-mcp` 0.1.0, `tacticum-core-base` 0.1.1). readyz 200 / MCP 401.
 - **Доступ выдан:** Брейкин (`n.breykin@iva.ru`) + Байрамбеков (`e.bayrambekov@iva.ru`) — у обоих личные токены, installation в workspace `base`. Токен per-person (не per-профиль). Ждём их первый прогон.
-- **Инструкция команде** отдана: [[iva-role-qa-ustanovka-i-rabota-dlia-komandy]] (репо `one-web-kmp`, стек pytest+playwright/canvas).
+- **Инструкция команде** отдана: [[iva-role-qa — установка и работа (для команды)]] (репо `one-web-kmp`, стек pytest+playwright/canvas).
 - **Проверено:** Level 0+1 статика (288 тестов), контролёр-гейт GO, Level-3 smoke на стенде `teststand` (38.180.236.39, под юзером `tacticum`): скиллы+агенты видны на codex 0.142.3, `spawn_agent` работает (`SPAWN_OK`).
 
 ## Следующий шаг

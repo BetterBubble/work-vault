@@ -15,7 +15,7 @@ tags:
 
 Разведка грунта под дизайн-спеку leaf-лейна `iva-write-base`. Read-only. Канон не пишу.
 
-Связь: [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+Связь: [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]
 
 > GUARDRAIL: analysis-сущности (`iva-analysis-base`, `iva-role-analyst`, их скиллы/манифесты) сегодня в проде у Diaret (обучение аналитиков) — **не трогать без эскалации**. Ниже читаю их только как образец.
 

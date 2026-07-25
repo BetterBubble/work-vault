@@ -13,7 +13,7 @@ tags:
 
 # Тимлид принял план в работу
 
-**Эта сессия тимлида приняла план [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]] в работу (2026-07-21).**
+**Эта сессия тимлида приняла план [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]] в работу (2026-07-21).**
 
 ## Что принято
 Три деливеравла ИВА: 2C my_todo (helm-analyst) · 2A iva-write · 2B три роли-пресета.
@@ -29,4 +29,4 @@ tags:
 
 ## Связано
 - [[session-state]]
-- [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+- [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]

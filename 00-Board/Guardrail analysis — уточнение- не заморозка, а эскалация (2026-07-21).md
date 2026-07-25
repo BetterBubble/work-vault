@@ -24,4 +24,4 @@ tags:
 По-прежнему дефолт: работа лида ведётся в helm (my_todo), новом лейне `iva-write-base` (новые файлы), новых ролях (новые файлы). Analysis-сущности трогаем только при необходимости — по правилу выше.
 
 ## Связано
-- [[plan-iva-tri-deliveravla-my-todo-iva-write-3-roli-approved-peredacha-lidu]]
+- [[plan-iva-tri-deliveravla (my_todo · iva-write · 3 роли) — APPROVED, передача лиду]]

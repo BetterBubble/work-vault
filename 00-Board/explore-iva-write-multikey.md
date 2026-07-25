@@ -15,7 +15,7 @@ tags:
 
 Read-only разведка механики мульти-ключевой аутентификации под дизайн лейна `iva-write-base` (2A). Канон не пишу.
 
-Связь: [[explore-iva-write-base]] · [[resheniia-po-2-a-iva-write-base-2026-07-21]] · [[konflikt-2-a-iva-write-adr-0058-lichnyi-pat-razvesti-do-dizaina]]
+Связь: [[explore-iva-write-base]] · [[Решения по 2A iva-write-base (2026-07-21)]] · [[⚠️ Конфликт 2A iva-write ↔ ADR-0058 (личный PAT) — развести до дизайна]]
 
 > GUARDRAIL: analysis-сущности читались только как образец, не трогались.
 

@@ -14,7 +14,7 @@ tags:
 # explore-my-todo-helm-analyst
 
 Разведка точек вшивки нового MCP-тула `my_todo` в helm-analyst. Read-only, правок нет.
-План: [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+План: [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]
 
 ## 0. Поправки к формулировке задачи (важно перед вшивкой)
 - **Тулов сейчас 18, не 17.** `grep '@mcp.tool()'` = 18; `test_all_tools_registered` перечисляет ровно 18 имён. `my_todo` будет **19-м**, а не 18-м. При добавлении обязательно расширить множество в тесте (иначе `test_all_tools_registered` падает — см. §5).

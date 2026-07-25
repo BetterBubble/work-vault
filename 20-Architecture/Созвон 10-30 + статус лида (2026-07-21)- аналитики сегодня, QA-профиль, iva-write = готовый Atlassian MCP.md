@@ -42,4 +42,4 @@ tags:
 QA-скиллы (`iva-qa.rar`) = **автотест-автоматизация** (Playwright/TestOps/Allure): write-autotest, batch-autotest, playwright-cli, fix-failed-test, run-tests, jira-issue-autotest, prepare-mr-branch, rebuild-autocore, retro. Лид собрал `iva-role-qa` из существующего (плейсхолдер) → **обогатить реальными QA-скиллами**. Развилка «кто генерит тест-кейсы» (аналитик vs QA) — TBD.
 
 ## Валидация профиля аналитика (идёт)
-На требовании Диск `1.5-d22bead37d3` через реальный `/start-feature`: FR ✅ (структура+достоверность, 2 находки recall — недообследовал API `/resources/*` и DESIGN-стр.131670871). Токен: получен СВОЙ (kb-verify разблокирован, Q-5 закрываем). См. [[verdikt-test-profilia-analitika-1-v-1-na-1.0-414-rabotaet-probel-tolko-v-tokene]].
+На требовании Диск `1.5-d22bead37d3` через реальный `/start-feature`: FR ✅ (структура+достоверность, 2 находки recall — недообследовал API `/resources/*` и DESIGN-стр.131670871). Токен: получен СВОЙ (kb-verify разблокирован, Q-5 закрываем). См. [[Вердикт- тест профиля аналитика 1-в-1 на 1.0-414 — работает, пробел только в токене]].

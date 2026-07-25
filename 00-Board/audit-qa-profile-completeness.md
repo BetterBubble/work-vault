@@ -69,4 +69,4 @@ tags:
 - [ ] to:director from:qa-audit Аудит комплектности QA-профиля: соответствует должному, комплектация полна на статике (9 скиллов+3 субагента+стек+helm read-срез+сужен write+env-санитизация, 73/73). GO на ПУШ; МЕРЖ — после docker-CI DB-тестов + ребейз на main; РЕАЛЬНАЯ отдача QA на тесты — за держателем one-web (provision+3 ключа+живой прогон). Развилка: субагенты gpt-5.4 vs opus. Детали [[audit-qa-profile-completeness]]
 
 ## Связано
-[[gate-qa-profile-bundle]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[recon-kit-full-qa-dorabotka]] · [[reshenie-test-keisy-pishut-analitiki-qa-dopolniaet-na-reviu-2026-07-23]] · [[adr-draft-model-vzaimodeistviia-profilei-analitik-qa-razrabotchik-skouping-mcp-po-roliam]] · [[verify-fakty-adr-model-profilei]]
+[[gate-qa-profile-bundle]] · [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[recon-kit-full-qa-dorabotka]] · [[Решение- тест-кейсы пишут аналитики, QA дополняет на ревью (2026-07-23)]] · [[ADR (draft) — Модель взаимодействия профилей- аналитик ↔ QA ↔ разработчик + скоупинг MCP по ролям]] · [[verify-факты- ADR модель профилей]]

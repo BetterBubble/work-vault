@@ -44,5 +44,5 @@ baseline: worktree `/Users/bubblemac/tacticum-worktrees/helm-my-todo`, ветк�
 Данные достоверны — расхождений с золотым эталоном нет. Тул `my_todo` (ветка tasks) на реальном прод-срезе воспроизводит эталон точь-в-точь по всем осям (open / blocked / high / matched) для обоих подопытных. Acceptance выполнен. Штатные регресс-тесты зелёные.
 
 ## Связано
-- [[zolotoi-etalon-my-todo-prod-srez-2026-07-10-dlia-verifier]]
+- [[Золотой эталон my_todo — прод-срез 2026-07-10 (для verifier)]]
 - [[impl-my-todo]]

@@ -60,4 +60,4 @@ create page + create issue + transition на песочном Jira/Confluence; �
 3. Финал auth-модели (техучётка/личный PAT) — по гриллу ADR-0058 сегодня; на манифест НЕ влияет, только на серверный деплой.
 
 ## Связано
-- [[explore-iva-write-multikey]] · [[Решения по 2A iva-write-base (2026-07-21)]] · [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
+- [[explore-iva-write-multikey]] · [[Решения по 2A iva-write-base (2026-07-21)]] · [[План- три деливеравла ИВА (iva-write - 3 роли - my_todo) — привязка к системе]]

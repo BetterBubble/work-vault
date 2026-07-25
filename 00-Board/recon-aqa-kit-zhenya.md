@@ -65,4 +65,4 @@ tags:
 - [ ] to:director from:aqa-scout Репо ivaqa/kit+toolkit НЕ прочитаны (нет PAT/ключа к приватному GitLab git.hi-tech.org); наша сторона: 9 скиллов = byte-copy из upstream Жени, нужен доступ + 3 def субагентов.
 
 ## Связано
-[[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[resheniia-po-qa-profiliu-trek-b-2026-07-21]] · [[qa-profile-model-opis-multi-stek-model-qa-leinov]]
+[[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · [[Решения по QA-профилю (Трек B) — 2026-07-21]] · [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]]

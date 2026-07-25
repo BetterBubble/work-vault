@@ -27,7 +27,7 @@ tags:
 
 Пошаговый план: как отдать готовый профиль QA-команде ИВА и как они заводят его у себя и начинают проверять. QA-команда работает на **Codex** — ведущий путь Codex, Claude Code — как альтернатива.
 
-Карта профиля: [[qa-profile-model-opis-multi-stek-model-qa-leinov]] · направление: [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · сценарий приёмки: [[verify-qa-kit-subagents]].
+Карта профиля: [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] · направление: [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] · сценарий приёмки: [[verify-qa-kit-subagents]].
 
 > **Порядок целиком.** Наша сторона: PR → merge → сид в каталог → провижн installation (Diaret) → выдать токены. Сторона QA: подключить tacticum-mcp → агент вытягивает профиль → прописать секреты → первый прогон.
 
@@ -133,7 +133,7 @@ export JIRA_PERSONAL_TOKEN="<личный PAT>"
 
 ## Связано
 
-- [[qa-profile-model-opis-multi-stek-model-qa-leinov]] — карта профиля
+- [[qa-profile-model — опись + мульти-стэк модель QA-лейнов]] — карта профиля
 - [[Направление- Профили → QA-профиль (iva-role-qa) + AQA-toolkit ИВА]] — направление
 - [[verify-qa-kit-subagents]] — сценарий приёмки
 - [[gate-qa-profile-bundle]] — вердикт гейта
