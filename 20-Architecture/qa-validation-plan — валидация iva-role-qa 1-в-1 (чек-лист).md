@@ -1,0 +1,50 @@
+---
+title: qa-validation-plan — валидация iva-role-qa 1-в-1 (чек-лист)
+type: note
+permalink: tacticum/20-architecture/qa-validation-plan-validatsiia-iva-role-qa-1-v-1-chek-list
+status: ready-when-defs
+role: lead (тимлид)
+date: 2026-07-21
+tags:
+- qa
+- validation
+- role-presets
+- checklist
+- tacticum-dev
+---
+
+# План валидации QA-профиля 1-в-1 (по образцу валидации аналитика)
+
+Готовый чек-лист. Запускается, КОГДА придут 3 недостающих `agent_spec` (codebase-analyst/dom-explorer/code-writer) и они вшиты в лейн. Цель — доказать, что `iva-role-qa` реально гоняет автотест-цикл на one-web, а не «зелёный тест на бумаге». Правило: **зелёное ≠ верное** — сверка на реальном прогоне.
+
+## Предусловия
+- [ ] 3 `agent_spec` добавлены в `iva-qa-autotest-base`, тест композиции снова зелёный.
+- [ ] `iva-role-qa` провижнится в рабочее пространство (seed_profile / seed_community CLI); рендерятся все 3 лейна — 9 скиллов + 3 агента + MCP `iva-write` + core.
+- [ ] Доступ к репо `one-web` (autocore-venv, `tools/testops`, `.gitlab-ci`), локальные бинари allurectl/glab/playwright-cli.
+- [ ] Реальный тест-кейс (TC) под конкретную фичу one-web (из Allure TestOps / постановки аналитика).
+- [ ] Доступ к Allure TestOps (проверить публикацию результата).
+
+## Прогон end-to-end (реальный TC, не синтетика)
+1. **Провижн** — установить роль, убедиться: все ингредиенты на месте (скиллы + агенты + iva-write), окружение one-web поднято.
+2. **Генерация** — `write-autotest` (использует codebase-analyst/dom-explorer/code-writer) на реальном TC → сгенерён автотест-код (pytest/Selenium), локаторы через `playwright-cli`.
+3. **Прогон** — `run-tests` / `playwright-cli` → тест исполняется против one-web, получить результат.
+4. **Починка** — спровоцировать/встретить падение → `fix-failed-test` → тест починен (проверить таксономию/локализацию из references).
+5. **Публикация** — результат уходит в Allure TestOps через `tools/testops` — сверить, что кейс/статус реально появились.
+6. **MR** — `prepare-mr-branch` → корректная MR-ветка/вывод (glab), дифф вменяемый.
+7. **Batch (опц.)** — `batch-autotest` на нескольких TC — масштабирование.
+
+## Сверка достоверности («зелёное ≠ верное»)
+- [ ] Сгенерённый тест реально проходит ШАГИ TC (GIVEN/WHEN/THEN), а не тривиально «assert True».
+- [ ] Результат в Allure TestOps соответствует фактическому прогону (не рассинхрон).
+- [ ] MR-дифф содержит осмысленный тест-код, привязанный к фиче, а не заглушку.
+- [ ] `fix-failed-test` чинит по реальной причине (сверить с taxonomy/localization), а не маскирует (xfail без причины).
+- [ ] Сверка с эталоном: сравнить с тем, как автотест написал бы человек/уже существующий кейс.
+
+## Acceptance
+Один реальный TC проходит весь цикл (генерация → прогон → починка → публикация → MR) на живом one-web, артефакты достоверны. Только после этого — раздача QA.
+
+## Эскалация
+Если скилл упирается в отсутствующий субагент/тул/доступ — стоп, флаг ГД/QA-команде, не подгонять «зелёное».
+
+## Связано
+- [[qa-profile-model]] · [[plan-qa-profile-obogatit-iva-role-qa-realnymi-qa-skillami-trek-b-lidu]] · [[verify-data-credibility]]

@@ -29,11 +29,11 @@ permalink: tacticum/stack-guide
 
 - **Твой дейли:**
   ```
-  transcribe-md --mic 0 --duration 60 ~/tacticum-vault/00-Inbox/call-$(date +%Y-%m-%d-%H%M)-daily.md
+  transcribe-md --mic 0 --duration 60 ~/tacticum-vault/00-Board/call-$(date +%Y-%m-%d-%H%M)-daily.md
   ```
 - **Смежная команда:**
   ```
-  transcribe-md --mic 0 --duration 60 ~/tacticum-vault/00-Inbox/call-$(date +%Y-%m-%d-%H%M)-other-team.md
+  transcribe-md --mic 0 --duration 60 ~/tacticum-vault/00-Board/call-$(date +%Y-%m-%d-%H%M)-other-team.md
   ```
 - В конце созвона — **Ctrl+C** в том терминале. Потом → `/after-call` (сам поймёт тип по хвосту имени: `-daily` = полный разбор, `-other-team` = «на касание»).
 - Хвост имени важен — по нему `/after-call` выбирает угол разбора.
@@ -55,15 +55,15 @@ permalink: tacticum/stack-guide
 - Рефактор / перенос кода между файлами/репо, «найди все call-sites», extract в платформу → **активируй Serena**
 - Нужен точный API библиотеки → **Context7** («use context7»)
 - Лезешь в вики → префикс тенанта + `search_pages`
-- Приняли важное решение, которое нигде не записано → обнови память (заметка в `03-Decisions/`) или `/wrap`
+- Приняли важное решение, которое нигде не записано → обнови память (заметка в `21-Decisions/`) или `/wrap`
 
 ## Память: как устроена
 Vault `~/tacticum-vault` (Обсидиан + Basic Memory). Папки:
-- `00-Inbox/` — входящее, транскрипты созвонов
-- `01-Repos/` — карта репозиториев
-- `02-Architecture/` — архитектура, `glossary`, `wiki-mcp-usage`
-- `03-Decisions/` — ADR/решения (связаны ссылками = граф)
-- `04-Sessions/` — `session-state` (чекпойнт), `daily-*`, `work-log` (для Акта)
+- `00-Board/` — входящее, транскрипты созвонов
+- `10-Projects/` — карта репозиториев
+- `20-Architecture/` — архитектура, `glossary`, `wiki-mcp-usage`
+- `21-Decisions/` — ADR/решения (связаны ссылками = граф)
+- `01-Sessions/` — `session-state` (чекпойнт), `daily-*`, `work-log` (для Акта)
 - `90-Materials/` — материалы
 
 Контекст переживает переход в новый чат: `/wrap` (или хук PreCompact на длинной сессии) роняет чекпойнт → новый чат поднимает его через `/catchup`/SessionStart.

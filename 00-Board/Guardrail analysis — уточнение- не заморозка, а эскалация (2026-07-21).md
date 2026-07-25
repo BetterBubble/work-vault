@@ -1,0 +1,27 @@
+---
+title: 'Guardrail analysis — уточнение: не заморозка, а эскалация (2026-07-21)'
+type: note
+permalink: tacticum/00-board/guardrail-analysis-utochnenie-ne-zamorozka-a-eskalatsiia-2026-07-21
+status: active
+role: lead (тимлид)
+date: 2026-07-21
+tags:
+- guardrail
+- analysis
+- escalation
+- lead
+---
+
+# Уточнение guardrail по analysis-сущностям
+
+Хендофф ГД трактовал как жёсткую заморозку. **Пользователь смягчил (2026-07-21):**
+
+**`iva-analysis-base` / `iva-role-analyst` (их скиллы/манифесты) — НЕ «никогда не трогать».**
+Трогать МОЖНО, но:
+1. **Безопасно** — минимальные, обратимые правки, без риска сломать текущий профиль аналитика (сегодня Diaret учит на нём аналитиков ~10:30).
+2. **С эскалацией** — до правки прийти к пользователю с конкретикой (что меняю, зачем, риск для обучения) и получить OK. Без OK — не менять.
+
+По-прежнему дефолт: работа лида ведётся в helm (my_todo), новом лейне `iva-write-base` (новые файлы), новых ролях (новые файлы). Analysis-сущности трогаем только при необходимости — по правилу выше.
+
+## Связано
+- [[plan-iva-tri-deliveravla-my-todo-iva-write-3-roli-approved-peredacha-lidu]]

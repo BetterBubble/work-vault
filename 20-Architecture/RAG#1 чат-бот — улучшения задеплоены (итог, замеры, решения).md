@@ -1,0 +1,54 @@
+---
+title: RAG#1 чат-бот — улучшения задеплоены (итог, замеры, решения)
+type: report
+permalink: tacticum/20-architecture/rag-1-chat-bot-uluchsheniia-zadeploeny-itog-zamery-resheniia
+status: current
+tags:
+- rag1
+- bot
+- docs_ask
+- helm
+- deploy
+- shipped
+- latency
+- clarify
+- rerank
+- decision
+---
+
+# RAG#1 чат-бот — улучшения задеплоены (2026-07-20)
+
+Направление: чат-бот RAG#1 по ИВА (ассистент публичной документации, ядро `DocsAssistant.ask`; поверхности — бот «Поддержка» + веб `/docs`). Запрос пользователя: ответы долгие (латентность + многословность), добавить уточняющие вопросы, +улучшения. Стек из 5 фаз реализован, проверен, **задеплоен на прод helm.tacticum.ru** (PR #81, merge-коммит на main). Клэрифай ships OFF.
+
+## Что задеплоено (ветка feat/rag1-ph5-clarify-llm → main → прод)
+- **Ф1 краткость** — системный промпт TL;DR+буллеты+цитаты; `docs_answer_max_tokens 1536→700` (env-откат `HELM_DOCS_ANSWER_MAX_TOKENS`); параллелизация Qdrant∥Meili в `_hybrid` (`search.py`).
+- **Ф3 cap реранка** — `docs_rerank_candidate_cap=20` (`config.py`), режет вход реранка ДО реранка в `ask`. **Главный рычаг латентности.**
+- **Ф2/Ф5 уточняющие вопросы** — стор `docs_clarify_pending` (chatRoomId+TTL, кап ≤2, обходит stateless-контракт бота БЕЗ платформы), оркестратор `interface/api/docs_clarify.py` + петли в `routers/bot_support.py` и `docs.py`. Триггер — **решение LLM-генерации** (маркер `[[CLARIFY]]`), НЕ score-гейт. **`docs_clarify_enabled=False` (спит)** до включения+теста.
+- **Ф4 DocsQa→eval** — экспортёр `helm.eval.docs_qa_export` (веб-история вопросов → golden-формат, read-only).
+- Миграция `docs_clarify_pending` (`d2c3b4a5e6f7`) накатана (`alembic upgrade head`).
+- Живой конфиг прод: `max_tokens=700, rerank_candidate_cap=20, docs_clarify_enabled=False, docs_rerank_enabled=True` (реранк на проде ВКЛ; `docs_rerank_floor=None` — анти-галл. пол не активен, это прежнее поведение).
+
+## Замеры на проде
+- **Латентность — узкое место = РЕРАНКЕР, не ретрив.** Ретрив-стадии (embed 63 / Qdrant 22 / Meili 21) ≈ 106мс. Реранк ~1.1с. **cap=20 → −40% реранка (1086→643мс) при hit@5=1.000** (прямой замер; cap<20 роняет recall: 12→0.96, 10→0.92). Абсолют плавает с нагрузкой Gateway. Ф1b-параллелизация для скорости почти бесполезна (стадии тривиальны) — оставлена как гигиена.
+- **Качество ретрива стабильно:** recall@5 0.98, answer_in_context@5 «до» 0.879 / «после» 0.86, mrr 0.92, ndcg 0.93.
+- **Качество ответа (judge):** база «до» — correctness **0.796**, faithfulness 0.963, relevance 0.963 (60 кейсов, golden-184). **«После» judge-correctness НЕ снят** — judge-Gateway очень медленный (~20с/кейс), не влезает в 300с-окно ssh-manager, повторные прогоны грузили Qdrant (408). Живые ответы визуально отличные (точные, verbatim-цитаты) → риск регресса низкий.
+- Длина: медиана «до» 688 симв, хвост p90 1729/max 2625 — сжатый промпт бьёт по хвосту (эффект от задеплоенного промпта, env-тест max_tokens дал +1% т.к. промпт не был на проде).
+
+## Ключевые решения (почему так)
+- **cap реранка = 20** — выбран замером (оптимум скорость/качество; ниже 20 роняет recall).
+- **Триггер clarify = LLM-в-генерации, НЕ score-порог.** Причина: замер показал, что реранк-скоры **бимодальны** (реальные ~1.0 / мусор ~0.0), полоса clarify по порогу пустая → автотриггер мёртв; продукт-диверсити шумит (ложные переспросы). LLM видит контекст и решает надёжнее, 0 доп-латентности. Вариант C (условный реранк) отклонён (конфликт с гейтом, нет сигнала). Кэш и стриминг — отклонены пользователем (модель не поддерживает стриминг; кэш не нужен).
+- **clarify default OFF** — не мешать уверенным ответам, включать осознанно после теста.
+
+## Golden с эталонами (новое, для замеров качества)
+`iva-rag1-docs/golden/golden_iva_rag1.eval200.json` — 184 кейса, факты verbatim-заземлены (guard vs первоисточник, aic=1.0), генератор `tacticum/cheap` (не циркулярно с продуктовым RAG-vLLM). Раньше golden был БЕЗ эталонов → judge-качество не считалось. Инфра генерации: `iva-rag1-docs/golden/answer_eval/gen_ideal_answers.py`.
+
+## Осталось (следующий заход)
+1. **Включить уточняющие вопросы** — `docs_clarify_enabled=1` (env на проде) + тест на неоднозначных vs явных запросах (переспрашивает по делу, не ложно), оставить если ок.
+2. **Досмотреть judge-correctness «после»** — один спокойный детач-прогон вне пиков, сравнить с базой 0.796.
+
+## Ops-уроки (helm деплой/замеры)
+- Деплой: `/opt/helm` ff под `tacticum-deploy` до origin/main → `SEED=0 bash scripts/deploy.sh` (rebuild + `alembic upgrade head`, deploy.sh сам мигрирует) → verify (webhook POST=401 fail-closed = жив). На проде дрейф `scripts/helm_daily_refresh.sh` (chmod-only) + untracked `_front/_incidents/_run/bin/` — не наши, не трогали.
+- **Только ОДИН eval за раз** — параллельные docs_eval перегружают Qdrant → 408 (задевает и живой путь). Контейнер стирает temp `/app` при rebuild (golden перезаливать с `/root`). SSH с мака к helm недоступен (алиас только в ssh-manager, окно 300с).
+
+## Связано
+- [[rag-1-bot-plan-uluchshenii-kratkost-utochniaiushchie-voprosy-approved]] · [[rag-1-zamer-na-prode-latentnost-dlina-kliuchevye-nakhodki]] · [[rag-1-clarify-trigger-u-score-geita-net-signala-nakhodka-kalibrovki-t]] · [[bot-podderzhka-webhook-rag-1-v-chat-iva-zadeploen]] · [[session-state]]

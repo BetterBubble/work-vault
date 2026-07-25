@@ -1,0 +1,32 @@
+---
+title: lead-claim — тимлид на смене, берёт входящий план ГД (2026-07-21)
+type: note
+permalink: tacticum/00-board/lead-claim-timlid-na-smene-beriot-vkhodiashchii-plan-gd-2026-07-21
+status: accepted
+role: lead (тимлид)
+date: 2026-07-21
+tags:
+- lead
+- claim
+- handoff
+---
+
+# Тимлид принял план в работу
+
+**Эта сессия тимлида приняла план [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]] в работу (2026-07-21).**
+
+## Что принято
+Три деливеравла ИВА: 2C my_todo (helm-analyst) · 2A iva-write · 2B три роли-пресета.
+
+## Стоп-точка перед стартом
+Ждёт решения пользователя по **3 архитектурным развилкам** (см. план, раздел «Три развилки на апрув»):
+1. iva-write как отдельный лейн `iva-write-base` — подтвердить.
+2. Архитектор: Вариант A (реюз iva-analysis-base, MVP) vs B — рекомендация A.
+3. iva-write = продакшн существующего write-канала fr-authoring — подтвердить.
+
+## Готов стартовать без ожидания
+- **2C my_todo** — блокеров нет, развилки не гейтят. Первым.
+
+## Связано
+- [[session-state]]
+- [[plan-tri-deliveravla-iva-iva-write-3-roli-my-todo-priviazka-k-sisteme]]
