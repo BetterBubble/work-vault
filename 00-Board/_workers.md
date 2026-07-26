@@ -74,3 +74,46 @@ START без STOP = воркер не вернулся; повисших пок�
 - 2026-07-26 21:15 STOP  ?            spawner=— agent=a8fb76a8 sess=d2b374c0 ·  · ok
 - 2026-07-26 21:23 STOP  general-purpose spawner=— agent=ad2019e1 sess=d2b374c0 · 14м · ok
 - 2026-07-26 21:26 STOP  general-purpose spawner=— agent=a4da0388 sess=d2b374c0 · 17м · ok
+- 2026-07-26 21:29 START critic       spawner=— agent=a3a242a6 sess=d2b374c0 · 
+- 2026-07-26 21:29 START general-purpose spawner=— agent=af71c629 sess=d2b374c0 · 
+- 2026-07-26 21:29 STOP  ?            spawner=— agent=a80e08e1 sess=d2b374c0 ·  · ok
+- 2026-07-26 21:34 START Explore      spawner=— agent=a7631445 sess=d2b374c0 · 
+- 2026-07-26 21:34 START Explore      spawner=— agent=a3e3ae08 sess=d2b374c0 · 
+- 2026-07-26 21:38 START claude-code-guide spawner=— agent=ae1dc457 sess=d2b374c0 · 
+- 2026-07-26 21:40 STOP  claude-code-guide spawner=— agent=ae1dc457 sess=d2b374c0 · 2м · ok
+- 2026-07-26 21:40 STOP  Explore      spawner=— agent=a7631445 sess=d2b374c0 · 6м · ok
+- 2026-07-26 21:41 STOP  ?            spawner=— agent=a6044d17 sess=d2b374c0 ·  · ok
+- 2026-07-26 21:42 STOP  Explore      spawner=— agent=a3e3ae08 sess=d2b374c0 · 8м · ok
+- 2026-07-26 21:44 STOP  general-purpose spawner=— agent=af71c629 sess=d2b374c0 · 15м · ok
+- 2026-07-26 21:53 STOP  critic       spawner=— agent=a3a242a6 sess=d2b374c0 · 24м · ok
+- 2026-07-26 21:54 STOP  ?            spawner=— agent=a6dfa8fd sess=d2b374c0 ·  · ok
+- 2026-07-26 22:04 STOP  ?            spawner=— agent=a1242964 sess=d2b374c0 ·  · ok
+- 2026-07-26 22:42 STOP  ?            spawner=— agent=ac32914e sess=d2b374c0 ·  · ok
+- 2026-07-26 22:43 START general-purpose spawner=— agent=a62f36f3 sess=d2b374c0 · 
+- 2026-07-26 22:44 START general-purpose spawner=— agent=ae3be518 sess=d2b374c0 · 
+- 2026-07-26 22:44 START critic       spawner=— agent=a55f1f31 sess=d2b374c0 · 
+- 2026-07-26 22:45 START general-purpose spawner=— agent=a2178c3b sess=d2b374c0 · 
+- 2026-07-26 22:54 START general-purpose spawner=— agent=a4c46a82 sess=d2b374c0 · 
+- 2026-07-26 22:55 STOP  ?            spawner=— agent=aafcf8bb sess=d2b374c0 ·  · ok
+- 2026-07-26 22:57 STOP  critic       spawner=— agent=a55f1f31 sess=d2b374c0 · 13м · ok
+- 2026-07-26 23:00 STOP  general-purpose spawner=— agent=a62f36f3 sess=d2b374c0 · 17м · ok
+- 2026-07-26 23:04 STOP  general-purpose spawner=— agent=a4c46a82 sess=d2b374c0 · 10м · ok
+- 2026-07-26 23:06 START general-purpose spawner=— agent=ae143c20 sess=d2b374c0 · 
+- 2026-07-26 23:13 STOP  general-purpose spawner=— agent=ae3be518 sess=d2b374c0 · 29м · ok
+- 2026-07-26 23:15 START general-purpose spawner=— agent=a86f1c08 sess=d2b374c0 · 
+- 2026-07-26 23:16 STOP  general-purpose spawner=— agent=a2178c3b sess=d2b374c0 · 31м · ok
+- 2026-07-26 23:16 STOP  general-purpose spawner=— agent=ae143c20 sess=d2b374c0 · 10м · ok
+- 2026-07-26 23:17 START general-purpose spawner=— agent=ade5151f sess=d2b374c0 · 
+- 2026-07-26 23:22 STOP  ?            spawner=— agent=a399e283 sess=d2b374c0 ·  · ok
+- 2026-07-26 23:22 STOP  general-purpose spawner=— agent=a86f1c08 sess=d2b374c0 · 7м · ok
+- 2026-07-26 23:23 STOP  general-purpose spawner=— agent=ade5151f sess=d2b374c0 · 6м · ok
+- 2026-07-26 23:24 STOP  ?            spawner=— agent=ab59bd4e sess=d2b374c0 ·  · ok
+- 2026-07-26 23:24 STOP  ?            spawner=— agent=a4e22219 sess=d2b374c0 ·  · ok
+- 2026-07-26 23:45 STOP  ?            spawner=— agent=ae8514a8 sess=d2b374c0 ·  · ok
+- 2026-07-26 23:49 START general-purpose spawner=— agent=a86f1c08 sess=d2b374c0 · 
+- 2026-07-26 23:50 START general-purpose spawner=— agent=ade5151f sess=d2b374c0 · 
+- 2026-07-27 00:00 STOP  ?            spawner=— agent=afaf3993 sess=d2b374c0 ·  · ok
+- 2026-07-27 00:04 STOP  general-purpose spawner=— agent=a86f1c08 sess=d2b374c0 · 15м · ok
+- 2026-07-27 00:08 STOP  ?            spawner=— agent=af126f79 sess=d2b374c0 ·  · ok
+- 2026-07-27 00:11 STOP  general-purpose spawner=— agent=ade5151f sess=d2b374c0 · 21м · ok
+- 2026-07-27 00:11 STOP  ?            spawner=— agent=ae1d5c7e sess=d2b374c0 ·  · ok
