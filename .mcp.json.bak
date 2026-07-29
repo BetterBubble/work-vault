@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "taiga": {
+      "type": "sse",
+      "url": "https://project.cifragen.ru/mcp/sse",
+      "headers": {
+        "Authorization": "Bearer phk_abb7bc847489b21b6d16ba53566c6ec5"
+      }
+    },
+    "wiki-mcp": {
+      "type": "sse",
+      "url": "https://wiki.cifragen.ru/mcp/sse",
+      "headers": {
+        "Authorization": "Bearer phk_abb7bc847489b21b6d16ba53566c6ec5"
+      }
+    },
+    "iva-mcp": {
+      "type": "http",
+      "url": "https://mcp.tacticum.ru/iva-atlassian/mcp",
+      "headers": {
+        "Authorization": "Bearer phk_abb7bc847489b21b6d16ba53566c6ec5"
+      }
+    },
+    "helm-analyst": {
+      "type": "http",
+      "url": "https://helm.tacticum.ru/mcp/analyst",
+      "headers": {
+        "Authorization": "Bearer phk_abb7bc847489b21b6d16ba53566c6ec5"
+      }
+    }
+  }
+}

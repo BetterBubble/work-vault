@@ -28,7 +28,7 @@ tags:
 ## Внутренние продукты (платформа Tacticum)
 - **platform** — Core-слой (консолидация кода, SDK, контракты, профили деплоя). Taiga: `tacticum-platform` (#20).
 - **agents** (LangGraph Builder) — backend мульти-агентных ботов (Telegram/REST). Taiga: `tacticum-agents` (#18).
-- **tacticum-dev** (catalog-mcp) — SaaS «virtual dev team» + каталог агентов/скиллов/MCP. Taiga: `tacticum-tacticum_dev` (#12).
+- **[[tacticum-dev]]** (catalog-mcp) — каталог агентных профилей (ADP) для команд заказчика + **дом технической дизайн-системы** (с 28.07). Основной проект работы: четыре активных направления. Taiga: `tacticum-tacticum_dev` (#12).
 - **graph-builder** (TactFlow) — визуальный конструктор графов/ботов + Rasa-симулятор. Taiga: — (уточнить).
 
 ## Инфраструктура / песочницы
