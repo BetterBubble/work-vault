@@ -341,3 +341,24 @@ START без STOP = воркер не вернулся; повисших пок�
 - 2026-08-06 18:32 START verify-750   spawner=lead-backlog agent=averify- sess=4dbd61a9 · 
 - 2026-08-06 18:32 STOP  ?803ea1      spawner=lead-backlog agent=a803ea1c sess=4dbd61a9 · START? · ok
 - 2026-08-06 18:33 STOP  ?405846      spawner=lead-backlog agent=a4058460 sess=4dbd61a9 · START? · ok
+- 2026-08-06 18:36 STOP  ?60e9be      spawner=lead-backlog agent=a60e9beb sess=4dbd61a9 · START? · ok
+- 2026-08-06 18:37 STOP  ?180bda      spawner=director agent=a180bda3 sess=ae1cd259 · START? · ok
+- 2026-08-06 18:38 STOP  explore-775  spawner=lead-backlog agent=aexplore sess=4dbd61a9 · 18м · ok
+- 2026-08-06 18:38 STOP  ?eeaf1f      spawner=lead-backlog agent=aeeaf1fb sess=4dbd61a9 · START? · ok
+- 2026-08-06 18:39 STOP  verify-750   spawner=lead-backlog agent=averify- sess=4dbd61a9 · 7м · ok
+- 2026-08-06 18:41 STOP  ?9445fb      spawner=lead-backlog agent=a9445fbb sess=4dbd61a9 · START? · ok
+- 2026-08-06 18:41 STOP  ctrl-816     spawner=lead-backlog agent=actrl-81 sess=4dbd61a9 · 16м · ok
+- 2026-08-06 18:41 START ctrl-816     spawner=lead-backlog agent=actrl-81 sess=4dbd61a9 · 
+- 2026-08-06 18:43 STOP  critic-816-b spawner=lead-backlog agent=acritic- sess=4dbd61a9 · 18м · ok
+- 2026-08-06 18:44 STOP  impl-750-fix spawner=lead-backlog agent=aimpl-75 sess=4dbd61a9 · 15м · ok
+- 2026-08-06 18:44 START impl-750-fix spawner=lead-backlog agent=aimpl-75 sess=4dbd61a9 · 
+- 2026-08-06 18:44 STOP  impl-816     spawner=lead-backlog agent=aimpl-81 sess=4dbd61a9 · 15м · ok
+- 2026-08-06 18:44 START impl-816     spawner=lead-backlog agent=aimpl-81 sess=4dbd61a9 · 
+- 2026-08-06 18:44 STOP  ctrl-816     spawner=lead-backlog agent=actrl-81 sess=4dbd61a9 · 3м · ok
+- 2026-08-06 18:44 START ctrl-816     spawner=lead-backlog agent=actrl-81 sess=4dbd61a9 · 
+- 2026-08-06 18:44 STOP  critic-816-a spawner=lead-backlog agent=acritic- sess=4dbd61a9 · 19м · ok
+- 2026-08-06 18:45 STOP  impl-816     spawner=lead-backlog agent=aimpl-81 sess=4dbd61a9 · 1м · ok
+- 2026-08-06 18:46 STOP  ?2c0f01      spawner=lead-backlog agent=a2c0f019 sess=4dbd61a9 · START? · ok
+- 2026-08-06 18:46 START impl-816     spawner=lead-backlog agent=aimpl-81 sess=4dbd61a9 · 
+- 2026-08-06 18:49 STOP  ctrl-816     spawner=lead-backlog agent=actrl-81 sess=4dbd61a9 · 5м · ok
+- 2026-08-06 18:50 START ctrl-816     spawner=lead-backlog agent=actrl-81 sess=4dbd61a9 · 
