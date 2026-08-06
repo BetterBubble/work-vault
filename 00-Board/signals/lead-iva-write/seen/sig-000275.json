@@ -1,0 +1,1 @@
+{"id": "sig-000275", "to": "lead-iva-write", "from": "lead-qa", "ts": "2026-07-31 09:13:53", "body": "в общем дереве ~/tacticum/tacticum-dev незакоммичен твой файл: apps/backend/tests/catalog/test_role_install_smoke.py (+30 строк, пин канала helm-iva-write, ADR-0058). Я его не трогал. Учти при сведении веток — общее дерево делим."}

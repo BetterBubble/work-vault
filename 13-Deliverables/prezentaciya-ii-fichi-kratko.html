@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Интеллектуальные фичи — что готово, как делаем, сколько стоит</title>
+<style>
+  :root{
+    --bg:#0d1b1a; --bg2:#102523; --ink:#eaf3f1; --dim:#9fb6b2;
+    --accent:#41e0c0; --accent2:#7fd8ff; --line:#1f3d39;
+    --warn:#ffb454; --bad:#ff6b6b; --good:#41e0c0; --proto:#b48cff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  .deck{max-width:1100px;margin:0 auto;padding:32px 20px 70px}
+  .slide{background:linear-gradient(160deg,var(--bg2),#0b1c1a);border:1px solid var(--line);
+    border-radius:14px;padding:32px 36px;margin:0 0 20px;page-break-after:always}
+  .num{font:600 12px/1 ui-monospace,Menlo,monospace;color:var(--accent);
+    letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
+  h1{font-size:34px;line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
+  h2{font-size:26px;line-height:1.2;margin:0 0 14px;letter-spacing:-.01em}
+  h3{font-size:13px;margin:18px 0 6px;color:var(--accent);text-transform:uppercase;
+    letter-spacing:.08em;font-weight:600}
+  .sub{color:var(--dim);font-size:17px;margin:0 0 16px}
+  .lead{font-size:19px;line-height:1.45}
+  p{margin:0 0 10px}
+  ul{margin:0 0 10px;padding-left:19px} li{margin:4px 0}
+  table{width:100%;border-collapse:collapse;margin:8px 0 12px;font-size:14.5px}
+  th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+  .wrap{overflow-x:auto}
+  .tag{display:inline-block;padding:2px 9px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+  .t-have{background:rgba(65,224,192,.15);color:var(--good);border:1px solid rgba(65,224,192,.35)}
+  .t-hid{background:rgba(127,216,255,.13);color:var(--accent2);border:1px solid rgba(127,216,255,.32)}
+  .t-proto{background:rgba(180,140,255,.14);color:var(--proto);border:1px solid rgba(180,140,255,.35)}
+  .t-part{background:rgba(255,180,84,.14);color:var(--warn);border:1px solid rgba(255,180,84,.35)}
+  .t-none{background:rgba(255,107,107,.13);color:var(--bad);border:1px solid rgba(255,107,107,.32)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:14px 0}
+  .card{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+  .card .k{color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+    font-weight:600;margin-bottom:5px}
+  .big{font-size:28px;font-weight:700;letter-spacing:-.02em}
+  .cost{font-size:22px;font-weight:700;color:var(--accent)}
+  .cols{display:grid;grid-template-columns:1.15fr 1fr;gap:22px}
+  @media(max-width:760px){.cols{grid-template-columns:1fr}.slide{padding:22px 18px}h1{font-size:26px}}
+  .note{border-left:3px solid var(--accent);padding:8px 0 8px 14px;color:var(--dim);font-size:14px;margin:12px 0}
+</style>
+</head>
+<body>
+<div class="deck">
+
+<!-- 1 -->
+<section class="slide">
+  <div class="num">Аудит · план · оценка</div>
+  <h1>Интеллектуальные фичи продуктов</h1>
+  <p class="sub">Что уже готово, как делаем остальное, сколько это стоит</p>
+  <p class="lead"><b>Главное: ИИ-ядро у вас уже есть и работает в проде.</b> Оно вынесено
+    в отдельный продукт Terra и подключено только к ВКС. Почта и чаты к нему не обращаются.
+    Строить ИИ с нуля не нужно — нужен слой между готовым ядром и остальными продуктами.</p>
+  <div class="grid">
+    <div class="card"><div class="k">По вашей таблице</div><div class="big">19 пунктов</div>
+      <div>4 работают · 2 сделаны, но не выведены на экран · 5 в прототипе · 8 предстоит</div></div>
+    <div class="card"><div class="k">Оценка</div><div class="big">518–865</div>
+      <div>человеко-дней разработки на всё</div></div>
+    <div class="card"><div class="k">Первый результат</div><div class="big">месяц</div>
+      <div>один человек — конспект встречи на экране</div></div>
+  </div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="num">Слайд 2 · Что уже готово</div>
+  <h2>Ваша таблица со статусами</h2>
+  <div class="wrap"><table>
+    <tr><th>Продукт · колонка «Действие»</th><th>Статус</th></tr>
+    <tr><td>IVA GPT · субтитры, перевод</td><td><span class="tag t-have">работает</span></td></tr>
+    <tr><td><b>Звонки и ВКС · протокол → поручения</b></td><td><span class="tag t-hid">сделано, не выведено на экран</span></td></tr>
+    <tr><td><b>IVA GPT · конспекты</b></td><td><span class="tag t-hid">сделано, не выведено на экран</span></td></tr>
+    <tr><td>IVA Диск · документ как источник действия</td><td><span class="tag t-part">частично: расшифровка есть</span></td></tr>
+    <tr><td>IVA Mail · письмо → задача</td><td><span class="tag t-proto">в прототипе</span></td></tr>
+    <tr><td>IVA One · агент действий, память</td><td><span class="tag t-proto">в прототипе</span></td></tr>
+    <tr><td>IVA GPT · корпоративная память</td><td><span class="tag t-proto">в прототипе</span></td></tr>
+    <tr><td>SmartApp · маркетплейс</td><td><span class="tag t-proto">в прототипе</span></td></tr>
+    <tr><td>Чаты · боты и агенты</td><td><span class="tag t-part">платформа есть, ИИ в ней нет</span></td></tr>
+    <tr><td>Задачи · агент создаёт из встреч и писем</td><td><span class="tag t-part">модуль задач есть, ИИ нет</span></td></tr>
+    <tr><td>Суммаризация сообщений <i>(названа вами на созвоне)</i></td><td><span class="tag t-none">предстоит</span></td></tr>
+    <tr><td>IVA Mail · память переписки</td><td><span class="tag t-none">предстоит</span></td></tr>
+    <tr><td>IVA Диск · поиск по содержимому</td><td><span class="tag t-none">предстоит</span></td></tr>
+    <tr><td>IVA GPT · модели, маскирование ПДн, журнал</td><td><span class="tag t-none">предстоит</span></td></tr>
+    <tr><td>Интеграции · коннекторы к 1С, CRM, ЭДО</td><td><span class="tag t-none">предстоит</span></td></tr>
+  </table></div>
+  <div class="note">Не разбирали: IVA MCU, ROOM, SBC, CS/Largo, IVA360 — это про конвергенцию
+    продуктов, а не про интеллектуальные функции.</div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="num">Слайд 3 · Находка</div>
+  <h2>Конспект встречи уже считается — его никто не видит</h2>
+  <div class="cols">
+    <div>
+      <h3>На сервере</h3>
+      <p>По окончании стенограммы сервер получает от Terra и раскладывает <b>три документа</b>:
+        расшифровку, <b>поручения</b> (с ответственными и сроками) и <b>конспект</b>.</p>
+    </div>
+    <div>
+      <h3>У пользователя</h3>
+      <p>Сообщение «Стенограмма остановлена, найдите её в разделе Файлы» — и папка с файлами.
+        Отдельного экрана нет: ни один клиент результат не показывает.</p>
+    </div>
+  </div>
+  <div class="note"><b>Проверить до начала работ:</b> включена ли настройка у заказчиков
+    и развёрнут ли языковой модуль — он требует отдельной видеокарты. Проверка занимает часы.</div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="num">Слайд 4 · Как делаем</div>
+  <h2>Один шлюз вместо интеграций «каждый с каждым»</h2>
+  <div class="cols">
+    <div>
+      <h3>Четыре модуля</h3>
+      <p><b>Шлюз</b> — разрешённые модели и маршрутизация, маскирование персональных данных,
+        журнал ИИ, квоты.<br>
+      <b>Очередь задач</b> — долгая работа не держит пользователя.<br>
+      <b>Коннекторы</b> — чаты, почта, диск, встречи: отдают текст с правами, принимают результат.<br>
+      <b>Продуктовые фичи</b> — кнопки и экраны.</p>
+    </div>
+    <div>
+      <h3>Почему так</h3>
+      <p>Формат ответа ядра нештатный — тянуть его в четыре продукта значит четырежды повторить
+        одну хрупкость.</p>
+      <p>Модели должны быть сменными по политике, а не по коду: требование заказчиков —
+        обработка только в контролируемом контуре.</p>
+      <p>Часть шлюза уже есть: у языкового модуля готовый API с проверкой ключа и промпты
+        по языкам.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="num">Слайд 5 · Фича</div>
+  <h2>Карточка итогов встречи</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>Ничего не считаем заново. Включаем существующую настройку, забираем три готовых
+        документа и показываем в карточке мероприятия.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Проверка на стенде: развёрнут ли модуль, приходит ли непустой конспект</li>
+        <li>Карточка итогов в интерфейсе</li>
+        <li>Кнопка «отправить участникам»</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Карточка итогов</td><td>8–15</td></tr>
+        <tr><td>Список языков субтитров</td><td>1,5–3</td></tr>
+      </table>
+      <div class="cost">10–18 человеко-дней</div>
+      <div class="note">Один человек, месяц с учётом проверки стенда.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="num">Слайд 6 · Фича</div>
+  <h2>Итоги встречи → в почту и в задачи</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>Конспект и поручения уже есть — теперь они уходят за пределы карточки мероприятия:
+        письмом участникам и задачами исполнителям.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Зафиксировать формат ответа ядра в шлюзе</li>
+        <li>Настройки получателей: все / только отсутствовавшие / доп. адреса</li>
+        <li>Шаблон протокола и отправка после встречи</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table><tr><td>Доставка и настройки получателей</td><td>15–25</td></tr></table>
+      <div class="cost">15–25 человеко-дней</div>
+      <div class="note">Совпадает с запросом, который уже лежит у вас в очереди на оценку продукта.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="num">Слайд 7 · Фича</div>
+  <h2>ИИ-шлюз</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>Единая точка входа для всех продуктов: какие модели разрешены и куда идёт запрос,
+        маскирование персональных данных, журнал обращений, квоты и связь с лицензией.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Контракт задачи: тип, источник, права, ответ</li>
+        <li>Реестр моделей и маршрутизация</li>
+        <li>Маскирование ПДн с проверкой на реальных данных</li>
+        <li>Журнал и квоты</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Реестр, маршрутизация, журнал, квоты</td><td>25–40</td></tr>
+        <tr><td>Маскирование ПДн</td><td>15–25</td></tr>
+        <tr><td>Очередь задач</td><td>20–30</td></tr>
+      </table>
+      <div class="cost">60–95 человеко-дней</div>
+      <div class="note">Снижено: готовый API с проверкой ключа, промпты по языкам и проверка
+        ответов модели у языкового модуля уже есть.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="num">Слайд 8 · Фича</div>
+  <h2>Суммаризация треда в чате</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>Языковой модуль уже умеет конспект — он делает его для встреч. Работа в коннекторе:
+        доступ к истории с правами, нарезка длинного треда, кнопка.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Коннектор чатов с проверкой прав</li>
+        <li>Нарезка длинных обсуждений</li>
+        <li>Промпт и замер качества на реальной переписке</li>
+        <li>Кнопка в треде</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Коннектор чатов</td><td>25–40</td></tr>
+        <tr><td>Промпты и качество</td><td>20–35</td></tr>
+      </table>
+      <div class="cost">45–75 человеко-дней</div>
+      <div class="note">Такую фичу начинали в 2024 и закрыли с формулировкой «отменена ввиду
+        смешения курса по ботам». Стоит решить, что изменилось.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <div class="num">Слайд 9 · Фича</div>
+  <h2>Почта: саммари ветки, письмо → задача</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>В почте нет ни одной строки ИИ — самая большая интеграционная работа. Основа для
+        цепочек писем есть, модуль задач тоже. Нужен коннектор и продуктовый слой.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Коннектор почты: доступ к цепочке писем</li>
+        <li>Саммари ветки по кнопке</li>
+        <li>Извлечение поручений с подтверждением пользователем</li>
+        <li>Определение важности письма</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Коннектор почты</td><td>40–70</td></tr>
+        <tr><td>Письмо → задача</td><td>20–30</td></tr>
+      </table>
+      <div class="cost">60–100 человеко-дней</div>
+      <div class="note">Почту ведёт отдельная команда и отдельное юрлицо — нужна договорённость
+        до начала работ, иначе оценка условна.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <div class="num">Слайд 10 · Фича</div>
+  <h2>Боты, агенты и маркетплейс</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>Платформа ботов работает в проде на всех клиентах. Нужно подключить к ней языковой
+        модуль через шлюз и перенести каталог мини-приложений из прототипа в продукт.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Агент как бот: ответы идут через шлюз</li>
+        <li>Каталог: категории, права, избранное</li>
+        <li>Разделить «мини-приложение» и «агент»</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Агент поверх платформы ботов</td><td>20–30</td></tr>
+        <tr><td>Каталог и права</td><td>25–40</td></tr>
+      </table>
+      <div class="cost">45–70 человеко-дней</div>
+      <div class="note">Второй по дешевизне результат: точка подключения внешних ассистентов
+        уже есть и клиенты менять не нужно.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <div class="num">Слайд 11 · Фича</div>
+  <h2>Поиск по смыслу и по документам</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p>Поиска по смыслу нет ни в одном продукте — везде поиск по словам. Строим модель
+        представлений, хранилище и конвейер индексации; в почте надстраиваем смысл над уже
+        существующим серверным индексом.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Модель представлений и хранилище в контуре</li>
+        <li>Индексация по одной поверхности, начиная с чатов</li>
+        <li>Извлечение текста из документов</li>
+        <li>Замер качества до включения пользователям</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Модель и хранилище</td><td>25–40</td></tr>
+        <tr><td>Конвейер индексации</td><td>40–70</td></tr>
+        <tr><td>Совместное ранжирование</td><td>30–50</td></tr>
+        <tr><td>Смысл поверх поиска почты</td><td>15–30</td></tr>
+        <tr><td>Текст из документов</td><td>20–35</td></tr>
+      </table>
+      <div class="cost">130–225 человеко-дней</div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 -->
+<section class="slide">
+  <div class="num">Слайд 12 · Фича</div>
+  <h2>Корпоративная память и агент действий</h2>
+  <div class="cols">
+    <div>
+      <h3>Как делаем</h3>
+      <p><b>Память</b> — связи «человек ↔ тема ↔ обязательство» поверх всех поверхностей.
+        <b>Агент</b> — набор инструментов: создать задачу, назначить встречу, отправить письмо;
+        каждое действие с подтверждением и записью в аудит.</p>
+      <h3>План</h3>
+      <ul>
+        <li>Модель связей и хранилище памяти</li>
+        <li>Политика хранения и права доступа</li>
+        <li>Инструменты агента и подтверждение действий</li>
+        <li>Коннекторы к 1С, CRM, ЭДО</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Оценка по модулям</h3>
+      <table>
+        <tr><td>Память коммуникаций</td><td>50–90</td></tr>
+        <tr><td>Агент действий</td><td>60–100</td></tr>
+        <tr><td>Коннекторы к внешним системам</td><td>25–40</td></tr>
+      </table>
+      <div class="cost">135–230 человеко-дней</div>
+      <div class="note">Модуль задач в мобильном клиенте уже готов — действовать агенту есть чем.
+        Ограничение на коннекторах: не найдено ни одного.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 -->
+<section class="slide">
+  <div class="num">Слайд 13 · Сводка</div>
+  <h2>Порядок и общая оценка</h2>
+  <div class="wrap"><table>
+    <tr><th>Этап</th><th>Что входит</th><th>Человеко-дни</th><th>Срок</th></tr>
+    <tr><td><b>0 — показать готовое</b></td><td>карточка итогов встречи, языки субтитров</td>
+        <td><b>10–18</b></td><td>месяц · 1 человек</td></tr>
+    <tr><td><b>1 — почти есть</b></td><td>шлюз, маскирование ПДн, очередь, итоги в почту и задачи,
+        конспект голосовых и файлов на диске</td><td><b>93–147</b></td><td>2–3 мес · 2–3 человека</td></tr>
+    <tr><td><b>2 — ядро есть, продукта нет</b></td><td>коннекторы чатов и почты, суммаризация треда,
+        саммари письма, агент в ботах, каталог</td><td><b>150–245</b></td><td>+3–4 мес · 3 человека</td></tr>
+    <tr><td><b>3 — строим с нуля</b></td><td>поиск по смыслу и документам, память, агент действий,
+        коннекторы</td><td><b>265–455</b></td><td>+6–9 мес · 3–4 человека</td></tr>
+    <tr><td><b>Всего</b></td><td>—</td><td><b>518–865</b></td><td><b>12–17 месяцев</b></td></tr>
+  </table></div>
+  <div class="note"><b>Что в оценку не входит:</b> тестирование, аналитика, документация,
+    испытания и сертификация — это только разработка. По вашим же данным тестирование составляет
+    5–25 % от разработки. <b>Железо отдельно:</b> языковой модуль требует своей видеокарты
+    сверх той, что нужна Terra.</div>
+</section>
+
+</div>
+</body>
+</html>

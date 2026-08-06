@@ -1,0 +1,510 @@
+---
+title: workers-2026-08
+type: note
+permalink: tacticum/91-archive/workers-2026-08-1
+---
+
+- 2026-07-29 15:55 STOP  ?            spawner=lead-qa agent=a7bf3c4a sess=598cba87 ·  · ok
+- 2026-07-29 15:57 STOP  ?            spawner=lead-qa agent=a78bb7ef sess=598cba87 ·  · ok
+- 2026-07-29 16:00 START impl-qa-razrez spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 16:02 STOP  ?            spawner=lead-qa agent=a12e9b84 sess=598cba87 ·  · ok
+- 2026-07-29 16:03 STOP  ?            spawner=director agent=a10b0237 sess=ffea5621 ·  · ok
+- 2026-07-29 16:03 STOP  ?            spawner=lead-iva-write agent=a7f3c1af sess=60487989 ·  · ok
+- 2026-07-29 16:05 STOP  ?            spawner=lead-qa agent=a93576cd sess=598cba87 ·  · ok
+- 2026-07-29 16:05 STOP  ?            spawner=lead-iva-write agent=ac8b2da8 sess=60487989 ·  · ok
+- 2026-07-29 16:06 STOP  ?            spawner=lead-iva-write agent=a7275b1b sess=60487989 ·  · ok
+- 2026-07-29 16:09 STOP  ?            spawner=lead-iva-write agent=af93f037 sess=60487989 ·  · ok
+- 2026-07-29 16:16 STOP  impl-gatefix spawner=lead-iva-write agent=aimpl-ga sess=60487989 · 21м · ok
+- 2026-07-29 16:16 START impl-gatefix spawner=lead-iva-write agent=aimpl-ga sess=60487989 · 
+- 2026-07-29 16:22 STOP  ?            spawner=lead-qa agent=af2581d1 sess=598cba87 ·  · ok
+- 2026-07-29 16:24 STOP  ?            spawner=lead-qa agent=af209680 sess=598cba87 ·  · ok
+- 2026-07-29 16:28 STOP  ?            spawner=lead-qa agent=a41f0c1e sess=598cba87 ·  · ok
+- 2026-07-29 16:30 STOP  ?            spawner=lead-qa agent=a36f61d0 sess=598cba87 ·  · ok
+- 2026-07-29 16:33 STOP  ?            spawner=lead-qa agent=a0431539 sess=598cba87 ·  · ok
+- 2026-07-29 16:34 STOP  impl-qa-razrez spawner=lead-qa agent=aimpl-qa sess=598cba87 · 34м · ok
+- 2026-07-29 16:34 START impl-qa-razrez spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 16:38 START impl-qa-split-fix spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 16:38 STOP  ?            spawner=lead-qa agent=a402d1e9 sess=598cba87 ·  · ok
+- 2026-07-29 16:38 STOP  impl-gatefix spawner=lead-iva-write agent=aimpl-ga sess=60487989 · 22м · ok
+- 2026-07-29 16:41 START gate-final   spawner=lead-iva-write agent=agate-fi sess=60487989 · 
+- 2026-07-29 16:41 STOP  ?            spawner=lead-qa agent=ab887adf sess=598cba87 ·  · ok
+- 2026-07-29 16:43 STOP  ?            spawner=lead-qa agent=a0c4ec1b sess=598cba87 ·  · ok
+- 2026-07-29 16:43 STOP  impl-qa-razrez spawner=lead-qa agent=aimpl-qa sess=598cba87 · 5м · ok
+- 2026-07-29 16:43 START impl-qa-razrez spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 16:43 STOP  impl-qa-razrez spawner=lead-qa agent=aimpl-qa sess=598cba87 · 0м · ok
+- 2026-07-29 16:43 START impl-qa-etap2 spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 16:44 STOP  ?            spawner=director agent=a99d7f43 sess=ffea5621 ·  · ok
+- 2026-07-29 16:44 STOP  ?            spawner=lead-iva-write agent=abcb0870 sess=60487989 ·  · ok
+- 2026-07-29 16:47 STOP  ?            spawner=director agent=a8841751 sess=ffea5621 ·  · ok
+- 2026-07-29 16:48 STOP  impl-qa-split-fix spawner=lead-qa agent=aimpl-qa sess=598cba87 · 5м · ok
+- 2026-07-29 16:48 STOP  ?            spawner=lead-qa agent=aa993cac sess=598cba87 ·  · ok
+- 2026-07-29 16:49 STOP  ?            spawner=lead-qa agent=ad6eedde sess=598cba87 ·  · ok
+- 2026-07-29 16:49 STOP  ?            spawner=lead-qa agent=a5af4844 sess=598cba87 ·  · ok
+- 2026-07-29 16:51 STOP  ?            spawner=lead-qa agent=abdb1045 sess=598cba87 ·  · ok
+- 2026-07-29 16:51 STOP  gate-final   spawner=lead-iva-write agent=agate-fi sess=60487989 · 10м · ok
+- 2026-07-29 16:52 START gate-final   spawner=lead-iva-write agent=agate-fi sess=60487989 · 
+- 2026-07-29 16:53 STOP  gate-final   spawner=lead-iva-write agent=agate-fi sess=60487989 · 1м · ok
+- 2026-07-29 16:53 STOP  ?            spawner=lead-qa agent=a5fd5981 sess=598cba87 ·  · ok
+- 2026-07-29 16:54 START impl-loginfix spawner=lead-iva-write agent=aimpl-lo sess=60487989 · 
+- 2026-07-29 16:56 STOP  ?            spawner=lead-iva-write agent=af073eaa sess=60487989 ·  · ok
+- 2026-07-29 16:57 START verify-qa-karta spawner=lead-qa agent=averify- sess=598cba87 · 
+- 2026-07-29 16:57 STOP  ?            spawner=lead-qa agent=a31fcf9f sess=598cba87 ·  · ok
+- 2026-07-29 16:59 STOP  ?            spawner=lead-iva-write agent=ae8282eb sess=60487989 ·  · ok
+- 2026-07-29 17:01 STOP  impl-loginfix spawner=lead-iva-write agent=aimpl-lo sess=60487989 · 7м · ok
+- 2026-07-29 17:03 STOP  impl-qa-etap2 spawner=lead-qa agent=aimpl-qa sess=598cba87 · 20м · ok
+- 2026-07-29 17:03 START impl-qa-etap2 spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 17:03 STOP  ?            spawner=lead-qa agent=a4375a94 sess=598cba87 ·  · ok
+- 2026-07-29 17:07 STOP  verify-qa-karta spawner=lead-qa agent=averify- sess=598cba87 · 10м · ok
+- 2026-07-29 17:07 START verify-qa-karta spawner=lead-qa agent=averify- sess=598cba87 · 
+- 2026-07-29 17:08 STOP  ?            spawner=lead-qa agent=acb6d5aa sess=598cba87 ·  · ok
+- 2026-07-29 17:09 STOP  ?            spawner=lead-iva-write agent=aed16fab sess=60487989 ·  · ok
+- 2026-07-29 17:09 STOP  ?            spawner=director agent=ab1e90f1 sess=ffea5621 ·  · ok
+- 2026-07-29 17:10 STOP  verify-qa-karta spawner=lead-qa agent=averify- sess=598cba87 · 3м · ok
+- 2026-07-29 17:10 STOP  impl-qa-etap2 spawner=lead-qa agent=aimpl-qa sess=598cba87 · 7м · ok
+- 2026-07-29 17:12 STOP  ?            spawner=lead-qa agent=a050a23b sess=598cba87 ·  · ok
+- 2026-07-29 17:13 START gate-qa-split spawner=lead-qa agent=agate-qa sess=598cba87 · 
+- 2026-07-29 17:13 STOP  ?            spawner=lead-qa agent=a27f0b83 sess=598cba87 ·  · ok
+- 2026-07-29 17:29 STOP  ?            spawner=lead-qa agent=abcab111 sess=598cba87 ·  · ok
+- 2026-07-29 17:30 STOP  ?            spawner=lead-iva-write agent=a9773835 sess=60487989 ·  · ok
+- 2026-07-29 17:30 STOP  ?            spawner=lead-qa agent=a6b854f1 sess=598cba87 ·  · ok
+- 2026-07-29 17:31 STOP  gate-qa-split spawner=lead-qa agent=agate-qa sess=598cba87 · 18м · ok
+- 2026-07-29 17:31 START impl-qa-postmr-fix spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 17:31 STOP  ?            spawner=lead-qa agent=a9a14127 sess=598cba87 ·  · ok
+- 2026-07-29 17:32 STOP  ?            spawner=lead-qa agent=a02bc904 sess=598cba87 ·  · ok
+- 2026-07-29 17:33 STOP  ?            spawner=lead-qa agent=aa6d2171 sess=598cba87 ·  · ok
+- 2026-07-29 17:34 STOP  ?            spawner=lead-qa agent=aa96a72a sess=598cba87 ·  · ok
+- 2026-07-29 17:36 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 17:40 STOP  impl-qa-postmr-fix spawner=lead-qa agent=aimpl-qa sess=598cba87 · 4м · ok
+- 2026-07-29 17:41 STOP  ?            spawner=lead-qa agent=a5ce90d3 sess=598cba87 ·  · ok
+- 2026-07-29 17:44 STOP  ?            spawner=lead-iva-write agent=aa3b0e2e sess=60487989 ·  · ok
+- 2026-07-29 17:44 STOP  ?            spawner=lead-qa agent=aa51798f sess=598cba87 ·  · ok
+- 2026-07-29 17:50 STOP  ?            spawner=lead-iva-write agent=a99d7745 sess=60487989 ·  · ok
+- 2026-07-29 18:07 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 31м · ok
+- 2026-07-29 18:08 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 18:09 START impl-qa-core-neutral spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 18:11 STOP  ?            spawner=lead-qa agent=af43e42f sess=598cba87 ·  · ok
+- 2026-07-29 18:12 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 3м · ok
+- 2026-07-29 18:12 STOP  impl-qa-core-neutral spawner=lead-qa agent=aimpl-qa sess=598cba87 · 3м · ok
+- 2026-07-29 18:13 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 18:17 STOP  ?            spawner=lead-qa agent=a3af97a3 sess=598cba87 ·  · ok
+- 2026-07-29 18:32 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 19м · ok
+- 2026-07-29 18:38 START gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 
+- 2026-07-29 18:41 STOP  ?            spawner=director agent=a2c5c235 sess=ffea5621 ·  · ok
+- 2026-07-29 18:42 STOP  ?            spawner=lead-qa agent=a627e681 sess=598cba87 ·  · ok
+- 2026-07-29 18:53 STOP  gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 15м · ok
+- 2026-07-29 18:54 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 18:59 STOP  ?            spawner=lead-qa agent=a63d924b sess=598cba87 ·  · ok
+- 2026-07-29 19:06 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 12м · ok
+- 2026-07-29 19:08 START gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 
+- 2026-07-29 19:13 STOP  ?            spawner=lead-qa agent=a880f595 sess=598cba87 ·  · ok
+- 2026-07-29 19:17 STOP  gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 9м · ok
+- 2026-07-29 19:17 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 19:22 STOP  ?            spawner=lead-qa agent=afe44593 sess=598cba87 ·  · ok
+- 2026-07-29 19:24 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 7м · ok
+- 2026-07-29 19:27 START verify-qa-install spawner=lead-qa agent=averify- sess=598cba87 · 
+- 2026-07-29 19:30 STOP  ?            spawner=director agent=a5747265 sess=ffea5621 ·  · ok
+- 2026-07-29 19:31 STOP  ?            spawner=lead-qa agent=a65ed008 sess=598cba87 ·  · ok
+- 2026-07-29 19:43 STOP  verify-qa-install spawner=lead-qa agent=averify- sess=598cba87 · 16м · ok- 2026-07-29 19:48 STOP  ?            spawner=lead-qa agent=a32ddb39 sess=598cba87 ·  · ok
+- 2026-07-29 19:49 STOP  ?            spawner=director agent=a15ec575 sess=ffea5621 ·  · ok
+- 2026-07-29 21:07 STOP  ?            spawner=lead-qa agent=adee8b3f sess=598cba87 ·  · ok
+- 2026-07-29 21:10 STOP  ?            spawner=lead-qa agent=acdb871e sess=598cba87 ·  · ok
+- 2026-07-29 21:13 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 21:14 START explore-qa-gaps spawner=lead-qa agent=aexplore sess=598cba87 · 
+- 2026-07-29 21:17 STOP  ?            spawner=lead-qa agent=a320cf1e sess=598cba87 ·  · ok
+- 2026-07-29 21:23 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 10м · ok
+- 2026-07-29 21:24 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 21:25 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 1м · ok
+- 2026-07-29 21:28 STOP  ?            spawner=director agent=a7ee68e0 sess=ffea5621 ·  · ok
+- 2026-07-29 21:28 STOP  ?            spawner=lead-qa agent=ae5fd9d9 sess=598cba87 ·  · ok
+- 2026-07-29 21:31 STOP  explore-qa-gaps spawner=lead-qa agent=aexplore sess=598cba87 · 17м · ok
+- 2026-07-29 21:31 START explore-qa-gaps spawner=lead-qa agent=aexplore sess=598cba87 · 
+- 2026-07-29 21:33 STOP  explore-qa-gaps spawner=lead-qa agent=aexplore sess=598cba87 · 2м · ok
+- 2026-07-29 21:34 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 21:36 STOP  ?            spawner=lead-qa agent=a23cac29 sess=598cba87 ·  · ok
+- 2026-07-29 21:36 STOP  ?            spawner=lead-iva-write agent=a5ce5a34 sess=60487989 ·  · ok
+- 2026-07-29 21:39 STOP  ?            spawner=lead-iva-write agent=a66926f1 sess=60487989 ·  · ok
+- 2026-07-29 21:41 STOP  ?            spawner=lead-iva-write agent=a462d80c sess=60487989 ·  · ok
+- 2026-07-29 21:41 STOP  ?            spawner=lead-qa agent=a284da6d sess=598cba87 ·  · ok
+- 2026-07-29 21:44 STOP  ?            spawner=lead-iva-write agent=a552c24f sess=60487989 ·  · ok
+- 2026-07-29 21:52 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 18м · ok
+- 2026-07-29 21:52 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 21:54 STOP  ?            spawner=lead-qa agent=a4cae6b3 sess=598cba87 ·  · ok
+- 2026-07-29 22:02 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 10м · ok
+- 2026-07-29 22:02 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 22:04 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 2м · ok
+- 2026-07-29 22:04 STOP  ?            spawner=lead-qa agent=afe252c3 sess=598cba87 ·  · ok
+- 2026-07-29 22:05 START gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 
+- 2026-07-29 22:05 STOP  ?            spawner=lead-qa agent=a941cdc0 sess=598cba87 ·  · ok
+- 2026-07-29 22:15 STOP  gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 10м · ok
+- 2026-07-29 22:15 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 22:15 STOP  ?            spawner=lead-qa agent=a5741f62 sess=598cba87 ·  · ok
+- 2026-07-29 22:16 STOP  ?            spawner=lead-qa agent=ace3556a sess=598cba87 ·  · ok
+- 2026-07-29 22:22 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 7м · ok
+- 2026-07-29 22:24 START gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 
+- 2026-07-29 22:24 STOP  ?            spawner=lead-qa agent=a22a0046 sess=598cba87 ·  · ok
+- 2026-07-29 22:24 STOP  ?            spawner=lead-qa agent=a2e28b0f sess=598cba87 ·  · ok
+- 2026-07-29 22:30 STOP  gate-qa-web  spawner=lead-qa agent=agate-qa sess=598cba87 · 6м · ok
+- 2026-07-29 22:30 START impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 
+- 2026-07-29 22:31 STOP  ?            spawner=lead-qa agent=a315a340 sess=598cba87 ·  · ok
+- 2026-07-29 22:31 STOP  ?            spawner=lead-qa agent=a2b28636 sess=598cba87 ·  · ok
+- 2026-07-29 22:35 STOP  impl-qa-role-web spawner=lead-qa agent=aimpl-qa sess=598cba87 · 5м · ok
+- 2026-07-29 22:37 STOP  ?            spawner=lead-qa agent=a1f698b8 sess=598cba87 ·  · ok
+- 2026-07-29 22:38 STOP  ?            spawner=lead-qa agent=ab0d0d1f sess=598cba87 ·  · ok
+- 2026-07-29 22:42 STOP  ?            spawner=director agent=af69d79f sess=ffea5621 ·  · ok
+- 2026-07-29 22:45 STOP  ?            spawner=lead-iva-write agent=af0033a9 sess=60487989 ·  · ok
+- 2026-07-30 09:37 START verify-iva-write-branch spawner=lead-iva-write agent=averify- sess=6f15b870 · 
+- 2026-07-30 09:39 STOP  ?            spawner=director agent=aee738c7 sess=609b0218 ·  · ok
+- 2026-07-30 09:40 START docs-atlassian-rights spawner=lead-iva-write agent=adocs-at sess=6f15b870 · 
+- 2026-07-30 09:41 START probe-iva-rights spawner=lead-iva-write agent=aprobe-i sess=6f15b870 · 
+- 2026-07-30 09:41 STOP  ?            spawner=lead-iva-write agent=aa167873 sess=6f15b870 ·  · ok
+- 2026-07-30 09:43 STOP  verify-iva-write-branch spawner=lead-iva-write agent=averify- sess=6f15b870 · 6м · ok
+- 2026-07-30 09:44 START verify-iva-write-branch spawner=lead-iva-write agent=averify- sess=6f15b870 · 
+- 2026-07-30 09:46 STOP  probe-iva-rights spawner=lead-iva-write agent=aprobe-i sess=6f15b870 · 5м · ok
+- 2026-07-30 09:49 STOP  verify-iva-write-branch spawner=lead-iva-write agent=averify- sess=6f15b870 · 5м · ok
+- 2026-07-30 09:50 STOP  ?            spawner=lead-iva-write agent=a76208ec sess=6f15b870 ·  · ok
+- 2026-07-30 09:50 STOP  ?            spawner=lead-iva-write agent=a320298b sess=6f15b870 ·  · ok
+- 2026-07-30 09:51 STOP  docs-atlassian-rights spawner=lead-iva-write agent=adocs-at sess=6f15b870 · 11м · ok
+- 2026-07-30 09:52 STOP  ?            spawner=lead-iva-write agent=aa67c3b9 sess=6f15b870 ·  · ok
+- 2026-07-30 09:54 STOP  ?            spawner=lead-iva-write agent=ace51fe1 sess=6f15b870 ·  · ok
+- 2026-07-30 09:58 STOP  ?            spawner=lead-iva-write agent=afc2c873 sess=6f15b870 ·  · ok
+- 2026-07-30 10:01 STOP  ?            spawner=lead-iva-write agent=a8d42471 sess=6f15b870 ·  · ok
+- 2026-07-30 10:18 STOP  ?            spawner=lead-iva-write agent=ac1ab9b3 sess=6f15b870 ·  · ok
+- 2026-07-30 10:24 STOP  ?            spawner=lead-iva-write agent=a30e6bad sess=6f15b870 ·  · ok
+- 2026-07-30 10:25 STOP  ?            spawner=lead-qa agent=aa44f26a sess=d1b63a0f ·  · ok
+- 2026-07-30 10:42 STOP  ?            spawner=lead-qa agent=a2698db3 sess=d1b63a0f ·  · ok
+- 2026-07-30 10:45 STOP  ?            spawner=lead-qa agent=a81ee020 sess=d1b63a0f ·  · ok
+- 2026-07-30 11:06 STOP  ?            spawner=lead-iva-write agent=a6fad768 sess=6f15b870 ·  · ok
+- 2026-07-30 11:11 STOP  ?            spawner=lead-iva-write agent=a91b6f05 sess=6f15b870 ·  · ok
+- 2026-07-30 11:12 STOP  ?            spawner=director agent=a9cd6218 sess=609b0218 ·  · ok
+- 2026-07-30 11:20 START verify-after-merge spawner=lead-iva-write agent=averify- sess=6f15b870 · 
+- 2026-07-30 11:20 STOP  ?            spawner=lead-qa agent=a86202d2 sess=d1b63a0f ·  · ok
+- 2026-07-30 11:20 START gate-deploy-safety spawner=lead-iva-write agent=agate-de sess=6f15b870 · 
+- 2026-07-30 11:20 STOP  ?            spawner=lead-iva-write agent=ac8b094d sess=6f15b870 ·  · ok
+- 2026-07-30 11:24 STOP  ?            spawner=lead-iva-write agent=a2287913 sess=6f15b870 ·  · ok
+- 2026-07-30 11:28 STOP  verify-after-merge spawner=lead-iva-write agent=averify- sess=6f15b870 · 8м · ok
+- 2026-07-30 11:30 START verify-after-merge spawner=lead-iva-write agent=averify- sess=6f15b870 · 
+- 2026-07-30 11:33 STOP  ?            spawner=lead-iva-write agent=a30f938f sess=6f15b870 ·  · ok
+- 2026-07-30 11:35 STOP  gate-deploy-safety spawner=lead-iva-write agent=agate-de sess=6f15b870 · 15м · ok
+- 2026-07-30 11:37 STOP  verify-after-merge spawner=lead-iva-write agent=averify- sess=6f15b870 · 7м · ok
+- 2026-07-30 11:42 STOP  ?            spawner=lead-iva-write agent=a5a5edaa sess=6f15b870 ·  · ok
+- 2026-07-30 11:46 START accept-goal-ivawrite spawner=director agent=aaccept- sess=609b0218 · 
+- 2026-07-30 11:46 START accept-prod-ivawrite spawner=director agent=aaccept- sess=609b0218 · 
+- 2026-07-30 11:54 STOP  ?            spawner=lead-iva-write agent=add67eae sess=6f15b870 ·  · ok
+- 2026-07-30 11:54 STOP  accept-goal-ivawrite spawner=director agent=aaccept- sess=609b0218 · 8м · ok
+- 2026-07-30 11:55 STOP  ?            spawner=director agent=adb68707 sess=609b0218 ·  · ok
+- 2026-07-30 11:55 START accept-goal-ivawrite spawner=director agent=aaccept- sess=609b0218 · 
+- 2026-07-30 11:55 STOP  ?            spawner=director agent=af84654a sess=609b0218 ·  · ok
+- 2026-07-30 11:56 STOP  accept-goal-ivawrite spawner=director agent=aaccept- sess=609b0218 · 1м · ok
+- 2026-07-30 11:57 START accept-goal-ivawrite spawner=director agent=aaccept- sess=609b0218 · 
+- 2026-07-30 11:57 STOP  ?            spawner=director agent=a2699b81 sess=609b0218 ·  · ok
+- 2026-07-30 11:59 STOP  accept-goal-ivawrite spawner=director agent=aaccept- sess=609b0218 · 2м · ok
+- 2026-07-30 12:00 STOP  ?            spawner=director agent=a3e54b72 sess=609b0218 ·  · ok
+- 2026-07-30 12:00 STOP  ?            spawner=director agent=a4903942 sess=609b0218 ·  · ok
+- 2026-07-30 12:00 STOP  accept-prod-ivawrite spawner=director agent=aaccept- sess=609b0218 · 3м · ok
+- 2026-07-30 12:01 START accept-prod-ivawrite spawner=director agent=aaccept- sess=609b0218 · 
+- 2026-07-30 12:01 STOP  ?            spawner=director agent=a821f530 sess=609b0218 ·  · ok
+- 2026-07-30 12:01 STOP  ?            spawner=lead-iva-write agent=a485a134 sess=6f15b870 ·  · ok
+- 2026-07-30 12:03 STOP  accept-prod-ivawrite spawner=director agent=aaccept- sess=609b0218 · 2м · ok
+- 2026-07-30 12:03 START fix-instruction spawner=lead-iva-write agent=afix-ins sess=6f15b870 · 
+- 2026-07-30 12:06 STOP  ?            spawner=director agent=abf49561 sess=609b0218 ·  · ok
+- 2026-07-30 12:07 STOP  ?            spawner=director agent=a96fb132 sess=609b0218 ·  · ok
+- 2026-07-30 12:09 STOP  fix-instruction spawner=lead-iva-write agent=afix-ins sess=6f15b870 · 6м · ok
+- 2026-07-30 12:11 STOP  ?            spawner=lead-qa agent=a0fc693e sess=d1b63a0f ·  · ok
+- 2026-07-30 12:13 STOP  ?            spawner=director agent=ac4db206 sess=609b0218 ·  · ok
+- 2026-07-30 12:16 STOP  ?            spawner=director agent=a64c6513 sess=609b0218 ·  · ok
+- 2026-07-30 12:21 STOP  ?            spawner=lead-iva-write agent=a9542f07 sess=6f15b870 ·  · ok
+- 2026-07-30 12:26 STOP  ?            spawner=lead-qa agent=a3da48c4 sess=d1b63a0f ·  · ok
+- 2026-07-30 12:31 STOP  ?            spawner=director agent=a7bbf18f sess=609b0218 ·  · ok
+- 2026-07-30 12:32 STOP  ?            spawner=lead-iva-write agent=aad58f85 sess=6f15b870 ·  · ok
+- 2026-07-30 12:35 STOP  ?            spawner=lead-qa agent=ac14f18d sess=d1b63a0f ·  · ok
+- 2026-07-30 12:36 STOP  ?            spawner=director agent=a69e77b4 sess=609b0218 ·  · ok
+- 2026-07-30 12:37 STOP  ?            spawner=lead-iva-write agent=a90e66b2 sess=6f15b870 ·  · ok
+- 2026-07-30 12:37 STOP  ?            spawner=director agent=a1213dd2 sess=609b0218 ·  · ok
+- 2026-07-30 12:38 STOP  ?            spawner=lead-qa agent=a1076711 sess=d1b63a0f ·  · ok
+- 2026-07-30 12:39 STOP  ?            spawner=lead-iva-write agent=a80cf082 sess=6f15b870 ·  · ok
+- 2026-07-30 21:42 STOP  ?            spawner=lead-iva-write agent=a700c728 sess=6f15b870 ·  · ok
+- 2026-07-30 21:46 STOP  ?            spawner=lead-iva-write agent=a7033056 sess=6f15b870 ·  · ok
+- 2026-07-30 21:52 STOP  ?            spawner=lead-qa agent=aebe80ee sess=d1b63a0f ·  · ok
+- 2026-07-30 21:52 STOP  ?            spawner=director agent=a7e06fe5 sess=609b0218 ·  · ok
+- 2026-07-30 21:56 START explore-profile-wiring spawner=lead-iva-write agent=aexplore sess=6f15b870 · 
+- 2026-07-30 21:57 STOP  ?            spawner=lead-iva-write agent=a6d59a3d sess=6f15b870 ·  · ok
+- 2026-07-30 22:00 STOP  ?            spawner=lead-qa agent=a23d8f80 sess=d1b63a0f ·  · ok
+- 2026-07-30 22:00 STOP  ?            spawner=lead-iva-write agent=ac98ce65 sess=6f15b870 ·  · ok
+- 2026-07-30 22:03 STOP  explore-profile-wiring spawner=lead-iva-write agent=aexplore sess=6f15b870 · 7м · ok
+- 2026-07-30 22:04 STOP  ?            spawner=lead-iva-write agent=ae7c27c5 sess=6f15b870 ·  · ok
+- 2026-07-30 22:06 STOP  ?            spawner=director agent=aba4666d sess=609b0218 ·  · ok
+- 2026-07-30 22:07 STOP  ?            spawner=lead-iva-write agent=a0610b4e sess=6f15b870 ·  · ok
+- 2026-07-30 22:12 START impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 
+- 2026-07-30 22:12 START explore-403-cause spawner=lead-iva-write agent=aexplore sess=6f15b870 · 
+- 2026-07-30 22:17 START explore-key-issuing spawner=lead-iva-write agent=aexplore sess=6f15b870 · 
+- 2026-07-30 22:22 STOP  explore-403-cause spawner=lead-iva-write agent=aexplore sess=6f15b870 · 5м · ok
+- 2026-07-30 22:22 STOP  ?            spawner=lead-iva-write agent=ac5ec969 sess=6f15b870 ·  · ok
+- 2026-07-30 22:23 START explore-403-cause spawner=lead-iva-write agent=aexplore sess=6f15b870 · 
+- 2026-07-30 22:23 STOP  ?            spawner=lead-iva-write agent=af86c690 sess=6f15b870 ·  · ok
+- 2026-07-30 22:25 STOP  explore-key-issuing spawner=lead-iva-write agent=aexplore sess=6f15b870 · 2м · ok
+- 2026-07-30 22:26 STOP  ?            spawner=lead-iva-write agent=ad906e4b sess=6f15b870 ·  · ok
+- 2026-07-30 22:29 START explore-key-issuing spawner=lead-iva-write agent=aexplore sess=6f15b870 · 
+- 2026-07-30 22:33 STOP  explore-403-cause spawner=lead-iva-write agent=aexplore sess=6f15b870 · 4м · ok
+- 2026-07-30 22:36 STOP  explore-key-issuing spawner=lead-iva-write agent=aexplore sess=6f15b870 · 7м · ok
+- 2026-07-30 22:38 STOP  ?            spawner=lead-iva-write agent=a0747b97 sess=6f15b870 ·  · ok
+- 2026-07-30 22:38 STOP  impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 26м · ok
+- 2026-07-30 22:38 START impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 
+- 2026-07-30 22:42 STOP  impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 4м · ok
+- 2026-07-30 22:42 START impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 
+- 2026-07-30 22:43 START impl-bot-ux  spawner=lead-iva-write agent=aimpl-bo sess=6f15b870 · 
+- 2026-07-30 22:47 STOP  ?            spawner=lead-iva-write agent=a710bd47 sess=6f15b870 ·  · ok
+- 2026-07-30 22:49 STOP  ?            spawner=director agent=a2a89d4b sess=609b0218 ·  · ok
+- 2026-07-30 22:52 STOP  impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 10м · ok
+- 2026-07-30 22:53 START impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 
+- 2026-07-30 22:55 STOP  ?            spawner=director agent=aa5774ed sess=609b0218 ·  · ok
+- 2026-07-30 22:57 STOP  ?            spawner=lead-iva-write agent=a57a96fa sess=6f15b870 ·  · ok
+- 2026-07-30 23:01 STOP  impl-bot-ux  spawner=lead-iva-write agent=aimpl-bo sess=6f15b870 · 18м · ok
+- 2026-07-30 23:04 STOP  impl-mcp-declare spawner=lead-iva-write agent=aimpl-mc sess=6f15b870 · 11м · ok
+- 2026-07-30 23:11 STOP  ?            spawner=lead-iva-write agent=ae51b0bb sess=6f15b870 ·  · ok
+- 2026-07-30 23:15 STOP  ?            spawner=lead-qa agent=ae6211d0 sess=d1b63a0f ·  · ok
+- 2026-07-30 23:21 STOP  ?            spawner=director agent=a6267999 sess=609b0218 ·  · ok
+- 2026-07-30 23:24 STOP  ?            spawner=director agent=a8ff5a0a sess=609b0218 ·  · ok
+- 2026-07-30 23:27 STOP  ?            spawner=director agent=a0a96d2e sess=609b0218 ·  · ok
+- 2026-07-30 23:30 STOP  ?            spawner=lead-iva-write agent=abd1c449 sess=6f15b870 ·  · ok
+- 2026-07-30 23:32 STOP  ?            spawner=lead-qa agent=adc52079 sess=d1b63a0f ·  · ok
+- 2026-07-30 23:34 STOP  ?            spawner=lead-qa agent=a188bcf2 sess=d1b63a0f ·  · ok
+- 2026-07-30 23:41 STOP  ?            spawner=lead-iva-write agent=acb95614 sess=6f15b870 ·  · ok
+- 2026-07-30 23:46 STOP  ?            spawner=lead-qa agent=a5a74f18 sess=d1b63a0f ·  · ok
+- 2026-07-30 23:48 STOP  ?            spawner=lead-iva-write agent=a91c5ae6 sess=6f15b870 ·  · ok
+- 2026-07-30 23:51 STOP  ?            spawner=lead-iva-write agent=a4a6f4be sess=6f15b870 ·  · ok
+- 2026-07-30 23:57 STOP  ?            spawner=lead-qa agent=acfee2a8 sess=d1b63a0f ·  · ok
+- 2026-07-30 23:58 STOP  ?            spawner=lead-iva-write agent=aa601706 sess=6f15b870 ·  · ok
+- 2026-07-31 00:10 STOP  ?            spawner=lead-qa agent=ae9419bf sess=d1b63a0f ·  · ok
+- 2026-07-31 00:17 STOP  ?            spawner=lead-qa agent=a9931d5f sess=d1b63a0f ·  · ok
+- 2026-07-31 00:17 STOP  ?            spawner=director agent=a981f8b5 sess=609b0218 ·  · ok
+- 2026-07-31 00:19 STOP  ?            spawner=lead-qa agent=a4193ede sess=d1b63a0f ·  · ok
+- 2026-07-31 00:28 STOP  ?            spawner=lead-qa agent=a96f8cb9 sess=d1b63a0f ·  · ok
+- 2026-07-31 00:37 STOP  ?            spawner=director agent=a6a7c3bb sess=609b0218 ·  · ok
+- 2026-07-31 00:38 STOP  ?            spawner=director agent=a6d117d1 sess=609b0218 ·  · ok
+- 2026-07-31 00:48 STOP  ?            spawner=director agent=a952fbe8 sess=609b0218 ·  · ok
+- 2026-07-31 01:00 STOP  ?            spawner=director agent=a54cc4d0 sess=609b0218 ·  · ok
+- 2026-07-31 01:12 STOP  ?            spawner=director agent=a40d77c6 sess=609b0218 ·  · ok
+- 2026-07-31 01:27 STOP  ?            spawner=director agent=ad302de6 sess=609b0218 ·  · ok
+- 2026-07-31 01:30 STOP  ?            spawner=director agent=aa83ec2d sess=609b0218 ·  · ok
+- 2026-07-31 01:31 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 01:32 START impl-revoke  spawner=lead-iva-write agent=aimpl-re sess=6f15b870 · 
+- 2026-07-31 01:32 START impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 
+- 2026-07-31 01:33 STOP  ?            spawner=director agent=ab3b1f09 sess=609b0218 ·  · ok
+- 2026-07-31 01:36 STOP  ?            spawner=lead-iva-write agent=a8c2825e sess=6f15b870 ·  · ok
+- 2026-07-31 01:46 STOP  ?            spawner=director agent=a8b1cea3 sess=609b0218 ·  · ok
+- 2026-07-31 01:50 STOP  impl-revoke  spawner=lead-iva-write agent=aimpl-re sess=6f15b870 · 18м · ok
+- 2026-07-31 01:51 START impl-revoke  spawner=lead-iva-write agent=aimpl-re sess=6f15b870 · 
+- 2026-07-31 01:52 STOP  ?            spawner=director agent=ac7315c5 sess=609b0218 ·  · ok
+- 2026-07-31 01:54 STOP  ?            spawner=director agent=a5adc895 sess=609b0218 ·  · ok
+- 2026-07-31 01:55 STOP  ?            spawner=lead-iva-write agent=ab2bfd8c sess=6f15b870 ·  · ok
+- 2026-07-31 02:00 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 29м · ok
+- 2026-07-31 02:00 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 02:01 STOP  impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 29м · ok
+- 2026-07-31 02:03 STOP  ?            spawner=director agent=a0210820 sess=609b0218 ·  · ok
+- 2026-07-31 02:03 START impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 
+- 2026-07-31 02:10 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 10м · ok
+- 2026-07-31 02:10 STOP  impl-revoke  spawner=lead-iva-write agent=aimpl-re sess=6f15b870 · 19м · ok
+- 2026-07-31 02:10 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 02:13 STOP  impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 10м · ok
+- 2026-07-31 02:13 START impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 
+- 2026-07-31 02:22 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 12м · ok
+- 2026-07-31 02:22 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 02:24 STOP  impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 11м · ok
+- 2026-07-31 02:25 START impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 
+- 2026-07-31 02:26 START impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 
+- 2026-07-31 02:37 STOP  impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 12м · ok
+- 2026-07-31 02:37 START impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 
+- 2026-07-31 02:38 STOP  impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 1м · ok
+- 2026-07-31 02:39 START impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 
+- 2026-07-31 02:40 STOP  impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 14м · ok
+- 2026-07-31 02:40 START impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 
+- 2026-07-31 02:41 STOP  impl-rollout spawner=lead-iva-write agent=aimpl-ro sess=6f15b870 · 2м · ok
+- 2026-07-31 02:42 START gate-catalog spawner=lead-iva-write agent=agate-ca sess=6f15b870 · 
+- 2026-07-31 02:43 STOP  impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 3м · ok
+- 2026-07-31 02:43 START impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 
+- 2026-07-31 02:52 STOP  impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 9м · ok
+- 2026-07-31 02:52 START impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 
+- 2026-07-31 02:52 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 30м · ok
+- 2026-07-31 02:52 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 02:53 START gate-helm-night spawner=lead-iva-write agent=agate-he sess=6f15b870 · 
+- 2026-07-31 02:56 STOP  impl-oracle  spawner=lead-iva-write agent=aimpl-or sess=6f15b870 · 4м · ok
+- 2026-07-31 03:04 STOP  gate-catalog spawner=lead-iva-write agent=agate-ca sess=6f15b870 · 22м · ok
+- 2026-07-31 03:08 STOP  gate-helm-night spawner=lead-iva-write agent=agate-he sess=6f15b870 · 15м · ok
+- 2026-07-31 03:13 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 21м · ok
+- 2026-07-31 04:44 START gate-helm-night spawner=lead-iva-write agent=agate-he sess=6f15b870 · 
+- 2026-07-31 04:45 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 04:46 START gate-catalog-retry spawner=lead-iva-write agent=agate-ca sess=6f15b870 · 
+- 2026-07-31 04:50 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 5м · ok
+- 2026-07-31 04:50 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 04:52 STOP  gate-helm-night spawner=lead-iva-write agent=agate-he sess=6f15b870 · 8м · ok
+- 2026-07-31 04:52 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 04:54 STOP  ?            spawner=lead-qa agent=a65232bf sess=d1b63a0f ·  · ok
+- 2026-07-31 05:00 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 8м · ok
+- 2026-07-31 05:00 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:03 STOP  gate-catalog-retry spawner=lead-iva-write agent=agate-ca sess=6f15b870 · 17м · ok
+- 2026-07-31 05:04 START impl-gate-fix spawner=lead-iva-write agent=aimpl-ga sess=6f15b870 · 
+- 2026-07-31 05:08 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 18м · ok
+- 2026-07-31 05:08 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 05:14 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 14м · ok
+- 2026-07-31 05:14 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:16 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 8м · ok
+- 2026-07-31 05:17 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 3м · ok
+- 2026-07-31 05:17 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:17 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 05:18 STOP  impl-gate-fix spawner=lead-iva-write agent=aimpl-ga sess=6f15b870 · 14м · ok
+- 2026-07-31 05:22 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 5м · ok
+- 2026-07-31 05:22 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 05:24 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 7м · ok
+- 2026-07-31 05:24 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:28 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 4м · ok
+- 2026-07-31 05:28 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:28 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 6м · ok
+- 2026-07-31 05:29 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 05:30 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 1м · ok
+- 2026-07-31 05:32 START impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 
+- 2026-07-31 05:37 STOP  impl-identity spawner=lead-iva-write agent=aimpl-id sess=6f15b870 · 5м · ok
+- 2026-07-31 05:37 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 9м · ok
+- 2026-07-31 05:37 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:44 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 7м · ok
+- 2026-07-31 05:44 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:49 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 5м · ok
+- 2026-07-31 05:49 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:52 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 3м · ok
+- 2026-07-31 05:52 START impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 
+- 2026-07-31 05:53 STOP  impl-texts   spawner=lead-iva-write agent=aimpl-te sess=6f15b870 · 1м · ok
+- 2026-07-31 12:05 START recon-server spawner=lead-ds agent=arecon-s sess=a3a09bb4 · 
+- 2026-07-31 12:06 START recon-taiga-ds spawner=lead-ds agent=arecon-t sess=a3a09bb4 · 
+- 2026-07-31 12:07 START recon-people spawner=lead-ds agent=arecon-p sess=a3a09bb4 · 
+- 2026-07-31 12:14 STOP  recon-people spawner=lead-ds agent=arecon-p sess=a3a09bb4 · 7м · ok
+- 2026-07-31 12:15 STOP  recon-taiga-ds spawner=lead-ds agent=arecon-t sess=a3a09bb4 · 9м · ok
+- 2026-07-31 12:19 STOP  recon-server spawner=lead-ds agent=arecon-s sess=a3a09bb4 · 14м · ok
+- 2026-07-31 12:19 START recon-server spawner=lead-ds agent=arecon-s sess=a3a09bb4 · 
+- 2026-07-31 12:23 STOP  recon-server spawner=lead-ds agent=arecon-s sess=a3a09bb4 · 4м · ok
+- 2026-07-31 12:24 START critic-gemini-cache spawner=lead agent=acritic- sess=ec913234 · 
+- 2026-07-31 12:31 STOP  critic-gemini-cache spawner=lead agent=acritic- sess=ec913234 · 7м · ok
+- 2026-07-31 12:31 START critic-gemini-cache spawner=lead agent=acritic- sess=ec913234 · 
+- 2026-07-31 12:36 STOP  critic-gemini-cache spawner=lead agent=acritic- sess=ec913234 · 5м · ok
+- 2026-08-03 08:10 STOP  ?            spawner=lead agent=aec06be8 sess=ec913234 ·  · ok
+- 2026-08-03 08:13 STOP  ?            spawner=lead agent=af3e996d sess=ec913234 ·  · ok
+- 2026-08-03 08:16 STOP  ?            spawner=lead agent=ab320a25 sess=ec913234 ·  · ok
+- 2026-08-03 08:49 START bp-angular   spawner=lead-bestpractices agent=abp-angu sess=f79894f6 · 
+- 2026-08-03 08:49 START bp-go        spawner=lead-bestpractices agent=abp-go-2 sess=f79894f6 · 
+- 2026-08-03 08:49 START bp-swift     spawner=lead-bestpractices agent=abp-swif sess=f79894f6 · 
+- 2026-08-03 08:49 START bp-kmp       spawner=lead-bestpractices agent=abp-kmp- sess=f79894f6 · 
+- 2026-08-03 08:50 START bp-cpp-qt    spawner=lead-bestpractices agent=abp-cpp- sess=f79894f6 · 
+- 2026-08-03 08:53 STOP  ?            spawner=lead-ds agent=a9078ef9 sess=a3a09bb4 ·  · ok
+- 2026-08-03 08:54 STOP  ?            spawner=lead-bestpractices agent=a926c02e sess=f79894f6 ·  · ok
+- 2026-08-03 08:56 STOP  ?            spawner=lead-qa agent=a87543d3 sess=e3ce1ccf ·  · ok
+- 2026-08-03 08:57 STOP  bp-go        spawner=lead-bestpractices agent=abp-go-2 sess=f79894f6 · 8м · ok
+- 2026-08-03 08:58 START bp-rn        spawner=lead-bestpractices agent=abp-rn-d sess=f79894f6 · 
+- 2026-08-03 08:59 STOP  bp-kmp       spawner=lead-bestpractices agent=abp-kmp- sess=f79894f6 · 10м · ok
+- 2026-08-03 09:00 START bp-java      spawner=lead-bestpractices agent=abp-java sess=f79894f6 · 
+- 2026-08-03 09:00 STOP  bp-cpp-qt    spawner=lead-bestpractices agent=abp-cpp- sess=f79894f6 · 10м · ok
+- 2026-08-03 09:00 STOP  bp-angular   spawner=lead-bestpractices agent=abp-angu sess=f79894f6 · 11м · ok
+- 2026-08-03 09:00 START bp-firebird  spawner=lead-bestpractices agent=abp-fire sess=f79894f6 · 
+- 2026-08-03 09:01 START bp-python-next spawner=lead-bestpractices agent=abp-pyth sess=f79894f6 · 
+- 2026-08-03 09:04 STOP  ?            spawner=lead-bestpractices agent=a3040fae sess=f79894f6 ·  · ok
+- 2026-08-03 09:05 STOP  bp-rn        spawner=lead-bestpractices agent=abp-rn-d sess=f79894f6 · 7м · ok
+- 2026-08-03 09:06 STOP  ?            spawner=lead-qa agent=a4d20192 sess=e3ce1ccf ·  · ok
+- 2026-08-03 09:09 STOP  ?            spawner=lead-bestpractices agent=affe05cf sess=f79894f6 ·  · ok
+- 2026-08-03 09:10 STOP  bp-firebird  spawner=lead-bestpractices agent=abp-fire sess=f79894f6 · 10м · ok
+- 2026-08-03 09:10 STOP  ?            spawner=lead-qa agent=a6f171ec sess=e3ce1ccf ·  · ok
+- 2026-08-03 09:12 STOP  bp-python-next spawner=lead-bestpractices agent=abp-pyth sess=f79894f6 · 11м · ok
+- 2026-08-03 09:12 STOP  bp-java      spawner=lead-bestpractices agent=abp-java sess=f79894f6 · 12м · ok
+- 2026-08-03 09:20 STOP  ?            spawner=lead-qa agent=a970af53 sess=e3ce1ccf ·  · ok
+- 2026-08-03 09:21 STOP  ?            spawner=lead-bestpractices agent=a9d458d3 sess=f79894f6 ·  · ok
+- 2026-08-03 09:23 STOP  ?            spawner=lead-qa agent=a84341b7 sess=e3ce1ccf ·  · ok
+- 2026-08-03 09:57 STOP  ?            spawner=lead-qa agent=a7cb4219 sess=e3ce1ccf ·  · ok
+- 2026-08-03 09:58 START bp-swift-lang spawner=lead-bestpractices agent=abp-swif sess=f79894f6 · 
+- 2026-08-03 09:58 START bp-swift-build spawner=lead-bestpractices agent=abp-swif sess=f79894f6 · 
+- 2026-08-03 09:59 STOP  ?            spawner=lead-bestpractices agent=a791905e sess=f79894f6 ·  · ok
+- 2026-08-03 10:02 STOP  ?            spawner=lead-bestpractices agent=a1e6f791 sess=f79894f6 ·  · ok
+- 2026-08-03 10:05 STOP  bp-swift-build spawner=lead-bestpractices agent=abp-swif sess=f79894f6 · 7м · ok
+- 2026-08-03 10:06 START critic-facts spawner=lead-bestpractices agent=acritic- sess=f79894f6 · 
+- 2026-08-03 10:06 START critic-value spawner=lead-bestpractices agent=acritic- sess=f79894f6 · 
+- 2026-08-03 10:07 STOP  bp-swift-lang spawner=lead-bestpractices agent=abp-swif sess=f79894f6 · 9м · ok
+- 2026-08-03 10:11 STOP  ?            spawner=lead-bestpractices agent=a1537f72 sess=f79894f6 ·  · ok
+- 2026-08-03 10:13 STOP  critic-value spawner=lead-bestpractices agent=acritic- sess=f79894f6 · 7м · ok
+- 2026-08-03 10:13 START critic-value spawner=lead-bestpractices agent=acritic- sess=f79894f6 · 
+- 2026-08-03 10:13 STOP  ?            spawner=lead-bestpractices agent=a6bd11d9 sess=f79894f6 ·  · ok
+- 2026-08-03 10:15 STOP  ?            spawner=lead-qa agent=ab6d556e sess=e3ce1ccf ·  · ok
+- 2026-08-03 10:16 STOP  critic-value spawner=lead-bestpractices agent=acritic- sess=f79894f6 · 3м · ok
+- 2026-08-03 10:18 STOP  critic-facts spawner=lead-bestpractices agent=acritic- sess=f79894f6 · 5м · ok
+- 2026-08-03 10:18 STOP  ?            spawner=lead-qa agent=a69773dc sess=e3ce1ccf ·  · ok
+- 2026-08-03 10:22 START fix-web      spawner=lead-bestpractices agent=afix-web sess=f79894f6 · 
+- 2026-08-03 10:23 START fix-backend  spawner=lead-bestpractices agent=afix-bac sess=f79894f6 · 
+- 2026-08-03 10:23 START fix-mobile   spawner=lead-bestpractices agent=afix-mob sess=f79894f6 · 
+- 2026-08-03 10:25 STOP  fix-web      spawner=lead-bestpractices agent=afix-web sess=f79894f6 · 3м · ok
+- 2026-08-03 10:25 STOP  fix-backend  spawner=lead-bestpractices agent=afix-bac sess=f79894f6 · 2м · ok
+- 2026-08-03 10:29 STOP  fix-mobile   spawner=lead-bestpractices agent=afix-mob sess=f79894f6 · 6м · ok
+- 2026-08-03 10:30 START bp-agentic   spawner=lead-bestpractices agent=abp-agen sess=f79894f6 · 
+- 2026-08-03 10:40 STOP  bp-agentic   spawner=lead-bestpractices agent=abp-agen sess=f79894f6 · 10м · ok
+- 2026-08-03 10:48 STOP  ?            spawner=director agent=ad048844 sess=f8195d53 ·  · ok
+- 2026-08-03 10:53 STOP  ?            spawner=lead-bestpractices agent=ad52d8e9 sess=f79894f6 ·  · ok
+- 2026-08-03 10:54 STOP  ?            spawner=director agent=a5e6f17d sess=f8195d53 ·  · ok
+- 2026-08-03 11:17 STOP  ?            spawner=director agent=a38ca805 sess=f8195d53 ·  · ok
+- 2026-08-03 11:20 START explore-sources spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 
+- 2026-08-03 11:20 START explore-indexing spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 
+- 2026-08-03 11:21 START explore-ownership spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 
+- 2026-08-03 11:21 STOP  ?            spawner=director agent=aea9be1e sess=f8195d53 ·  · ok
+- 2026-08-03 11:23 STOP  ?            spawner=lead agent=a34d8612 sess=ec913234 ·  · ok
+- 2026-08-03 11:26 STOP  ?            spawner=lead-analyst agent=a03b39f3 sess=7b3d3c28 ·  · ok
+- 2026-08-03 11:26 STOP  explore-sources spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 5м · ok
+- 2026-08-03 11:27 START explore-sources spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 
+- 2026-08-03 11:29 STOP  explore-ownership spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 2м · ok
+- 2026-08-03 11:30 STOP  explore-sources spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 3м · ok
+- 2026-08-03 11:30 STOP  explore-indexing spawner=lead-analyst agent=aexplore sess=7b3d3c28 · 3м · ok
+- 2026-08-03 11:31 STOP  ?            spawner=director agent=a546f8cd sess=f8195d53 ·  · ok
+- 2026-08-03 11:34 START recon-mail   spawner=lead-feature-audit agent=arecon-m sess=69191caa · 
+- 2026-08-03 11:34 START recon-one    spawner=lead-feature-audit agent=arecon-o sess=69191caa · 
+- 2026-08-03 11:34 START recon-vks    spawner=lead-feature-audit agent=arecon-v sess=69191caa · 
+- 2026-08-03 11:35 START recon-corpus spawner=lead-feature-audit agent=arecon-c sess=69191caa · 
+- 2026-08-03 11:38 START critic-facts spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 
+- 2026-08-03 11:39 START critic-oppose spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 
+- 2026-08-03 11:41 START tz-storage   spawner=lead-analyst agent=atz-stor sess=7b3d3c28 · 
+- 2026-08-03 11:41 START tz-ui-audit  spawner=lead-analyst agent=atz-ui-a sess=7b3d3c28 · 
+- 2026-08-03 11:41 START tz-api-analogs spawner=lead-analyst agent=atz-api- sess=7b3d3c28 · 
+- 2026-08-03 11:44 STOP  recon-mail   spawner=lead-feature-audit agent=arecon-m sess=69191caa · 10м · ok
+- 2026-08-03 11:47 STOP  recon-vks    spawner=lead-feature-audit agent=arecon-v sess=69191caa · 13м · ok
+- 2026-08-03 11:47 STOP  recon-corpus spawner=lead-feature-audit agent=arecon-c sess=69191caa · 12м · ok
+- 2026-08-03 11:48 STOP  ?            spawner=lead-analyst agent=a56f17a9 sess=7b3d3c28 ·  · ok
+- 2026-08-03 11:48 STOP  tz-ui-audit  spawner=lead-analyst agent=atz-ui-a sess=7b3d3c28 · 7м · ok
+- 2026-08-03 11:49 STOP  ?            spawner=director agent=a7c48f17 sess=f8195d53 ·  · ok
+- 2026-08-03 11:50 STOP  critic-oppose spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 11м · ok
+- 2026-08-03 11:50 STOP  ?            spawner=director agent=adc98c39 sess=f8195d53 ·  · ok
+- 2026-08-03 11:50 STOP  tz-storage   spawner=lead-analyst agent=atz-stor sess=7b3d3c28 · 9м · ok
+- 2026-08-03 11:50 START tz-storage   spawner=lead-analyst agent=atz-stor sess=7b3d3c28 · 
+- 2026-08-03 11:50 STOP  critic-facts spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 11м · ok
+- 2026-08-03 11:51 START critic-facts spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 
+- 2026-08-03 11:51 START critic-oppose spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 
+- 2026-08-03 11:51 STOP  tz-api-analogs spawner=lead-analyst agent=atz-api- sess=7b3d3c28 · 10м · ok
+- 2026-08-03 11:51 START tz-api-analogs spawner=lead-analyst agent=atz-api- sess=7b3d3c28 · 
+- 2026-08-03 11:52 STOP  tz-storage   spawner=lead-analyst agent=atz-stor sess=7b3d3c28 · 2м · ok
+- 2026-08-03 11:52 STOP  recon-one    spawner=lead-feature-audit agent=arecon-o sess=69191caa · 18м · ok
+- 2026-08-03 11:53 STOP  critic-oppose spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 2м · ok
+- 2026-08-03 11:53 STOP  tz-api-analogs spawner=lead-analyst agent=atz-api- sess=7b3d3c28 · 2м · ok
+- 2026-08-03 11:53 STOP  critic-facts spawner=lead-analyst agent=acritic- sess=7b3d3c28 · 2м · ok
+- 2026-08-03 11:56 STOP  ?            spawner=director agent=a454999b sess=f8195d53 ·  · ok
+- 2026-08-03 12:00 START critic-facts spawner=lead-feature-audit agent=acritic- sess=69191caa · 
+- 2026-08-03 12:01 START critic-value spawner=lead-feature-audit agent=acritic- sess=69191caa · 
+- 2026-08-03 12:05 STOP  ?            spawner=lead-analyst agent=a609c58d sess=7b3d3c28 ·  · ok
+- 2026-08-03 12:06 STOP  critic-value spawner=lead-feature-audit agent=acritic- sess=69191caa · 5м · ok
+- 2026-08-03 12:06 START critic-value spawner=lead-feature-audit agent=acritic- sess=69191caa · 
+- 2026-08-03 12:08 STOP  critic-value spawner=lead-feature-audit agent=acritic- sess=69191caa · 2м · ok
+- 2026-08-03 12:09 STOP  critic-facts spawner=lead-feature-audit agent=acritic- sess=69191caa · 3м · ok
+- 2026-08-03 12:09 START critic-facts spawner=lead-feature-audit agent=acritic- sess=69191caa · 
+- 2026-08-03 12:12 STOP  ?            spawner=lead-iva-write agent=a98effc1 sess=a1f2c392 ·  · ok
+- 2026-08-03 12:13 STOP  critic-facts spawner=lead-feature-audit agent=acritic- sess=69191caa · 4м · ok
+- 2026-08-03 12:15 STOP  ?            spawner=director agent=aa9ce4d8 sess=f8195d53 ·  · ok
+- 2026-08-03 12:18 START critic-facts spawner=lead-feature-audit agent=acritic- sess=69191caa · 
+- 2026-08-03 12:22 STOP  critic-facts spawner=lead-feature-audit agent=acritic- sess=69191caa · 4м · ok
+- 2026-08-03 12:32 STOP  ?            spawner=lead-feature-audit agent=a4226a5d sess=69191caa ·  · ok
+- 2026-08-03 13:32 START probe-merge  spawner=lead-analyst agent=aprobe-m sess=7b3d3c28 · 
+- 2026-08-03 13:35 START critic-identity spawner=lead-iva-write agent=acritic- sess=a1f2c392 · 
+- 2026-08-03 13:35 START critic-design spawner=lead-iva-write agent=acritic- sess=a1f2c392 · 
+- 2026-08-03 13:37 STOP  ?            spawner=lead-ds agent=a0773798 sess=a3a09bb4 ·  · ok
+- 2026-08-03 13:37 STOP  ?            spawner=lead-analyst agent=a9dae50c sess=7b3d3c28 ·  · ok
+- 2026-08-03 13:38 STOP  ?            spawner=lead-iva-write agent=ae20396c sess=a1f2c392 ·  · ok
+- 2026-08-03 13:40 STOP  probe-merge  spawner=lead-analyst agent=aprobe-m sess=7b3d3c28 · 8м · ok
+- 2026-08-03 13:42 STOP  critic-design spawner=lead-iva-write agent=acritic- sess=a1f2c392 · 7м · ok
+- 2026-08-03 13:42 START critic-design spawner=lead-iva-write agent=acritic- sess=a1f2c392 · 

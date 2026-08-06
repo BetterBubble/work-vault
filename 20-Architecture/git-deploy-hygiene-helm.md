@@ -29,12 +29,118 @@ tags:
 - [worktree] **Незакоммиченная работа воркеров оседает в worktree и теряется при сносе.** Пример: фикс cross-rerank (source-aware + rank-floor, 6 code + 4 test + ab-kit) лежал UNCOMMITTED в worktree `helm-cross-rerank-tune` — снёс бы worktree, потерял бы фикс. **Перед сносом worktree — закоммитить в ветку** (`salvage/<label>`), не `--force` вслепую.
 - [branches] Ветки чистить через `git branch -d` (НЕ `-D`): удаляет только слитые в текущую, неслитым откажет — уникальная работа сохранится сама. Защищать `main` и служебную `deploy-main`. В сессии удалено 74 слитых, осталось ~30 неслитых (архив + salvage).
 - [salvage] Незавершённую/неслитую работу не уничтожать — коммитить в `salvage/<тема>` ветки и оставлять решение владельцу. Так спасены: cross-rerank-фикс, 5 агентских фич (task-hygiene с alembic-миграцией, operator-review, conformance-ui×2, redact), docs-концепты (130KB, были вне git), mr_source.py с прода.
-- [deploy] Прод helm БЕЗ git-доступа к GitHub → доставка кода = **git-bundle с локали** → `git fetch <bundle>` → `git merge --ff-only` (untracked не трогает, НЕ `reset --hard`).
+- [deploy] ~~Прод helm БЕЗ git-доступа к GitHub → доставка кода = git-bundle с локали.~~ **ОПРОВЕРГНУТО 30.07: доступ ЕСТЬ, но не у `root`.** Тянуть надо от пользователя `tacticum-deploy` — у него свой ключ `~/.ssh/helm_deploy_ed25519`, GitHub его принимает, и `/opt/helm/.git` принадлежит ему же. Под `root` тот же `git fetch` отвечает `Permission denied (publickey)`, и это легко принять за отозванный deploy-ключ — я на этом потерял время. Правильно: `sudo -u tacticum-deploy git fetch origin`. Bundle не нужен.
 - [deploy] Деплой = **REBUILD** (`find src -name __pycache__ -delete; SEED=0 bash scripts/deploy.sh`). **volume-mount НЕнадёжен** (код не подхватывался, давал регрессии) — только rebuild.
 - [deploy] **ВСЕГДА после деплоя verify getsource** нового кода из контейнера (`docker exec helm-helm-1 /app/.venv/bin/python -c 'import inspect; ...'`) — убедиться, что загрузился свежий код, не старый pyc.
 - [deploy] Прод обслуживает живых аналитиков (MCP роздан) — rebuild = краткий рестарт, деплой только с подтверждения пользователя.
 - [gate] Прод-классификатор режет: загрузку секретов, включение фича-флагов, exec/чтение прод-контейнера и **живые прогоны (A/B) на проде** без явной авторизации человека. Не обходить (base64 и т.п.) — STOP и спросить. Бинарные upload режет — использовать текстовые.
 - [publish] Push только текущую feature-ветку явно (`git push origin <branch>`); PR не создавать (готовить материалы); без AI-подписей; не в `main`. Перед push показать `git log/diff origin/main..HEAD`, проверить что нет `.env`/секретов/мусора.
+
+---
+
+## Как деплоить helm — порядок, проверенный на живом 2026-07-30
+
+Выполнено целиком при выкатке `iva-write` (`b7341ab`): данные целы, простоя не было. Команды
+даны как есть; всё идёт через ssh-manager (`server helm`), сервер — `159.194.233.33`.
+
+### ⚠️ Главное: `bash scripts/deploy.sh` с настройками по умолчанию СНОСИТ БОЕВОЙ ГРАФ
+
+`SEED` по умолчанию **`1`**, источник по умолчанию **`synthetic`** (`scripts/deploy.sh:23-24`),
+а `seed_db.py` вызывает `clear_graph(tenant)` с `clear=True` — тенант-скопнутый `DELETE` по
+`person`, `person_email`, `signal`, `initiative`, `block`, `goal`, `sales_initiative`,
+`sales_link`, `assignment`, `dependency`, `block_team`, — и заливает синтетику.
+**Условия по источнику нет: чистит при любом.** README предлагает запускать именно так.
+
+Либо `SEED=0 bash scripts/deploy.sh`, либо шаги руками (ниже). Бэкап всё равно первым.
+
+### Шаг 0. Бэкап БД — в репозитории его НЕТ ВООБЩЕ
+
+Ни скрипта, ни шага в деплое. Поэтому руками, и это не «на всякий случай»:
+
+```
+docker compose -f docker-compose.prod.yml exec -T postgres \
+  pg_dump -U helm helm | gzip > /opt/helm/_run/pre-<тема>-$(date +%Y%m%d-%H%M).sql.gz
+```
+
+Ориентир размера: ~19 МБ на 30.07. Заодно запомнить точку отката: `git rev-parse HEAD`.
+
+### Шаг 1. Снять состояние ДО
+
+```
+cd /opt/helm && git log --oneline -1 && git status -sb
+docker compose -f docker-compose.prod.yml ps
+docker compose -f docker-compose.prod.yml exec -T helm uv run --no-sync alembic current
+```
+
+`git status` смотреть обязательно: на проде бывают незакоммиченные правки (30.07 нашлась
+правка прав у `scripts/helm_daily_refresh.sh`). Бэкапить их до обновления.
+
+### Шаг 2. Код — от `tacticum-deploy`, НЕ от root
+
+```
+cd /opt/helm && sudo -u tacticum-deploy git fetch origin
+sudo -u tacticum-deploy git merge --ff-only origin/main
+```
+
+`--ff-only` намеренно: untracked не трогает, слияний на проде не создаёт. `reset --hard` не
+применять.
+
+### Шаг 3. Пересборка. Только rebuild, не volume-mount
+
+```
+find src -name __pycache__ -delete
+docker compose -f docker-compose.prod.yml up -d --build
+```
+
+**Если в compose появился сервис с внешним образом** — сначала забрать его отдельно и посмотреть,
+что забрали, а не узнавать это из уже поднятого контейнера:
+
+```
+docker compose -f docker-compose.prod.yml pull <сервис>
+docker image inspect <образ> --format 'создан: {{.Created}} | размер: {{.Size}}'
+```
+
+Почему отдельным шагом: `up` скачает образ сам и молча, и различить «взяли ожидаемое» от «взяли
+что-то другое» уже нельзя. При пине по версии (`ghcr.io/…:0.23.0`) риск мал, при `latest` —
+нет. На выкатке 30.07 этот шаг пропущен: образ `mcp-atlassian:0.23.0` скачал `compose`, проверка
+шла уже после подъёма. Обошлось из-за пина, но порядок должен быть обратным.
+
+Что при этом происходит: `helm` пересоздаётся, новые сервисы создаются, а **`postgres` и
+`traefik` не пересоздаются**, если их секции в compose не менялись, — проверено.
+
+### Шаг 4. Миграции — РУКАМИ, без сида
+
+```
+docker compose -f docker-compose.prod.yml exec -T helm uv run --no-sync alembic upgrade head
+docker compose -f docker-compose.prod.yml exec -T helm uv run --no-sync alembic current
+```
+
+⚠️ **Если прод отстал от `main`, `upgrade head` протянет и чужие линии тоже** — 30.07 БД стояла
+на `pmb216` (PM-бот), и накат прошёл по обеим линиям сразу. Поэтому `alembic current` на шаге 1
+не пропускать: иначе неизвестно, что именно поедет.
+
+⚠️ **В репозитории исторически бывает несколько голов.** Слияние двух фича-веток даёт две головы,
+git об этом НЕ предупреждает (файлы миграций разные), а `upgrade head` падает уже на проде.
+Лечится merge-ревизией (образец — `alembic/versions/mrg350_iva_write_pmb.py`).
+
+### Шаг 5. Verify — иначе деплой не считается сделанным
+
+1. **Существующее важнее нового.** `/api/auth/config` → 200; `/mcp/analyst`, `/mcp/process` →
+   406 (норма без нужного `Accept`); `/mcp/hrd` → 403 (свой гейт). Прод обслуживает живых
+   аналитиков.
+2. **Ошибки в логе:** `docker compose ... logs helm --since 3m | grep -iE "error|traceback|exception"`
+   плюс наличие `Application startup complete`.
+3. **Данные целы** — счётчики после наката сравнить с ожидаемыми (30.07: person 1008,
+   person_email 1009, signal 46285, initiative 589, sales_initiative 318). Это и есть проверка,
+   что сид не отработал.
+4. **Свежий ли код в контейнере** — `getsource` нового символа изнутри, иначе можно смотреть на
+   старый `pyc`.
+
+### Откат
+
+`checkout` прежнего sha → `up -d --build helm` → снять добавленные сервисы. Миграции откатывать
+НЕ надо: старый код о новых таблицах не знает. `downgrade` через merge-point не применять —
+ручной выбор ревизии в аварии, плюс `drop` таблиц сотрёт уже выданные данные.
 
 ## Relations
 - relates_to [[team-lead-playbook]]
