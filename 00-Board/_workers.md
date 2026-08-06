@@ -402,3 +402,4 @@ START без STOP = воркер не вернулся; повисших пок�
 - 2026-08-05 19:52 STOP  ?            spawner=lead-iva-write-lane agent=a71c46fc sess=46536f1e ·  · ok
 - 2026-08-05 19:54 STOP  ?            spawner=director agent=a2e3a278 sess=f8195d53 ·  · ok
 - 2026-08-06 09:40 STOP  ?8f05fe      spawner=director agent=a8f05fe8 sess=ae1cd259 · START? · ok
+- 2026-08-06 09:50 STOP  ?052752      spawner=director agent=a0527525 sess=ae1cd259 · START? · ok
