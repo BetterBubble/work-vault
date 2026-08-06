@@ -1,4 +1,9 @@
 ---
+permalink: tacticum/00-board/step3-observability-2026-08-06
+---
+
+---
+title: Шаг 3 — наблюдаемость: журнал неудачных опознаний и access-лог
 type: report
 status: draft
 date: 2026-08-06
