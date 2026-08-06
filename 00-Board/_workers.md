@@ -354,3 +354,19 @@ START без STOP = воркер не вернулся; повисших пок�
 - 2026-08-06 12:20 START step3-observability spawner=lead-iva-write agent=astep3-o sess=97b493b8 · 
 - 2026-08-06 12:20 START step4-docs   spawner=lead-iva-write agent=astep4-d sess=97b493b8 · 
 - 2026-08-06 12:23 STOP  ?bd1fcd      spawner=lead-iva-write agent=abd1fcd1 sess=97b493b8 · START? · ok
+- 2026-08-06 12:29 STOP  step0-token  spawner=lead-iva-write agent=astep0-t sess=97b493b8 · 10м · ok
+- 2026-08-06 12:30 STOP  ?0e815d      spawner=director agent=a0e815da sess=ae1cd259 · START? · ok
+- 2026-08-06 12:34 STOP  ?e08ec6      spawner=lead-iva-write agent=ae08ec6f sess=97b493b8 · START? · ok
+- 2026-08-06 12:35 STOP  ?d9e58e      spawner=lead-gost-docs agent=ad9e58e5 sess=1d51edce · START? · ok
+- 2026-08-06 12:36 STOP  ?52d89f      spawner=lead-iva-write agent=a52d89f9 sess=97b493b8 · START? · ok
+- 2026-08-06 12:40 STOP  step3-observability spawner=lead-iva-write agent=astep3-o sess=97b493b8 · 20м · ok
+- 2026-08-06 12:40 START step3-observability spawner=lead-iva-write agent=astep3-o sess=97b493b8 · 
+- 2026-08-06 12:41 STOP  step3-observability spawner=lead-iva-write agent=astep3-o sess=97b493b8 · 1м · ok
+- 2026-08-06 12:41 STOP  step4-docs   spawner=lead-iva-write agent=astep4-d sess=97b493b8 · 21м · ok
+- 2026-08-06 12:41 START step4-docs   spawner=lead-iva-write agent=astep4-d sess=97b493b8 · 
+- 2026-08-06 12:41 START step3-observability spawner=lead-iva-write agent=astep3-o sess=97b493b8 · 
+- 2026-08-06 12:42 STOP  step4-docs   spawner=lead-iva-write agent=astep4-d sess=97b493b8 · 1м · ok
+- 2026-08-06 12:42 STOP  ?436b2a      spawner=lead-iva-write agent=a436b2af sess=97b493b8 · START? · ok
+- 2026-08-06 12:42 START step4-docs   spawner=lead-iva-write agent=astep4-d sess=97b493b8 · 
+- 2026-08-06 12:42 STOP  ?7ba93d      spawner=lead-iva-write agent=a7ba93dd sess=97b493b8 · START? · ok
+- 2026-08-06 12:43 STOP  ?9acade      spawner=lead-iva-write agent=a9acade9 sess=97b493b8 · START? · ok
