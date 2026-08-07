@@ -1,7 +1,7 @@
 ---
 title: report-iva-write-identity-from-platform
 type: note
-permalink: tacticum/00-board/report-iva-write-identity-from-platform
+permalink: tacticum/00-board/report-iva-write-identity-from-platform-1
 status: draft
 repo: helm
 project: iva-write
@@ -12,6 +12,7 @@ tags:
 - iva-write
 - implementer
 - helm
+archived-at: 2026-08-07 11:22
 ---
 
 # Отчёт: личность из логина платформы, подтверждённая справочником Jira

@@ -1,7 +1,7 @@
 ---
 title: report-bot-ux-2026-07-30
 type: note
-permalink: tacticum/00-board/report-bot-ux-2026-07-30
+permalink: tacticum/00-board/report-bot-ux-2026-07-30-1
 status: draft
 repo: helm
 project: iva-write
@@ -12,6 +12,7 @@ tags:
 - bot
 - implementer
 - helm
+archived-at: 2026-08-07 11:22
 ---
 
 # Отчёт: разрыв почт, команды бота и правка лжи в коде (iva-write)

@@ -10,7 +10,8 @@ tags:
 - board
 - qa
 - report
-permalink: tacticum/00-board/report-qa-razrez
+permalink: tacticum/00-board/report-qa-razrez-1
+archived-at: 2026-08-07 11:22
 ---
 
 # Состояние lead-qa

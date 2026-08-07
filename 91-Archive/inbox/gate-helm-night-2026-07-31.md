@@ -1,7 +1,7 @@
 ---
 title: gate-helm-night-2026-07-31
 type: note
-permalink: tacticum/00-board/gate-helm-night-2026-07-31
+permalink: tacticum/00-board/gate-helm-night-2026-07-31-1
 status: current
 repo: helm
 project: iva-write
@@ -13,6 +13,7 @@ tags:
 - board
 - iva-write
 - gate
+archived-at: 2026-08-07 11:22
 ---
 
 # Гейт сводной ветки `feat/iva-write-night` — NO-GO

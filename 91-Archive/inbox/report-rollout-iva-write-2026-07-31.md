@@ -11,7 +11,8 @@ tags:
 - iva-write
 - rollout
 - profiles
-permalink: tacticum/00-board/report-rollout-iva-write-2026-07-31
+permalink: tacticum/00-board/report-rollout-iva-write-2026-07-31-1
+archived-at: 2026-08-07 11:22
 ---
 
 # Раскатка `helm-iva-write` на роли

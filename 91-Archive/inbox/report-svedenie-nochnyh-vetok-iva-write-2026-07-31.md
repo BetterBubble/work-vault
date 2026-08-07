@@ -1,7 +1,7 @@
 ---
 title: report-svedenie-nochnyh-vetok-iva-write-2026-07-31
 type: note
-permalink: tacticum/00-board/report-svedenie-nochnyh-vetok-iva-write-2026-07-31
+permalink: tacticum/00-board/report-svedenie-nochnyh-vetok-iva-write-2026-07-31-1
 status: draft
 repo: helm
 project: iva-write
@@ -13,6 +13,7 @@ tags:
 - implementer
 - helm
 - merge
+archived-at: 2026-08-07 11:22
 ---
 
 # Отчёт: сведение трёх ночных веток iva-write

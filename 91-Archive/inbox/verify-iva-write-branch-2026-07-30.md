@@ -4,11 +4,12 @@ type: note
 status: draft
 created: 2026-07-30 12:00
 updated: 2026-07-30 12:00
-permalink: tacticum/00-board/verify-iva-write-branch-2026-07-30
+permalink: tacticum/00-board/verify-iva-write-branch-2026-07-30-1
 tags:
 - board
 - iva-write
 - verify
+archived-at: 2026-08-07 11:22
 ---
 
 # Проверка ветки feat/iva-write-keystore против свежего origin/main (30.07.2026)

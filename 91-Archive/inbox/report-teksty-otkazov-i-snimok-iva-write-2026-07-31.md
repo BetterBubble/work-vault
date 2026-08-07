@@ -1,7 +1,7 @@
 ---
 title: report-teksty-otkazov-i-snimok-iva-write-2026-07-31
 type: note
-permalink: tacticum/00-board/report-teksty-otkazov-i-snimok-iva-write-2026-07-31
+permalink: tacticum/00-board/report-teksty-otkazov-i-snimok-iva-write-2026-07-31-1
 status: current
 repo: helm
 project: iva-write
@@ -13,6 +13,7 @@ tags:
 - iva-write
 - implementer
 - texts
+archived-at: 2026-08-07 11:22
 ---
 
 # Финал по helm: тексты отказов, правки по чтению эталона, один снимок

@@ -5,12 +5,13 @@ status: current
 date: 2026-07-31
 repo: tacticum-dev
 project: tacticum-dev / профили / QA
-permalink: tacticum/00-board/recon-poverkhnosti-2-2026-07-31
+permalink: tacticum/00-board/recon-poverkhnosti-2-2026-07-31-1
 tags:
 - board
 - qa
 - recon
 - surfaces
+archived-at: 2026-08-07 11:22
 ---
 
 # Копали тем же источником — и гипотеза «семь из восьми» рассыпалась

@@ -11,7 +11,8 @@ tags:
 - iva-write
 - project-hub
 - explorer
-permalink: tacticum/00-board/explore-key-issuing-2026-07-30-1
+permalink: tacticum/00-board/explore-key-issuing-2026-07-30-1-1
+archived-at: 2026-08-07 11:22
 ---
 
 # Короткий ответ

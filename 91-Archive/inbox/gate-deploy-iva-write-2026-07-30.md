@@ -2,10 +2,14 @@
 title: Гейт деплоя iva-write на прод helm (30.07)
 type: note
 status: current
-tags: [board, iva-write, gate]
+tags:
+- board
+- iva-write
+- gate
 repo: helm
 project: iva-write
-permalink: tacticum/00-board/gate-deploy-iva-write-2026-07-30
+permalink: tacticum/00-board/gate-deploy-iva-write-2026-07-30-1
+archived-at: 2026-08-07 11:22
 ---
 
 # Гейт деплоя iva-write на прод helm

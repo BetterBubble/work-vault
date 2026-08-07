@@ -1,17 +1,19 @@
 ---
-title: Мутационная проверка приёмки QA + ревизия класса «утверждение одного стека» (2026-07-30)
+title: Мутационная проверка приёмки QA + ревизия класса «утверждение одного стека»
+  (2026-07-30)
 type: report
 status: current
 date: 2026-07-30
 repo: tacticum-dev
 project: tacticum-dev / профили / QA
-permalink: tacticum/00-board/verify-qa-mutations-2026-07-30
+permalink: tacticum/00-board/verify-qa-mutations-2026-07-30-1
 tags:
 - board
 - qa
 - verify
 - mutation
 - acceptance
+archived-at: 2026-08-07 11:22
 ---
 
 # Проверки доказаны падением, ревизия класса дефекта дала одну находку

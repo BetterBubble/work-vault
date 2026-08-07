@@ -1,7 +1,7 @@
 ---
 title: report-bot-revoke-2026-07-31
 type: note
-permalink: tacticum/00-board/report-bot-revoke-2026-07-31
+permalink: tacticum/00-board/report-bot-revoke-2026-07-31-1
 status: draft
 repo: helm
 project: iva-write
@@ -12,6 +12,7 @@ tags:
 - bot
 - implementer
 - helm
+archived-at: 2026-08-07 11:22
 ---
 
 # Отчёт: бот iva-write отзывает доступ по-настоящему

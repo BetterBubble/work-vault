@@ -5,7 +5,7 @@ status: current
 date: 2026-07-30
 repo: tacticum-dev
 project: tacticum-dev / профили / QA
-permalink: tacticum/00-board/recon-qa-desktop-squish-2026-07-30
+permalink: tacticum/00-board/recon-qa-desktop-squish-2026-07-30-1
 tags:
 - board
 - qa
@@ -13,6 +13,7 @@ tags:
 - desktop
 - squish
 - surfaces
+archived-at: 2026-08-07 11:22
 ---
 
 # Desktop (Squish): что за модель и что из нашего процесса применимо

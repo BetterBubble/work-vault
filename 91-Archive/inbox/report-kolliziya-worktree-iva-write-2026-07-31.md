@@ -1,7 +1,7 @@
 ---
 title: report-kolliziya-worktree-iva-write-2026-07-31
 type: note
-permalink: tacticum/00-board/report-kolliziya-worktree-iva-write-2026-07-31
+permalink: tacticum/00-board/report-kolliziya-worktree-iva-write-2026-07-31-1
 status: draft
 repo: helm
 project: iva-write
@@ -13,6 +13,7 @@ tags:
 - iva-write
 - implementer
 - incident
+archived-at: 2026-08-07 11:22
 ---
 
 # Отчёт: работу остановил, в worktree работает второй агент над тем же аудитом

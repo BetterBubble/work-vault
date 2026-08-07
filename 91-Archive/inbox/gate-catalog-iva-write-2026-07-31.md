@@ -8,7 +8,8 @@ tags:
 - gate
 repo: tacticum-dev
 project: iva-write
-permalink: tacticum/00-board/gate-catalog-iva-write-2026-07-31
+permalink: tacticum/00-board/gate-catalog-iva-write-2026-07-31-1
+archived-at: 2026-08-07 11:22
 ---
 
 # Вердикт: **GO** — с четырьмя оговорками, ни одна не расширяет прав

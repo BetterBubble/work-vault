@@ -5,7 +5,7 @@ status: current
 date: 2026-07-30
 repo: tacticum-dev
 project: tacticum-dev / профили / QA
-permalink: tacticum/00-board/verify-qa-canon-install-2026-07-30
+permalink: tacticum/00-board/verify-qa-canon-install-2026-07-30-1
 tags:
 - board
 - qa
@@ -14,6 +14,7 @@ tags:
 - codex
 - install
 - update
+archived-at: 2026-08-07 11:22
 ---
 
 # Канонический прогон: агент сам ставит и обновляет обе роли

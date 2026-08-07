@@ -11,7 +11,8 @@ repo:
 - tacticum-dev
 - helm
 project: iva-write
-permalink: tacticum/00-board/explore-profile-wiring-2026-07-30
+permalink: tacticum/00-board/explore-profile-wiring-2026-07-30-1
+archived-at: 2026-08-07 11:22
 ---
 
 # Разведка: обвязка профиля под `iva-write` (2026-07-30)

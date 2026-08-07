@@ -5,7 +5,7 @@ status: current
 date: 2026-07-30
 repo: tacticum-dev
 project: tacticum-dev / профили / QA
-permalink: tacticum/00-board/verify-qa-stand-codex-2026-07-30
+permalink: tacticum/00-board/verify-qa-stand-codex-2026-07-30-1
 tags:
 - board
 - qa
@@ -14,6 +14,7 @@ tags:
 - codex
 - iva-role-qa
 - iva-role-qa-web
+archived-at: 2026-08-07 11:22
 ---
 
 # Стенд: живой codex видит обе роли — вердикт ЗЕЛЁНЫЙ

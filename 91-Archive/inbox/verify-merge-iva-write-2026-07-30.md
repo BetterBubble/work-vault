@@ -1,7 +1,7 @@
 ---
 title: verify-merge-iva-write-2026-07-30
 type: note
-permalink: tacticum/00-board/verify-merge-iva-write-2026-07-30
+permalink: tacticum/00-board/verify-merge-iva-write-2026-07-30-1
 status: draft
 created: 2026-07-30 14:30
 updated: 2026-07-30 14:30
@@ -10,6 +10,7 @@ tags:
 - iva-write
 - verify
 - merge
+archived-at: 2026-08-07 11:22
 ---
 
 # Проверка мержа feat/iva-write-keystore ← origin/main (30.07.2026)
